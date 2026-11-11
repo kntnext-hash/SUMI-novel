@@ -25,6 +25,16 @@
 | [キャラクター設定_澄.md](キャラクター設定_澄.md) | 主人公・澄の設定シート（文章） |
 | [キャラクター設定_透花.md](キャラクター設定_透花.md) | ヒロイン・透花の設定シート（文章） |
 
+### 制作体制ドキュメント
+
+| 場所 | 内容 |
+|---|---|
+| [docs/](docs/) | `STORY_BIBLE.md`（物語の正本）／`VISUAL_BIBLE.md`／`COLOR_STAGES.md`（色彩段階と演出契約）／`DECISION_LOG.md`（決定台帳）／`OPEN_QUESTIONS.md`（未確定・承認待ち）／`ASSET_REGISTRY.csv`（素材台帳）／`MILESTONES.md` |
+| [personas/](personas/) | 作業人格プロンプト：霞（本文）／雫（物語監督・編集）／しろ（会話補筆） |
+| [rooms/](rooms/) | 制作部屋 00〜07（制作進行／物語作成／イベント画像／その他素材／水墨・色彩演出／実装_Muse／品質・整合性／音響）。各室に README・AGENTS・TASKS |
+
+制作フロー：Codex が制作オーケストレーター、物語執筆は霞、文芸監督・最終編集は雫、会話補筆はしろ、ゲーム実装は Muse 専任。状態は `DRAFT → REVIEW → APPROVED → INTEGRATED → TESTED` で管理し、**APPROVED はユーザーが承認したときだけ**。
+
 ## 注意
 
 - 企画書の想定プレイ時間（4〜6時間）は仮置きの数字であり、確定ではない。
