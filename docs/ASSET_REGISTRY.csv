@@ -2,7 +2,9 @@ asset_id,type,stage,description,location,status,notes
 BG_school_road_s0,background,0,モノクロの通学路,rooms/03_その他素材生成部屋/backgrounds/,PENDING,初回仕様のみ・実画像未作成
 CHAR_touka_noface,character,-,顔なし透花の立ち絵（墨の濃淡と曖昧な輪郭で顔を表現しない）,rooms/03_その他素材生成部屋/characters/,PENDING,初回仕様のみ・実画像未作成
 UI_washi,ui,-,和紙UI一式（メッセージウィンドウ／選択肢）,rooms/03_その他素材生成部屋/ui/,PENDING,初回仕様のみ・実画像未作成
-CG_ch01_blue,cg,1,最初のCG（景色だけ初めて青が滲む場面）,rooms/02_イベント画像部屋/assets/,PENDING,構図と生成プロンプトから着手
+CG_ch01_blue,cg,1,電線間の空の微彩,rooms/02_イベント画像部屋/assets/CG_ch01_blue_stage1.png,REVIEW,同じ非公開元絵から導出した章末試作
+CG_ch01_blue_s0,cg,0,章末CGの無彩開始画,rooms/02_イベント画像部屋/assets/CG_ch01_blue_stage0.png,REVIEW,微彩版と同一画角
+MASK_ch01_blue,mask,1,空の彩色許可マスク,rooms/02_イベント画像部屋/assets/CG_ch01_blue_mask.png,REVIEW,制作用・画面表示対象外
 REF_faces_base,reference,-,基本の顔（澄・透花の顔アップ／モノクロ）,rooms/03_その他素材生成部屋/characters/references/ref_face_faces_base.jpg,REFERENCE,生成入力用。本編使用禁止（顔あり）。顔の同一性の正本
 REF_touka_full_color,reference,-,透花の全身カラー（桜）,rooms/03_その他素材生成部屋/characters/references/ref_face_touka_full_color.jpg,REFERENCE,生成入力用。透花の全身と色の正本
 REF_duo_full_color,reference,-,澄・透花の全身カラー2人並び（桜）,rooms/03_その他素材生成部屋/characters/references/ref_face_duo_full_color.jpg,REFERENCE,生成入力用。制服と色の正本
