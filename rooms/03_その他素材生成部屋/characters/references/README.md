@@ -7,10 +7,10 @@
 
 | ファイル | 内容 | 役割 |
 |---|---|---|
-| `ref_face_faces_base.png` | 2人の顔アップ（モノクロ） | 基本の顔。顔の同一性の正本 |
+| `ref_face_faces_base.jpg` | 2人の顔アップ（モノクロ） | 基本の顔。顔の同一性の正本 |
 | `ref_face_touka_full_color.jpg` | 透花・全身カラー（桜） | 透花の全身・色の正本 |
 | `ref_face_duo_full_color.jpg` | 澄＋透花・全身カラー（桜） | 2人の並び・制服・色の正本 |
-| `ref_face_sumi_lily_color.png` | 澄・全身カラー（百合） | 澄の色の参照／キービジュアル候補（濃度は例外的に高い） |
+| `ref_face_sumi_lily_color.jpg` | 澄・全身カラー（百合） | 澄の色の参照／キービジュアル候補（濃度は例外的に高い） |
 | `ref_face_sumi_full_mono.jpg` | 澄・全身モノクロ | stage 0 の雰囲気確認用（参考） |
 | `ref_face_touka_full_mono.jpg` | 透花・全身モノクロ | stage 0 の雰囲気確認用（参考） |
 
@@ -22,3 +22,7 @@
   - スカートのチェック柄（カラー版＝赤系チェック柄が正。モノクロ版の無地は誤り）
 - 本編のモノクロ／段階版は、これらのモノクロ参照を量産するのではなく、**カラー元絵からマスク合成で導出する**（`docs/COLOR_STAGES.md` の「素材の受け渡し形式」）。
 - 色仕様の正本は `docs/VISUAL_BIBLE.md` の「色仕様（決定）」。
+
+## ファイル形式の注記
+
+- `ref_face_sumi_lily_color.jpg` と `ref_face_faces_base.jpg` は、転送容量の都合で JPEG（品質92）の作業用コピーを登録している。PNG 原本はユーザーの手元（アップロード元）に保持されており、必要になれば差し替える。
