@@ -33,6 +33,43 @@ Codex（制作オーケストレーター）の作業進捗をここに集約す
 
 ## 報告エントリ
 
+### 2026-11-11 20:50｜Codex｜第1章「片方ずつ」初回制作・REVIEW提出
+
+- 実施した部屋／担当パス：00・01・02・03・04・06・07。01室は雫（構成）→霞（初稿）→しろ（会話補筆案）→雫（編集）の順で実際に委任。
+- やったこと：第1章を朝の出会い、帰路の聞き違い、空の微彩の3場面に構成。冒頭初稿1,659字・REVIEW本文1,669字。しろ案2件中1件を採用。制服と靴紐の矛盾を編集で修正。初回CG・3素材・マスク・色彩キュー・音響を仕様化し、本文とメタデータを検査。
+- 作成・更新したファイル：
+  - `docs/OPEN_QUESTIONS.md`（進行記録）
+  - `rooms/00_制作進行部屋/TASKS.md`（進行記録）
+  - `rooms/01_物語作成部屋/TASKS.md`（進行記録）
+  - `rooms/01_物語作成部屋/outlines/ch01.md`（REVIEW）
+  - `rooms/01_物語作成部屋/reviews/S-101_edit.md`（REVIEW）
+  - `rooms/01_物語作成部屋/reviews/S-101_shiro.md`（DRAFT）
+  - `rooms/01_物語作成部屋/scenes/S-101_draft.md`（DRAFT）
+  - `rooms/01_物語作成部屋/scenes/S-101_review.md`（REVIEW）
+  - `rooms/02_イベント画像部屋/TASKS.md`（進行記録）
+  - `rooms/02_イベント画像部屋/prompts/ch01.md`（REVIEW）
+  - `rooms/02_イベント画像部屋/shotlists/ch01.md`（REVIEW）
+  - `rooms/03_その他素材生成部屋/TASKS.md`（進行記録）
+  - `rooms/03_その他素材生成部屋/backgrounds/school_road.md`（REVIEW）
+  - `rooms/03_その他素材生成部屋/characters/touka.md`（REVIEW）
+  - `rooms/03_その他素材生成部屋/ui/washi.md`（REVIEW）
+  - `rooms/04_水墨・色彩演出部屋/TASKS.md`（進行記録）
+  - `rooms/04_水墨・色彩演出部屋/cues/ch01_blue.md`（REVIEW）
+  - `rooms/04_水墨・色彩演出部屋/specifications/ch01_masks.md`（REVIEW）
+  - `rooms/06_品質・整合性部屋/TASKS.md`（進行記録）
+  - `rooms/06_品質・整合性部屋/reports/ch01.md`（REVIEW）
+  - `rooms/07_音響部屋/TASKS.md`（進行記録）
+  - `rooms/07_音響部屋/cue_sheets/ch01.md`（REVIEW）
+  - `codex作業進捗報告.md`（本エントリ）
+- 状態の変化：S-101 DRAFT → REVIEW。構成・視聴覚仕様はREVIEW。素材台帳の本編用4点は既登録のPENDINGを維持。
+- 承認待ち・質問：①初対面では名乗らず、靴下の縫い目と橋の継ぎ目を使う構成・本文を採用するか。②電線間の空だけに青を残す無人CGと尺、通学路・立ち絵・和紙UI、音響案を採用するか。③OPEN_QUESTIONSの未決項目は引き続き判断待ち（今回の本文に結論を置いていない）。
+- 障害・未確定の扱い：画像・音源・実装がなく実画面と派生画面は未検証。トラウマ、透花の進路、END構成ほかは候補のまま。
+- Museへのハンドオフ：参照先は01室のS-101 REVIEW、04室のCUE_ch01_blueと領域マスク仕様、06室の検査表。承認待ち。05室の計画・実装契約と統合時期はMuse担当。
+- 次のタスク（最大3つ）：
+  1. ユーザーが章構成・冒頭本文・視聴覚仕様を承認または差し戻す。
+  2. 承認後、素材担当が最初のCG元絵1点で無彩・空の微彩のマスク導出を試す。
+  3. Museが承認済み資料をもとにRen'Py縦切りデモの実装計画を作る。
+
 ### 2026-11-11 18:45｜澪（Muse）｜キャラクター参照セットの登録と色仕様の正史化
 
 - 実施した部屋／担当パス：03_その他素材生成部屋（素材登録）＋ docs 整備
