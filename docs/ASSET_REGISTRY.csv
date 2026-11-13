@@ -11,3 +11,13 @@ REF_duo_full_color,reference,-,澄・透花の全身カラー2人並び（桜）
 REF_sumi_lily_color,reference,-,澄の全身カラー（百合）,rooms/03_その他素材生成部屋/characters/references/ref_face_sumi_lily_color.jpg,REFERENCE,生成入力用。キービジュアル候補（彩度は例外的に高い）
 REF_sumi_full_mono,reference,-,澄の全身モノクロ,rooms/03_その他素材生成部屋/characters/references/ref_face_sumi_full_mono.jpg,REFERENCE,stage 0 の雰囲気確認用（参考）。細部の正はカラー版
 REF_touka_full_mono,reference,-,透花の全身モノクロ,rooms/03_その他素材生成部屋/characters/references/ref_face_touka_full_mono.jpg,REFERENCE,stage 0 の雰囲気確認用（参考）。髪の長さ・リボンはカラー版が正
+OP_cut01,op,0,OPカット01 通学路の朝,rooms/02_イベント画像部屋/assets/op/op_cut01.png,PENDING,OPキーフレーム。face_visibility: none
+OP_cut02,op,0,OPカット02 電線と空,rooms/02_イベント画像部屋/assets/op/op_cut02.png,PENDING,OPキーフレーム。face_visibility: none
+OP_cut03,op,0,OPカット03 駅ホームの群衆,rooms/02_イベント画像部屋/assets/op/op_cut03.png,PENDING,OPキーフレーム。face_visibility: none
+OP_cut04,op,0,OPカット04 透花の後ろ姿,rooms/02_イベント画像部屋/assets/op/op_cut04.png,PENDING,OPキーフレーム。参照の髪型のみ使用・顔なし
+OP_cut05,op,0,OPカット05 すれ違う二人,rooms/02_イベント画像部屋/assets/op/op_cut05.png,PENDING,OPキーフレーム。face_visibility: none
+OP_cut06,op,0,OPカット06 教室の窓辺,rooms/02_イベント画像部屋/assets/op/op_cut06.png,PENDING,OPキーフレーム。face_visibility: none
+OP_cut07,op,1,OPカット07 水たまりの空（映る空の端に薄い青）,rooms/02_イベント画像部屋/assets/op/op_cut07.png,PENDING,OPキーフレーム。色は青のみ
+OP_cut08,op,1,OPカット08 空に青が滲む,rooms/02_イベント画像部屋/assets/op/op_cut08.png,PENDING,OPキーフレーム。青は空だけ（約1/4まで）
+OP_cut09,op,1,OPカット09 桜の木（墨の桜・空に薄い青）,rooms/02_イベント画像部屋/assets/op/op_cut09.png,PENDING,OPキーフレーム。桜は色付けしない
+OP_cut10,op,1,OPカット10 タイトル背景,rooms/02_イベント画像部屋/assets/op/op_cut10.png,PENDING,OPキーフレーム。上半分はタイトル用の余白
