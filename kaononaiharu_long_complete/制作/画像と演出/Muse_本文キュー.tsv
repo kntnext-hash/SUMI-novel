@@ -1,0 +1,179 @@
+﻿ノード	本文行_1始まり	照合文字列	素材ID	初周段階	初周表示	再読表示	演技と切替
+C01S01	1	「澄、お弁当」	BG_home_entry	0	BG_home_entry__0.png	BG_home_entry__FULL.png	場面開始
+C01S01	11	橋のたもとの家が	BG_bridge_spring	0	BG_bridge_spring__0.png	BG_bridge_spring__FULL.png	
+C01S01	14	「おはよう」	CG_bridge_hello	0	CG_bridge_hello__0.png	CG_bridge_hello__FULL.png	再読は会釈までに抱きつきかけた手が戻る顔。初周は靴、鞄、上げかけの手。
+C01S02	1	二年の教室は一階上がったところにある。去年の	BG_school_corridor	0	BG_school_corridor__0.png	BG_school_corridor__FULL.png	場面開始
+C01S02	2	机には前の持ち主	BG_room_apr	0	BG_room_apr__0.png	BG_room_apr__FULL.png	
+C01S02	8	「透花です。透き通る	CG_seat_intro	0	CG_seat_intro__0.png	CG_seat_intro__FULL.png	透花が鉛筆を返すときだけ明るく言う。初周は表情の線なし。
+C01S03	1	透花さんの机には、休み時間ごとに人が来た。数	BG_room_apr	0	BG_room_apr__0.png	BG_room_apr__FULL.png	場面開始
+C01S03	22	お風呂で鼻歌	BG_home_sink	0	BG_home_sink__0.png	BG_home_sink__FULL.png	
+C01S04	1	小学一年の教室で、わたしには一つ自慢があった	CG_child_name	0	CG_child_name__0.png	CG_child_name__FULL.png	場面開始
+C01S04	9	布団に腕を深く	BG_sumi_room	0	BG_sumi_room__0.png	BG_sumi_room__FULL.png	
+C01S05	1	次の月曜、右の席が珍しく空いていた。	BG_room_apr	0	BG_room_apr__0.png	BG_room_apr__FULL.png	場面開始
+C01S05	22	余白に細長いものが描いてあった	CG_test_dog	0	CG_test_dog__0.png	CG_test_dog__FULL.png	
+C01S06	1	帰りはひとりだった。	BG_bridge_spring	0	BG_bridge_spring__0.png	BG_bridge_spring__FULL.png	場面開始
+C01S06	2	驚いて見上げると	CG_wire	0	CG_wire__0.png	CG_wire__FULL.png	この時点では無彩。透過の鳥影が横切って去り、次のキューと背景の座標を固定。
+C01S06	3	二本の電線のあいだだけ、空が青かった	CG_wire	1A	CG_wire__1A.png	CG_wire__FULL.png	同一の電線・空、鳥が去る。電線間の細い空にだけ青。
+C01S06	10	次の日は雨で	BG_room_apr	1A	BG_room_apr__1A.png	BG_room_apr__FULL.png	
+C02S01	1	五月の連休が終わると、学校の近くの田んぼに水	BG_rice_spring	1A	BG_rice_spring__1A.png	BG_rice_spring__FULL.png	場面開始
+C02S01	7	校外学習の班を決めたのは	BG_room_apr	1A	BG_room_apr__1A.png	BG_room_apr__FULL.png	
+C02S02	1	前日の夕方、弁当の買い物についていった。	BG_grocery	1A	BG_grocery__1A.png	BG_grocery__FULL.png	場面開始
+C02S02	8	帰って買い物袋を開けたら	BG_home_kitchen	1A	BG_home_kitchen__1A.png	BG_home_kitchen__FULL.png	
+C02S03	1	資料館に着くまでに、五人のうち三人がもう二種	BG_museum	1A	BG_museum__1A.png	BG_museum__FULL.png	場面開始
+C02S03	15	帰り道の途中で透花さんはほんとうに石を拾った	CG_river_stone	1A	CG_river_stone__1A.png	CG_river_stone__FULL.png	
+C02S04	1	芝生には、レジャーシートを遠慮なしに広げられ	BG_park_may	1A	BG_park_may__1A.png	BG_park_may__FULL.png	場面開始
+C02S04	29	肩のすぐ上から	CG_rabbit	1A	CG_rabbit__1A.png	CG_rabbit__FULL.png	うさぎの向きを見るまで二人が近い。初周はにんじんも無彩。
+C02S05	1	帰りのバスで、透花さんはすぐにはわたしの横に	BG_bus	1A	BG_bus__1A.png	BG_bus__FULL.png	場面開始
+C02S05	25	小学校の帰り道には	CG_child_drain	0	CG_child_drain__0.png	CG_child_drain__FULL.png	回想。初周は澄に残る形だけ、二周目は全彩。高校の教室と混用しない。
+C02S05	26	バスの揺れで隣の人の水筒が	BG_bus	1A	BG_bus__1A.png	BG_bus__FULL.png	
+C02S06	1	休みが明けた月曜、透花さんはホームルームの五	BG_room_apr	1A	BG_room_apr__1A.png	BG_room_apr__FULL.png	場面開始
+C02S06	18	玄関の植木鉢の下	CG_stone_pot	1A	CG_stone_pot__1A.png	CG_stone_pot__FULL.png	玄関の写真をスマホで見せる。届いたメッセージ画面にはしない。
+C03S01	1	くじ引きの箱を作ったのはわたしだった。倉庫に	CG_ballot_box	1A	CG_ballot_box__1A.png	CG_ballot_box__FULL.png	場面開始
+C03S01	12	窓際の後ろから二番目	BG_room_jun	1A	BG_room_jun__1A.png	BG_room_jun__FULL.png	
+C03S02	1	新しい右隣は、消しゴムをしまう人だった。白い	CG_hippo	1A	CG_hippo__1A.png	CG_hippo__FULL.png	場面開始
+C03S02	25	ずっと遠くの、水のひらくところが青かった	CG_river_view	1B	CG_river_view__1B.png	CG_river_view__FULL.png	墨の水面から光がほどけた場所だけ青。
+C03S03	1	梅雨に入ったころ、昇降口のひさしに溜まった水	BG_shoes_rain	1B	BG_shoes_rain__1B.png	BG_shoes_rain__FULL.png	場面開始
+C03S03	4	「ん？　どうしたの？」	CG_wrong_umbrella	1B	CG_wrong_umbrella__1B.png	CG_wrong_umbrella__FULL.png	相手は別の女生徒。カエルの飾りが手掛かり。再読の顔も透花にしない。
+C03S04	1	次の朝、下駄箱に靴を押し込んでいたら、少し離	BG_shoes_rain	1B	BG_shoes_rain__1B.png	BG_shoes_rain__FULL.png	場面開始
+C03S04	13	二年の廊下では、朝から	BG_school_corridor	1B	BG_school_corridor__1B.png	BG_school_corridor__FULL.png	
+C03S04	32	消しゴムは、次の日のお昼	CG_erase_tag	1B	CG_erase_tag__1B.png	CG_erase_tag__FULL.png	
+C03S05	1	一学期の図書室は、テスト前になると椅子が足り	BG_library	1B	BG_library__1B.png	BG_library__FULL.png	場面開始
+C03S05	7	ほんとうの声が自分の真後ろからした	BG_school_corridor	1B	BG_school_corridor__1B.png	BG_school_corridor__FULL.png	
+C03S05	17	校庭に出ると	BG_gate_summer	1B	BG_gate_summer__1B.png	BG_gate_summer__FULL.png	
+C04S01	1	期末試験のあいだ、窓側の人は損をする。問題用	BG_room_jun	1B	BG_room_jun__1B.png	BG_room_jun__FULL.png	場面開始
+C04S01	12	「あ、それ捨てるんですか」	CG_market_flyer	1B	CG_market_flyer__1B.png	CG_market_flyer__FULL.png	
+C04S02	1	終業式は体育館の扉を開け放って行われた。空気	BG_gym	1B	BG_gym__1B.png	BG_gym__FULL.png	場面開始
+C04S02	12	廊下の窓から川を見た	BG_school_corridor	1B	BG_school_corridor__1B.png	BG_school_corridor__FULL.png	
+C04S03	1	土曜、日曜、それから月曜。起きた時刻と寝た時	BG_home_kitchen	1B	BG_home_kitchen__1B.png	BG_home_kitchen__FULL.png	場面開始
+C04S04	1	前の日にいちばん長く迷ったのは服ではなく靴だ	BG_sumi_room	1B	BG_sumi_room__1B.png	BG_sumi_room__FULL.png	場面開始
+C04S04	16	角を曲がったら、同じ布の屋根	BG_market	1B	BG_market__1B.png	BG_market__FULL.png	
+C04S05	1	「透花、これ見て」	CG_candy_turn	1B	CG_candy_turn__1B.png	CG_candy_turn__FULL.png	場面開始
+C04S05	2	五羽が一列で	CG_bird_candy	1C	CG_bird_candy__1C.png	CG_bird_candy__FULL.png	欠けた面の奥だけほんの少し蜜色。手・顔・髪はまだ無彩。
+C04S05	19	わたしはせまい路地の真ん中で	CG_candy_fingers	1C	CG_candy_fingers__1C.png	CG_candy_fingers__FULL.png	
+C04S06	1	氷屋の椅子は鉄で、日に当たっていたところだけ	BG_ice_stall	1C	BG_ice_stall__1C.png	BG_ice_stall__FULL.png	場面開始
+C04S06	15	車窓の外に	CG_train_shoulder	1C	CG_train_shoulder__1C.png	CG_train_shoulder__FULL.png	車窓と二人の肩。澄の肩にかかる布・頭の重さ・電柱の影、手はまだつながない。
+C04S06	30	帰って小鳥を食べた	BG_home_kitchen	1C	BG_home_kitchen__1C.png	BG_home_kitchen__FULL.png	
+C05S01	1	八月の二週目に、商店街の薬局から葉書が届いた	BG_postcard	1C	BG_postcard__1C.png	BG_postcard__FULL.png	場面開始
+C05S02	1	一時間前、お母さんは正座して、スマホで浴衣の	CG_obi	1C	CG_obi__1C.png	CG_obi__FULL.png	場面開始
+C05S03	1	川沿いへ下りる石段の手前で、人の列が羊羹みた	BG_stairs	1C	BG_stairs__1C.png	BG_stairs__FULL.png	場面開始
+C05S04	1	人の流れが変わったのは、透花が立ってすぐのこ	CG_lost	1C	CG_lost__1C.png	CG_lost__FULL.png	場面開始
+C05S05	1	保育園の面する細い通りのほうへいったん上がる	BG_nursery	1C	BG_nursery__1C.png	BG_nursery__FULL.png	場面開始
+C05S06	1	「痛くなかった？」	CG_hands	1C	CG_hands__1C.png	CG_hands__FULL.png	場面開始
+C05S06	22	透花の指に色があった	CG_hands	2	CG_hands__2.png	CG_hands__FULL.png	親指の根元から、触れ合うところだけ。
+C05S07	1	駅で手を離した。二人とも切符を持っていないの	BG_station	2	BG_station__2.png	BG_station__FULL.png	場面開始
+C06S01	1	文化祭の準備を始めると、教室でいちばん値打ち	BG_cafe_prep	2	BG_cafe_prep__2.png	BG_cafe_prep__FULL.png	場面開始
+C06S02	1	夏の終わりの教室は朝には案外涼しいのに、放課	BG_cafe_prep	2	BG_cafe_prep__2.png	BG_cafe_prep__FULL.png	場面開始
+C06S03	1	木曜は印刷室で紙を折った。千鳥に開いた長い廊	BG_print	2	BG_print__2.png	BG_print__FULL.png	場面開始
+C06S03	16	「ありがと、透花」	CG_table_drink	2	CG_table_drink__2.png	CG_table_drink__FULL.png	手を止める透花。再読では名前を当てられた嬉しさが動作より先に表れる。
+C06S04	1	文化祭当日、わたしの四番は子供に人気があった	BG_cafe	2	BG_cafe__2.png	BG_cafe__FULL.png	場面開始
+C06S05	1	片付けの日、教室は午前中だけで授業がなかった	BG_cafe_cleanup	2	BG_cafe_cleanup__2.png	BG_cafe_cleanup__FULL.png	場面開始
+C06S05_opt1	1	「わたしも」	BG_cafe_cleanup	2	BG_cafe_cleanup__2.png	BG_cafe_cleanup__FULL.png	場面開始
+C06S05_opt2	1	「先に言われた」	BG_cafe_cleanup	2	BG_cafe_cleanup__2.png	BG_cafe_cleanup__FULL.png	場面開始
+C06S05_join	1	裏門の近くの手洗い場で、蛇口が締まりきらずに	BG_cafe_cleanup	2	BG_cafe_cleanup__2.png	BG_cafe_cleanup__FULL.png	場面開始
+C06S05_join	1	裏門の近くの手洗い場	BG_gate_fall	2	BG_gate_fall__2.png	BG_gate_fall__FULL.png	
+C06S05_join	10	駅まで一緒に行くと	BG_station	2	BG_station__2.png	BG_station__FULL.png	
+C06S06	1	次の金曜日は朝から雨だった。	BG_gate_rain	2	BG_gate_rain__2.png	BG_gate_rain__FULL.png	場面開始
+C06S06	12	下駄箱の上の古新聞は	CG_wet_shoes	2	CG_wet_shoes__2.png	CG_wet_shoes__FULL.png	
+C07S01	1	十月の初めに上履きを洗った。ゴムの先に滲んで	BG_home_sink	2	BG_home_sink__2.png	BG_home_sink__FULL.png	場面開始
+C07S01	16	透花の名前は用具係と	BG_room_jun	2	BG_room_jun__2.png	BG_room_jun__FULL.png	
+C07S02	1	渡り廊下の壁には、手のひらを二枚並べたほどの	BG_gallery	2	BG_gallery__2.png	BG_gallery__FULL.png	場面開始
+C07S03	1	体育祭当日は、机を使って校庭にうすい日陰を作	BG_field	2	BG_field__2.png	BG_field__FULL.png	場面開始
+C07S04	1	リレーの選手が戻ってきたあと、カメラを持つ役	BG_field	2	BG_field__2.png	BG_field__FULL.png	場面開始
+C07S04	29	わたしが持ってたいから	CG_hair_wind	2	CG_hair_wind__2.png	CG_hair_wind__FULL.png	撮影を頼んだ時点は髪の色がまだない。
+C07S04	33	目の前を知らない色が通る	CG_hair_wind	3	CG_hair_wind__3.png	CG_hair_wind__FULL.png	風で外れた一房だけ栗色。初周スマホと立ち絵双方に顔を出さない。
+C07S04	44	その夕方、風呂上がりに	CG_screen_portrait	3	CG_screen_portrait__3.png	CG_screen_portrait__FULL.png	
+C07S05	1	翌週、写真部の人に、学校や町の昔の写真と、自	BG_room_jun	3	BG_room_jun__3.png	BG_room_jun__FULL.png	場面開始
+C08S01	1	放課後のわたしの机に、ひとの家の脱衣場が広が	CG_bath_print	3	CG_bath_print__3.png	CG_bath_print__FULL.png	場面開始
+C08S02	1	土曜日の駅前には、机の下で履いているのと違う	BG_station	3	BG_station__3.png	BG_station__FULL.png	場面開始
+C08S03	1	古地図の通りの角に立ってみると、店の並びがま	BG_town_autumn	3	BG_town_autumn__3.png	BG_town_autumn__FULL.png	場面開始
+C08S03	27	透花は小さく跳ねた	CG_lattice	3	CG_lattice__3.png	CG_lattice__FULL.png	
+C08S04	1	横道に、ふたが開かないくらい錆びた郵便受けが	BG_old_mailbox	3	BG_old_mailbox__3.png	BG_old_mailbox__FULL.png	場面開始
+C08S05	1	わたしが先に、駄菓子屋を見つけた。	BG_candy_shop	3	BG_candy_shop__3.png	BG_candy_shop__FULL.png	場面開始
+C08S06	1	夕方、川へ抜ける路地で飴の袋を開けた。すぐ食	BG_lane_oct	3	BG_lane_oct__3.png	BG_lane_oct__FULL.png	場面開始
+C08S06	13	「向こうはもう覚えてないと思う」	CG_can_pause	3	CG_can_pause__3.png	CG_can_pause__FULL.png	再読では澄の言葉を受けた顔。缶の音にかぶせて台詞を足さない。
+C08S06	17	「何でもないよ」	CG_can_reply	3	CG_can_reply__3.png	CG_can_reply__FULL.png	直前の原画から目元・口の芝居だけの差分を制作。初周は直前と同一カット。
+C08S06	21	帰って湯を張った洗面器に	BG_home_sink	3	BG_home_sink__3.png	BG_home_sink__FULL.png	
+C08S07	1	次の朝、写真が一枚来ていた。透花が昨夜描いた	CG_garden_plan	3	CG_garden_plan__3.png	CG_garden_plan__FULL.png	場面開始
+C08S07	15	月曜には二人分の庭を	BG_room_jun	3	BG_room_jun__3.png	BG_room_jun__FULL.png	
+C09S01	1	先生が残りの日数を黒板に書いてから、みんなが	BG_room_dec	3	BG_room_dec__3.png	BG_room_dec__FULL.png	場面開始
+C09S02	1	家で「二十四日は遅くなる」と言ったら、お母さ	BG_home_kitchen	3	BG_home_kitchen__3.png	BG_home_kitchen__FULL.png	場面開始
+C09S03	1	お昼すぎ、早めに駅へ行くことにした。去年のコ	BG_station	3	BG_station__3.png	BG_station__FULL.png	場面開始
+C09S04	1	映画館は商店街の二階にあった。壁いっぱいに、	BG_cinema	3	BG_cinema__3.png	BG_cinema__FULL.png	場面開始
+C09S05	1	映画館を出るころには夕方になっていた。帰り道	BG_cinema_street	3	BG_cinema_street__3.png	BG_cinema_street__FULL.png	場面開始
+C09S06	1	風が冷えたので、二人で駅ビルの通路へ入った。	CG_gift	3	CG_gift__3.png	CG_gift__FULL.png	場面開始
+C09S07	1	改札を出たら、帰りに見るつもりだった大きな街	BG_tree	3	BG_tree__3.png	BG_tree__FULL.png	場面開始
+C09S07	11	透花は手袋をしたまま	CG_glove	3	CG_glove__3.png	CG_glove__FULL.png	裸の右手を手袋越しに包む。電飾は消えている。
+C10S01	1	元日の午前零時ちょうどに来たメッセージは、携	BG_sumi_room	3	BG_sumi_room__3.png	BG_sumi_room__FULL.png	場面開始
+C10S02	1	終業式の前より、みんなの声が半音くらい低く聞	BG_room_jan	3	BG_room_jan__3.png	BG_room_jan__FULL.png	場面開始
+C10S03	1	弁当には、昆布をくるくる巻いて楊枝で留めたの	CG_bento_jan	3	CG_bento_jan__3.png	CG_bento_jan__FULL.png	場面開始
+C10S04	1	三週目の月曜、昼休みに透花を呼びに来ていた子	BG_room_jan	3	BG_room_jan__3.png	BG_room_jan__FULL.png	場面開始
+C10S05	1	あの日も、おとながくれた時間は、たったの五分	BG_move	3	BG_move__3.png	BG_move__FULL.png	場面開始
+C10S05	33	今日あの子がどんな顔をしていたのか	BG_sumi_room	3	BG_sumi_room__3.png	BG_sumi_room__FULL.png	過去から現在へ。直前まで小四の玄関で表情は構図外。
+C10S06	1	家に帰って手を洗っているとお母さんが、「そこ	BG_home_kitchen	3	BG_home_kitchen__3.png	BG_home_kitchen__FULL.png	場面開始
+C10S07	1	橋のたもとの家がなくなったあとの土地には、ロ	BG_bridge_winter	3	BG_bridge_winter__3.png	BG_bridge_winter__FULL.png	場面開始
+C10S07	5	「おはよう	CG_bridge_ask	3	CG_bridge_ask__3.png	CG_bridge_ask__FULL.png	同じ目線の冬の橋。初周まだ顔解放前。
+C10S07	29	片方の眉が少し高かった	CG_first_face	4	CG_first_face__4.png	CG_first_face__FULL.png	怒りとためらい、片方の眉が高く鼻の下に紙の繊維。透花の顔だけ解禁。他人は余白。
+C11S01	1	二月の最初の月曜日、学校が配ったのは、来年度	BG_room_feb	4	BG_room_feb__4.png	BG_room_feb__FULL.png	場面開始
+C11S02	1	次の日曜、台所でお母さんがひどく慎重にお湯を	BG_home_kitchen	4	BG_home_kitchen__4.png	BG_home_kitchen__FULL.png	場面開始
+C11S03	1	二月十四日、朝、教室に上がると、廊下側の机が	BG_room_feb	4	BG_room_feb__4.png	BG_room_feb__FULL.png	場面開始
+C11S04	1	帰る前に机の横から鞄を引くと、薄い紙の擦れる	CG_choco	4	CG_choco__4.png	CG_choco__FULL.png	場面開始
+C11S05	1	写真部の机に出された試し刷りでは、古い銭湯の	BG_print	4	BG_print__4.png	BG_print__FULL.png	場面開始
+C11S06	1	昼前に降った雨が上がって、空いた机の木目の上	CG_solo	4	CG_solo__4.png	CG_solo__FULL.png	場面開始
+C11S06	13	花の形をしたにんじんが、橙色だった	CG_solo	5	CG_solo__5.png	CG_solo__FULL.png	この一行で机も窓の外も全彩。透花は画面にいない。
+C11S07	1	明くる朝、お母さんは卵を割りながら、片方のこ	BG_home_kitchen	5	BG_home_kitchen__5.png	BG_home_kitchen__FULL.png	場面開始
+C12S01	1	三月になって、お母さんが髪を切った。後ろの短	BG_home_kitchen	5	BG_home_kitchen__5.png	BG_home_kitchen__FULL.png	場面開始
+C12S02	1	写真を選ぶ机が放課後の教室に二つ並んだ。窓の	BG_room_mar	5	BG_room_mar__5.png	BG_room_mar__FULL.png	場面開始
+C12S03	1	大掃除の日は机の脚に貼ったフェルトを剥がす。	BG_room_mar	5	BG_room_mar__5.png	BG_room_mar__FULL.png	場面開始
+C12S04	1	家で、筆箱を洗濯に出した。布に鉛筆が擦れて薄	BG_home_kitchen	5	BG_home_kitchen__5.png	BG_home_kitchen__FULL.png	場面開始
+C12S05	1	修了式の朝、いつもの橋で透花を待った。待ち合	BG_bridge_mar	5	BG_bridge_mar__5.png	BG_bridge_mar__FULL.png	場面開始
+C12S05	16	「透花。一緒に食べよう」	CG_lunch_last	5	CG_lunch_last__5.png	CG_lunch_last__FULL.png	
+C12S06	1	透花が持ってきた冊子は全部で何冊あったのか、	BG_room_mar	5	BG_room_mar__5.png	BG_room_mar__FULL.png	場面開始
+C12S06	9	裏門へ回ると	BG_gate_mar	5	BG_gate_mar__5.png	BG_gate_mar__FULL.png	
+C12S06	10	差し出された一冊の糸は栗色だった	CG_book_march	5	CG_book_march__5.png	CG_book_march__FULL.png	
+EAS01	1	「あの飴、買いに行こう。あの瓶、あと一個だっ	BG_gate_mar	5	BG_gate_mar__5.png	BG_gate_mar__FULL.png	場面開始
+EAS01	17	店に入った	BG_candy_shop	5	BG_candy_shop__5.png	BG_candy_shop__FULL.png	
+EAS02	1	「冊子、できたんです。お店、写真に撮らせても	BG_candy_shop	5	BG_candy_shop__5.png	BG_candy_shop__FULL.png	場面開始
+EAS02	12	おばあさんは後ろへ戻って	CG_book_stamp	5	CG_book_stamp__5.png	CG_book_stamp__FULL.png	
+EAS03	1	橋の上で川を覗くと、泥の線が二本残っていて、	BG_bridge_mar	5	BG_bridge_mar__5.png	BG_bridge_mar__FULL.png	場面開始
+EAS03	18	「透花、またね」	CG_again	5	CG_again__5.png	CG_again__FULL.png	
+EAS04	1	高一の梅雨明けの日、私は前を歩いていた子の袋	BG_crossing	5	BG_crossing__5.png	BG_crossing__FULL.png	場面開始
+EAS04	4	小さいとき、澄ちゃんがクレヨン	CG_child_drawing	5	CG_child_drawing__5.png	CG_child_drawing__FULL.png	透花視点、小学生の澄が自分の画用紙を継ぐ。二人の絵にまたがる花。
+EAS04	12	今日は、私の名前を呼んで	BG_touka_entry	5	BG_touka_entry__5.png	BG_touka_entry__FULL.png	
+ERS01	1	「あのお店の話、続きがあるの」	BG_gate_mar	5	BG_gate_mar__5.png	BG_gate_mar__FULL.png	場面開始
+ERS01	19	「二等、何だったか覚えてる？」	CG_hedge_book	5	CG_hedge_book__5.png	CG_hedge_book__FULL.png	
+ERS01	27	水、入れて鳴らすんだよ	CG_whistle	5	CG_whistle__5.png	CG_whistle__FULL.png	現物がその場に出てくる演出にはしない。回想の手と水笛の挿絵。
+ERS02	1	ポケットの底で鍵の頭に指が当たった。うちに入	CG_hedge_book	5	CG_hedge_book__5.png	CG_hedge_book__FULL.png	場面開始
+ERS02	14	冊子のページを押さえたまま	CG_hedge_book	5	CG_hedge_book__5.png	CG_hedge_book__FULL.png	
+EBS01	1	「今日はここまでにしていい？」	CG_hedge_book	5	CG_hedge_book__5.png	CG_hedge_book__FULL.png	場面開始
+EBS02	1	家に帰ると、お母さんが一人前のうどんを茹でて	BG_home_kitchen	5	BG_home_kitchen__5.png	BG_home_kitchen__FULL.png	場面開始
+EBS02	1	家に帰ると	BG_home_kitchen	5	BG_home_kitchen__5.png	BG_home_kitchen__FULL.png	
+EBS02	11	わたしは子供部屋の机から	CG_scissors	5	CG_scissors__5.png	CG_scissors__FULL.png	
+EBS02	14	火曜の午前中に	BG_bakery	5	BG_bakery__5.png	BG_bakery__FULL.png	
+EBS03	1	木曜の朝はいつもより早く、うちの近くのパン屋	BG_bakery	5	BG_bakery__5.png	BG_bakery__FULL.png	場面開始
+EBS03	2	透花の家の近くで目印にしていた	BG_touka_street	5	BG_touka_street__5.png	BG_touka_street__FULL.png	
+EBS03	9	玄関の足元に鉢があった	BG_touka_entry	5	BG_touka_entry__5.png	BG_touka_entry__FULL.png	
+EBS03	19	紙を折るとき	CG_binding	5	CG_binding__5.png	CG_binding__FULL.png	
+EBS04	1	やかんに火をつけているあいだ、私は台所から澄	BG_touka_kitchen	5	BG_touka_kitchen__5.png	BG_touka_kitchen__FULL.png	場面開始
+EBS04	9	席に戻ると	CG_binding	5	CG_binding__5.png	CG_binding__FULL.png	
+EBS04	16	私は外へ出るための靴に	BG_touka_entry	5	BG_touka_entry__5.png	BG_touka_entry__FULL.png	
+ESS01	1	「あの日、下まで行きたかった」	CG_hedge_book	5	CG_hedge_book__5.png	CG_hedge_book__FULL.png	場面開始
+ESS01	32	わたしは片方の手が空かずに	CG_embrace	5	CG_embrace__5.png	CG_embrace__FULL.png	
+ECS01	1	「うちに寄ってって」	BG_gate_mar	5	BG_gate_mar__5.png	BG_gate_mar__FULL.png	場面開始
+ECS01	7	二人でしゃがみ、一冊の本を拾った	CG_book_ground	5	CG_book_ground__5.png	CG_book_ground__FULL.png	
+ECS02	1	うちの洗面台には、このあいだお母さんが替えた	BG_home_sink	5	BG_home_sink__5.png	BG_home_sink__FULL.png	場面開始
+ECS02	1	うちの洗面台には	BG_home_sink	5	BG_home_sink__5.png	BG_home_sink__FULL.png	
+ECS03	1	わたしの部屋は玄関からいちばん遠かった。自分	BG_sumi_room	5	BG_sumi_room__5.png	BG_sumi_room__FULL.png	場面開始
+ECS03	1	わたしの部屋は	BG_sumi_room	5	BG_sumi_room__5.png	BG_sumi_room__FULL.png	
+ECS04	1	お母さんは、駅まで買い物に行ったはずなのに、	BG_home_kitchen	5	BG_home_kitchen__5.png	BG_home_kitchen__FULL.png	場面開始
+ECS05	1	家までの帰り道、横断歩道を渡るときも、渡りき	BG_touka_room	5	BG_touka_room__5.png	BG_touka_room__FULL.png	場面開始
+ECS05	12	スマホを開いた	CG_touka_night	5	CG_touka_night__5.png	CG_touka_night__FULL.png	
+EDS01	1	「透花、もうひとつ聞いて」	BG_gate_mar	5	BG_gate_mar__5.png	BG_gate_mar__FULL.png	場面開始
+EDS01	16	わたしと付き合ってほしい	CG_confess	5	CG_confess__5.png	CG_confess__FULL.png	
+EDS02	1	帰したくないと言われても、どちらの家へ行くの	BG_gate_mar	5	BG_gate_mar__5.png	BG_gate_mar__FULL.png	場面開始
+EDS02	29	「ほっぺにキスしてもいい？」	CG_cheek	5	CG_cheek__5.png	CG_cheek__FULL.png	頬に手を置いた段階。相手が答える以前はキスを描かない。
+EDS03	1	家に帰ったら、お母さんが二度、こっちの靴を見	BG_home_entry	5	BG_home_entry__5.png	BG_home_entry__FULL.png	場面開始
+EDS03	35	電話を切ると	BG_sumi_room	5	BG_sumi_room__5.png	BG_sumi_room__FULL.png	
+EDS04	1	朝はまず左のくるぶしの下に絆創膏を貼った。靴	BG_sumi_room	5	BG_sumi_room__5.png	BG_sumi_room__FULL.png	場面開始
+EDS04	9	昨日の電話で考えた最初の挨拶は	BG_park_spring	5	BG_park_spring__5.png	BG_park_spring__FULL.png	
+EDS04	15	「ハナちゃん、これ見て」	CG_lovers	5	CG_lovers__5.png	CG_lovers__FULL.png	
+EDS05	1	あのとき「うさぎ？」と得意になって聞かなかっ	CG_lovers	5	CG_lovers__5.png	CG_lovers__FULL.png	場面開始
