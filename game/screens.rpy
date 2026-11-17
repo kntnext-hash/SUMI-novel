@@ -1372,12 +1372,12 @@ style nvl_button is button
 style nvl_button_text is button_text
 
 style nvl_window:
-    xpos 400
-    ypos 100
-    xsize 1120
-    ysize 850
+    xpos 60
+    ypos 630
+    xsize 1800
+    ysize 380
     background Frame("ui/ui_nvl_washi.png", 24, 24)
-    padding (64, 48)
+    padding (48, 24)
 
 style nvl_dialogue:
     color "#242424"

@@ -342,7 +342,7 @@ define config.history_length = 250
 
 ## The height of a history screen entry, or None to make the height variable
 ## at the cost of performance.
-define gui.history_height = gui.scale(140)
+define gui.history_height = None
 
 ## Additional space to add between history screen entries.
 define gui.history_spacing = 0
@@ -390,14 +390,14 @@ define gui.nvl_name_xalign = 1.0
 ## The position, width, and alignment of the dialogue text.
 define gui.nvl_text_xpos = 0
 define gui.nvl_text_ypos = gui.scale(8)
-define gui.nvl_text_width = 992
+define gui.nvl_text_width = 1704
 define gui.nvl_text_xalign = 0.0
 
 ## The position, width, and alignment of nvl_thought text (the text said by
 ## the nvl_narrator character.)
 define gui.nvl_thought_xpos = 0
 define gui.nvl_thought_ypos = gui.scale(0)
-define gui.nvl_thought_width = 992
+define gui.nvl_thought_width = 1704
 define gui.nvl_thought_xalign = 0.0
 
 ## The position of nvl menu_buttons.
@@ -455,7 +455,7 @@ init python:
         gui.navigation_spacing = gui.scale(20)
         gui.pref_button_spacing = gui.scale(10)
 
-        gui.history_height = gui.scale(190)
+        gui.history_height = None
         gui.history_text_width = gui.scale(690)
 
         gui.quick_button_text_size = gui.scale(20)

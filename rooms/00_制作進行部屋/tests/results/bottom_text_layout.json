@@ -1,0 +1,28 @@
+{
+  "status": "REVIEW",
+  "source_hashes": {
+    "screens.rpy": {
+      "repo": "7520a4c985fe4ae4b732ce41a06ce211d6a710ce05c0cee84f47359a15c16fa5",
+      "visual_copy": "7520a4c985fe4ae4b732ce41a06ce211d6a710ce05c0cee84f47359a15c16fa5"
+    },
+    "gui.rpy": {
+      "repo": "73cf36c60f092d8224a2ff88b95a88e6c23b2743dc86fdf6c25b540d72118f15",
+      "visual_copy": "73cf36c60f092d8224a2ff88b95a88e6c23b2743dc86fdf6c25b540d72118f15"
+    }
+  },
+  "longest_paragraph": {
+    "file": "story_ch02.rpy",
+    "line": 190,
+    "characters": 215
+  },
+  "observed": [
+    "full paragraph visible in lower paper panel",
+    "full paragraph visible in history",
+    "quick menu not overlapped",
+    "load after restart restores paragraph"
+  ],
+  "evidence": [
+    "rooms/06_品質・整合性部屋/visual_qa/fixed2_longest_loaded.png",
+    "rooms/06_品質・整合性部屋/visual_qa/fixed2_history_longest_full.png"
+  ]
+}
