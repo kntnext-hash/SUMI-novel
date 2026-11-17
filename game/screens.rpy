@@ -1368,7 +1368,7 @@ style nvl_window:
     ypos 100
     xsize 1120
     ysize 850
-    background Solid("#f3f1e9eb")
+    background Frame("ui/ui_nvl_washi.png", 24, 24)
     padding (64, 48)
 
 style nvl_dialogue:
