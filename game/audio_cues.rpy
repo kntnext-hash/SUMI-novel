@@ -14,8 +14,16 @@ init 10 python:
         ("story_ch04.rpy", 208): ("audio/notification_soft.wav", 0.40),
         ("story_ch06.rpy", 229): ("audio/ringtone_original.wav", 0.35),
         ("story_ch07.rpy", 106): ("audio/camera_shutter.wav", 0.40),
+        ("story_ch09.rpy", 142): ("audio/cinema_wood_paper.wav", 0.40),
+        ("story_ch09.rpy", 143): ("audio/small_bell_single.wav", 0.40),
+        ("story_ch09.rpy", 146): ("audio/cinema_paper_two_bells.wav", 0.40),
     }
-    story_sound_stops = {("story_ch06.rpy", 230)}
+    story_sound_stops = {
+        ("story_ch06.rpy", 230),
+        # The bell is deliberately silent while it is passed between them.
+        ("story_ch09.rpy", 144),
+        ("story_ch09.rpy", 145),
+    }
 
     # Separate from one-shot effects so notifications do not cut off ambience.
     renpy.music.register_channel("story_ambience", mixer="sfx", loop=True)
@@ -25,11 +33,12 @@ init 10 python:
         ("story_ch11.rpy", 57): ("audio/fridge_loop.wav", 0.40),
     }
 
-    def stop_story_ambience_at_node(name, abnormal):
+    def stop_story_audio_at_node(name, abnormal):
         if name.startswith("node_"):
             renpy.music.stop(channel="story_ambience", fadeout=0.15)
+            renpy.music.stop(channel="sound", fadeout=0.08)
 
-    config.label_callbacks.append(stop_story_ambience_at_node)
+    config.label_callbacks.append(stop_story_audio_at_node)
 
     def play_story_sound(event, interact=True, **kwargs):
         if event != "begin" or not interact:

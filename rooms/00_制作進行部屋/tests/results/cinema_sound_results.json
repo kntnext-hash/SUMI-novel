@@ -1,0 +1,72 @@
+[
+  {
+    "test": "wood_then_paper",
+    "location": [
+      "story_ch09.rpy",
+      142
+    ],
+    "expected": "audio/cinema_wood_paper.wav",
+    "actual": "audio/cinema_wood_paper.wav",
+    "passed": true
+  },
+  {
+    "test": "one_bell",
+    "location": [
+      "story_ch09.rpy",
+      143
+    ],
+    "expected": "audio/small_bell_single.wav",
+    "actual": "audio/small_bell_single.wav",
+    "passed": true
+  },
+  {
+    "test": "silent_bell_against_sleeve",
+    "location": [
+      "story_ch09.rpy",
+      144
+    ],
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "test": "silent_bell_in_palm",
+    "location": [
+      "story_ch09.rpy",
+      145
+    ],
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "test": "paper_then_two_bells",
+    "location": [
+      "story_ch09.rpy",
+      146
+    ],
+    "expected": "audio/cinema_paper_two_bells.wav",
+    "actual": "audio/cinema_paper_two_bells.wav",
+    "passed": true
+  },
+  {
+    "test": "leaving_cinema_stops_sound",
+    "location": [
+      "story_ch09.rpy",
+      155
+    ],
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "test": "main_menu_stops_cinema_sound",
+    "location": [
+      "story_ch09.rpy",
+      146
+    ],
+    "expected": null,
+    "actual": null,
+    "passed": true
+  }
+]

@@ -25,4 +25,14 @@
 - 編集：DC除去、ピーク0.4、3msフェード、PCM16 WAV。
 - 導出SHA256：c19b4a8c261bbbc107894df7ea35df8bfdbac5e26daec80725f80aee9dd355ed
 
+## 第9章・紙／木片／鈴
+
+- 木片：rubberduck「100 CC0 metal and wood SFX」 https://opengameart.org/content/100-cc0-metal-and-wood-sfx
+- 紙：Luckius「Various Paper Sound Effects」 https://opengameart.org/content/various-paper-sound-effects
+- 鈴：steffcaffrey https://freesound.org/people/steffcaffrey/sounds/452371/
+- 全素材CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+- 木片は音量調整・前後無音整理・フェード、紙と鈴はMP3からPCM16 WAVへ変換・音量調整・フェード。
+- cinema_wood_paper.wavは木片連打の後に紙を握る音。cinema_paper_two_bells.wavは紙の後に鈴2回。具体的な配置時刻・素材ハッシュは同梱のCINEMA_SOUND_TIMELINE.jsonを参照。
+- small_bell_single.wavは同じ鈴の単発素材。実際の聞こえ方・打数の聴覚確認は未完了。
+
 録音の出典は品質や本作品への推奨を意味しない。音色・音量・ループ境界の聴覚検査は未完了。

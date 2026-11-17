@@ -1,0 +1,121 @@
+{
+  "timing_assumptions": "Wood onsets 0/0.12/0.24s; 80ms gap after last full tail before next material. Bell onset interval 0.45s.",
+  "rights_inheritance": "All input recordings CC0-1.0. Wood: rubberduck; paper: see paper_rights.json; bell: steffcaffrey / Freesound 452371. No new third-party input.",
+  "outputs": [
+    {
+      "file": "cinema_wood_paper.wav",
+      "node": "C09S04",
+      "manuscript_line": 180,
+      "rpy_line": 142,
+      "status": "REVIEW",
+      "listening": "PENDING_USER",
+      "timeline": [
+        {
+          "file": "wood_hit_01.wav",
+          "sha256": "87d0c6da5488c859abcb1e973619c54789484098bbc236158a6f13522bd3ed98",
+          "original_sample_rate": 48000,
+          "full_duration_seconds": 0.277875,
+          "start_seconds": 0.0,
+          "end_seconds": 0.277875,
+          "rights_record": "wood_rights_qc.json",
+          "license": "CC0-1.0",
+          "source_gain": 1.0
+        },
+        {
+          "file": "wood_hit_02.wav",
+          "sha256": "cdce2e7fff1f7336b0d4a64a1fe7f26859b2539cc36c76b84d1bb2759da203f7",
+          "original_sample_rate": 48000,
+          "full_duration_seconds": 0.3459583333333333,
+          "start_seconds": 0.12,
+          "end_seconds": 0.4659583333333333,
+          "rights_record": "wood_rights_qc.json",
+          "license": "CC0-1.0",
+          "source_gain": 1.0
+        },
+        {
+          "file": "wood_hit_03.wav",
+          "sha256": "ddacced0bdc68db04cd3b0892a415bfc3d8a880f25e346cd16729bd692bfcdfb",
+          "original_sample_rate": 48000,
+          "full_duration_seconds": 0.3279166666666667,
+          "start_seconds": 0.24,
+          "end_seconds": 0.5679166666666666,
+          "rights_record": "wood_rights_qc.json",
+          "license": "CC0-1.0",
+          "source_gain": 1.0
+        },
+        {
+          "file": "paper_crushed_-_1.wav",
+          "sha256": "fd74c59ff08c3f777d01528473a873427925b2cf9926b7f83a6f1030da4f02ab",
+          "original_sample_rate": 44100,
+          "full_duration_seconds": 1.1493958333333334,
+          "start_seconds": 0.6479166666666667,
+          "end_seconds": 1.7973125,
+          "rights_record": "../paper_rights.json",
+          "license": "CC0-1.0",
+          "source_gain": 1.0
+        }
+      ],
+      "mix_gain": 1.0,
+      "peak_before_gain": 0.399993896484375,
+      "peak_after_encoding": 0.399993896484375,
+      "clipped_samples": 0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 1.7973125,
+      "sha256": "dc219c98b4d7206c8263cc36e061867bf25f5813b7a15b09f8100f139b8cb8f7",
+      "processing": "Linear resample to 48kHz when required; sum full source arrays; global attenuation only if peak exceeds 0.5; PCM16. No tail truncation."
+    },
+    {
+      "file": "cinema_paper_two_bells.wav",
+      "node": "C09S04",
+      "manuscript_line": 188,
+      "rpy_line": 146,
+      "status": "REVIEW",
+      "listening": "PENDING_USER",
+      "timeline": [
+        {
+          "file": "paper_crushed_-_2.wav",
+          "sha256": "ff72a76a545a52eaef3aca210650affeac8c3c498e525be90eeeee6858e3a91e",
+          "original_sample_rate": 44100,
+          "full_duration_seconds": 0.6966041666666667,
+          "start_seconds": 0.0,
+          "end_seconds": 0.6966041666666667,
+          "rights_record": "../paper_rights.json",
+          "license": "CC0-1.0",
+          "source_gain": 1.0
+        },
+        {
+          "file": "small_bell_single.wav",
+          "sha256": "7100d94fa8e3eef86387845b26769a67b0301231c937fc5406ae7c5f27a2e597",
+          "original_sample_rate": 44100,
+          "full_duration_seconds": 1.3999791666666668,
+          "start_seconds": 0.7766041666666667,
+          "end_seconds": 2.1765833333333333,
+          "rights_record": "../recording_rights.json + edits_and_qc.json",
+          "license": "CC0-1.0",
+          "source_gain": 1.0
+        },
+        {
+          "file": "small_bell_single.wav",
+          "sha256": "7100d94fa8e3eef86387845b26769a67b0301231c937fc5406ae7c5f27a2e597",
+          "original_sample_rate": 44100,
+          "full_duration_seconds": 1.3999791666666668,
+          "start_seconds": 1.2266041666666667,
+          "end_seconds": 2.6265833333333335,
+          "rights_record": "../recording_rights.json + edits_and_qc.json",
+          "license": "CC0-1.0",
+          "source_gain": 1.0
+        }
+      ],
+      "mix_gain": 1.0,
+      "peak_before_gain": 0.5,
+      "peak_after_encoding": 0.5,
+      "clipped_samples": 0,
+      "sample_rate": 48000,
+      "channels": 2,
+      "duration_seconds": 2.6265833333333335,
+      "sha256": "3c5cf5fe0669ea65c4fb731bb8766e332224c217f15a23ca3f76ad60ff99fd3a",
+      "processing": "Linear resample to 48kHz when required; sum full source arrays; global attenuation only if peak exceeds 0.5; PCM16. No tail truncation."
+    }
+  ]
+}
