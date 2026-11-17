@@ -372,8 +372,11 @@ screen main_menu():
         vbox:
             style "main_menu_vbox"
 
-            text "[config.name!t]":
+            text "顔のない春":
                 style "main_menu_title"
+
+            text "――きみの色が見えるまで。":
+                style "main_menu_subtitle"
 
             text "[config.version]":
                 style "main_menu_version"
