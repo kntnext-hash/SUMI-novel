@@ -17,4 +17,12 @@
 - 編集：1〜8秒、300msクロスフェード、DC除去、ピーク0.25、PCM16 WAV。
 - 導出SHA256：f4f3274fda838ccbbbd560131fc3cdffe2785f0e7feef75989d00e05fa9ff407
 
+## camera_shutter.wav
+
+- 作者・提供者：themightyglider（原典 archive.org/details/CameraShutterSound）
+- 出典：https://opengameart.org/content/camera
+- ライセンス：CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+- 編集：DC除去、ピーク0.4、3msフェード、PCM16 WAV。
+- 導出SHA256：c19b4a8c261bbbc107894df7ea35df8bfdbac5e26daec80725f80aee9dd355ed
+
 録音の出典は品質や本作品への推奨を意味しない。音色・音量・ループ境界の聴覚検査は未完了。

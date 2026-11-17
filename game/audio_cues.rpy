@@ -13,6 +13,7 @@ init 10 python:
         ("story_ch04.rpy", 93): ("audio/notification_soft.wav", 0.40),
         ("story_ch04.rpy", 208): ("audio/notification_soft.wav", 0.40),
         ("story_ch06.rpy", 229): ("audio/ringtone_original.wav", 0.35),
+        ("story_ch07.rpy", 106): ("audio/camera_shutter.wav", 0.40),
     }
     story_sound_stops = {("story_ch06.rpy", 230)}
 

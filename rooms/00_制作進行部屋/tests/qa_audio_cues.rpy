@@ -81,3 +81,10 @@ testcase qa_audio_cues:
     advance until eval (qau.hit == ("story_ch06.rpy", 230)) timeout 30
     pause until eval (renpy.music.get_playing("sound") is None) timeout 5
     $ qau_record()
+    run MainMenu(confirm=False)
+    pause until screen "main_menu" timeout 30
+    $ qau.hit = None
+    run Start("node_C07S03")
+    advance until eval (qau.hit == ("story_ch07.rpy", 106)) timeout 60
+    pause until eval (renpy.music.get_playing("sound") == story_sound_cues[qau.hit][0]) timeout 5
+    $ qau_record()

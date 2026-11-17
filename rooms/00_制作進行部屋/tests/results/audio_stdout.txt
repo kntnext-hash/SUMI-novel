@@ -10,14 +10,14 @@
 
 [rpytest] [exc] + global
 [rpytest] [exc]   - qa_audio_cues
-[rpytest] [exc]   - qa_audio_cues (4.587 s)
+[rpytest] [exc]   - qa_audio_cues (5.927 s)
 
 [rpytest] Test outcomes (Summary)
 [rpytest] Test suites:     1 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
-[rpytest] Test cases :     2 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     1 skipped |     0 not run
+[rpytest] Test cases :     3 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     2 skipped |     0 not run
 [rpytest] Test hooks :     0 |     0 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
 [rpytest] Assertions :     0 |     0 passed |     0 xfailed |     0 failed |     0 xpassed | 
 
-[rpytest] Time: 6.383 s
+[rpytest] Time: 7.426 s
 [rpytest] Status: PASSED 
 

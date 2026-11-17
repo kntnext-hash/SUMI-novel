@@ -79,5 +79,14 @@
     "expected": null,
     "actual": null,
     "passed": true
+  },
+  {
+    "location": [
+      "story_ch07.rpy",
+      106
+    ],
+    "expected": "audio/camera_shutter.wav",
+    "actual": "audio/camera_shutter.wav",
+    "passed": true
   }
 ]

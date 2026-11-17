@@ -9,3 +9,5 @@ notification_soft.wav と school_chime_original.wav は、本作向けに正弦�
 雨と冷蔵庫の実録ループを追加（REVIEW）。出典と加工記録はgame/licenses/AUDIO_SOURCES.md。
 第3章C03S03の傘を差す本文（rpy141）と、第11章C11S02の冷蔵庫の音（rpy57）で再生。次のnode進入で停止し、タイトル復帰時も停止する。専用story_ambienceチャンネルをsfxミキサーへ接続し、効果音の音量設定を共有する。通知などの単発音はsoundチャンネルを維持。
 両素材の録音対象と本文対応を照合。音色・バランス・ループ境界の聴覚評価は未完了。
+
+シャッター音 camera_shutter.wav を第7章C07S03のゴール直後（rpy106）へ追加。スマホ撮影場面への流用は未実施。音源出典・加工記録はgame/licenses/AUDIO_SOURCES.md。聴覚評価は未完了。
