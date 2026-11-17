@@ -52,5 +52,32 @@
     "expected": "audio/school_chime_original.wav",
     "actual": "audio/school_chime_original.wav",
     "passed": true
+  },
+  {
+    "location": [
+      "story_ch04.rpy",
+      93
+    ],
+    "expected": "audio/notification_soft.wav",
+    "actual": "audio/notification_soft.wav",
+    "passed": true
+  },
+  {
+    "location": [
+      "story_ch06.rpy",
+      229
+    ],
+    "expected": "audio/ringtone_original.wav",
+    "actual": "audio/ringtone_original.wav",
+    "passed": true
+  },
+  {
+    "location": [
+      "story_ch06.rpy",
+      230
+    ],
+    "expected": null,
+    "actual": null,
+    "passed": true
   }
 ]

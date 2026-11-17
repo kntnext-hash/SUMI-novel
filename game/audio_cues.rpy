@@ -10,14 +10,22 @@ init 10 python:
         # Other students' phones; Sumi's own notifications remain disabled.
         ("story_ch02.rpy", 171): ("audio/notification_soft.wav", 0.22),
         ("story_ch02.rpy", 179): ("audio/notification_soft.wav", 0.40),
+        ("story_ch04.rpy", 93): ("audio/notification_soft.wav", 0.40),
         ("story_ch04.rpy", 208): ("audio/notification_soft.wav", 0.40),
+        ("story_ch06.rpy", 229): ("audio/ringtone_original.wav", 0.35),
     }
+    story_sound_stops = {("story_ch06.rpy", 230)}
 
     def play_story_sound(event, interact=True, **kwargs):
-        if event != "begin" or not interact or renpy.is_skipping() or renpy.in_rollback():
+        if event != "begin" or not interact:
             return
         filename, line = renpy.get_filename_line()
-        cue = story_sound_cues.get((audio_cue_os.path.basename(filename), line))
+        key = (audio_cue_os.path.basename(filename), line)
+        if key in story_sound_stops:
+            renpy.music.stop(channel="sound", fadeout=0.08)
+        if renpy.is_skipping() or renpy.in_rollback():
+            return
+        cue = story_sound_cues.get(key)
         if cue:
             renpy.music.play(cue[0], channel="sound", loop=False, relative_volume=cue[1])
 

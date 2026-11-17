@@ -10,11 +10,11 @@ init 20 python:
         if event == "begin":
             filename, line = renpy.get_filename_line()
             key = (qau_os.path.basename(filename), line)
-            if key in story_sound_cues:
+            if key in story_sound_cues or key in story_sound_stops:
                 qau.hit = key
     config.all_character_callbacks.append(qau_observe)
     def qau_record():
-        expected = story_sound_cues[qau.hit][0]
+        expected = story_sound_cues.get(qau.hit, (None, 0))[0]
         actual = renpy.music.get_playing("sound")
         result = dict(location=qau.hit, expected=expected, actual=actual, passed=expected == actual)
         qau.results.append(result)
@@ -27,40 +27,57 @@ testcase qa_audio_cues:
     $ qau.hit = None
     run Start("node_C01S02")
     advance until eval (qau.hit == ("story_ch01.rpy", 72)) timeout 60
-    pause until eval (renpy.music.get_playing("sound") == story_sound_cues[qau.hit][0]) timeout 5
+    pause until eval (renpy.music.get_playing("sound") == story_sound_cues.get(qau.hit, (None, 0))[0]) timeout 5
     $ qau_record()
     run MainMenu(confirm=False)
     pause until screen "main_menu" timeout 30
     $ qau.hit = None
     run Start("node_C02S05")
     advance until eval (qau.hit == ("story_ch02.rpy", 171)) timeout 60
-    pause until eval (renpy.music.get_playing("sound") == story_sound_cues[qau.hit][0]) timeout 5
+    pause until eval (renpy.music.get_playing("sound") == story_sound_cues.get(qau.hit, (None, 0))[0]) timeout 5
     $ qau_record()
     run MainMenu(confirm=False)
     pause until screen "main_menu" timeout 30
     $ qau.hit = None
     run Start("node_C02S05")
     advance until eval (qau.hit == ("story_ch02.rpy", 179)) timeout 60
-    pause until eval (renpy.music.get_playing("sound") == story_sound_cues[qau.hit][0]) timeout 5
+    pause until eval (renpy.music.get_playing("sound") == story_sound_cues.get(qau.hit, (None, 0))[0]) timeout 5
     $ qau_record()
     run MainMenu(confirm=False)
     pause until screen "main_menu" timeout 30
     $ qau.hit = None
     run Start("node_C03S05")
     advance until eval (qau.hit == ("story_ch03.rpy", 199)) timeout 60
-    pause until eval (renpy.music.get_playing("sound") == story_sound_cues[qau.hit][0]) timeout 5
+    pause until eval (renpy.music.get_playing("sound") == story_sound_cues.get(qau.hit, (None, 0))[0]) timeout 5
     $ qau_record()
     run MainMenu(confirm=False)
     pause until screen "main_menu" timeout 30
     $ qau.hit = None
     run Start("node_C04S06")
     advance until eval (qau.hit == ("story_ch04.rpy", 208)) timeout 60
-    pause until eval (renpy.music.get_playing("sound") == story_sound_cues[qau.hit][0]) timeout 5
+    pause until eval (renpy.music.get_playing("sound") == story_sound_cues.get(qau.hit, (None, 0))[0]) timeout 5
     $ qau_record()
     run MainMenu(confirm=False)
     pause until screen "main_menu" timeout 30
     $ qau.hit = None
     run Start("node_C11S07")
     advance until eval (qau.hit == ("story_ch11.rpy", 220)) timeout 60
+    pause until eval (renpy.music.get_playing("sound") == story_sound_cues.get(qau.hit, (None, 0))[0]) timeout 5
+    $ qau_record()
+    run MainMenu(confirm=False)
+    pause until screen "main_menu" timeout 30
+    $ qau.hit = None
+    run Start("node_C04S03")
+    advance until eval (qau.hit == ("story_ch04.rpy", 93)) timeout 60
     pause until eval (renpy.music.get_playing("sound") == story_sound_cues[qau.hit][0]) timeout 5
+    $ qau_record()
+    run MainMenu(confirm=False)
+    pause until screen "main_menu" timeout 30
+    $ qau.hit = None
+    run Start("node_C06S06")
+    advance until eval (qau.hit == ("story_ch06.rpy", 229)) timeout 60
+    pause until eval (renpy.music.get_playing("sound") == story_sound_cues[qau.hit][0]) timeout 5
+    $ qau_record()
+    advance until eval (qau.hit == ("story_ch06.rpy", 230)) timeout 30
+    pause until eval (renpy.music.get_playing("sound") is None) timeout 5
     $ qau_record()

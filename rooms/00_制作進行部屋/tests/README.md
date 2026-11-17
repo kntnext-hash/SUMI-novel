@@ -17,3 +17,5 @@
 再起動検証は、qa_save_restoreの合格を確認してそのプロセスを終了してから、同じsavedirで別プロセスを起動し、test qa_saved_restartを実行する。save_restore_results.jsonの8件を期待値として全件読み直し、save_restart_results.jsonの全件passedとエンジンのPASSEDを確認する。
 
 qa_audio_cues.rpyは6か所のチャイム・通知キューを本文進行から発火し、soundチャンネルの再生中ファイルを期待値と照合する。音色・主観的な音量バランスはこの検査の対象外。
+
+音響キュー検証は9件へ拡張：既存6件、第4章のメッセージ通知、第6章の着信開始、第6章の会話開始時の停止。最後の期待値Noneはsoundチャンネルの無音を意味する。2026-11-18に全9件PASSED。聴覚確認ではない。
