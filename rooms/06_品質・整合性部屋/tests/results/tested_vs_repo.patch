@@ -1,0 +1,135 @@
+--- tested/audio_cues.rpy
++++ repo/audio_cues.rpy
+@@ -0,0 +1,26 @@
++# Source line cues keep the generated story text and branching unchanged.
++# See rooms/07_音響部屋/audio/README.md for manuscript references.
++init 10 python:
++    import os as audio_cue_os
++
++    story_sound_cues = {
++        ("story_ch01.rpy", 72): ("audio/school_chime_original.wav", 0.35),
++        ("story_ch03.rpy", 199): ("audio/school_chime_original.wav", 0.30),
++        ("story_ch11.rpy", 220): ("audio/school_chime_original.wav", 0.35),
++        # Other students' phones; Sumi's own notifications remain disabled.
++        ("story_ch02.rpy", 171): ("audio/notification_soft.wav", 0.22),
++        ("story_ch02.rpy", 179): ("audio/notification_soft.wav", 0.40),
++        ("story_ch04.rpy", 208): ("audio/notification_soft.wav", 0.40),
++    }
++
++    def play_story_sound(event, interact=True, **kwargs):
++        if event != "begin" or not interact or renpy.is_skipping() or renpy.in_rollback():
++            return
++        filename, line = renpy.get_filename_line()
++        cue = story_sound_cues.get((audio_cue_os.path.basename(filename), line))
++        if cue:
++            renpy.music.play(cue[0], channel="sound", loop=False, relative_volume=cue[1])
++
++    config.all_character_callbacks.append(play_story_sound)
++
++define config.sample_sound = "audio/notification_soft.wav"
+--- tested/interface_translations.rpy
++++ repo/interface_translations.rpy
+@@ -0,0 +1,34 @@
++# Japanese wording for Ren'Py's standard confirmation dialogs.
++translate None strings:
++    old "Are you sure?"
++    new "よろしいですか？"
++
++    old "Are you sure you want to delete this save?"
++    new "このセーブデータを削除しますか？"
++
++    old "Are you sure you want to overwrite your save?"
++    new "このセーブデータに上書きしますか？"
++
++    old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
++    new "ロードすると、保存していない進行は失われます。\nロードしますか？"
++
++    old "Are you sure you want to quit?"
++    new "ゲームを終了しますか？"
++
++    old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
++    new "タイトルに戻りますか？\n保存していない進行は失われます。"
++
++    old "Are you sure you want to continue where you left off?"
++    new "前回の続きから再開しますか？"
++
++    old "Are you sure you want to end the replay?"
++    new "回想を終了しますか？"
++
++    old "Are you sure you want to begin skipping?"
++    new "スキップを開始しますか？"
++
++    old "Are you sure you want to skip to the next choice?"
++    new "次の選択肢までスキップしますか？"
++
++    old "Are you sure you want to skip unseen dialogue to the next choice?"
++    new "未読の文章も含め、次の選択肢までスキップしますか？"
+--- tested/paper_ui.rpy
++++ repo/paper_ui.rpy
+@@ -4,9 +4,19 @@
+         background Solid("#f3f1e9ed")
+     style game_menu_outer_frame:
+         background Solid("#f3f1e9f5")
++        xfill True
++        yfill True
++    style main_menu_vbox:
++        xmaximum 1000
++        spacing 12
+     style main_menu_title:
+         color "#242424"
++        size 72
+         outlines [(3, "#f3f1e9", 0, 0)]
++    style main_menu_subtitle is main_menu_text:
++        color "#242424"
++        size 32
++        outlines [(2, "#f3f1e9", 0, 0)]
+     style main_menu_version:
+         color "#242424"
+         outlines [(2, "#f3f1e9", 0, 0)]
+@@ -20,6 +30,31 @@
+         color "#ffffff"
+     style skip_text:
+         color "#ffffff"
++    style pref_vbox:
++        xsize 420
++    style radio_button:
++        foreground None
++        padding (16, 10)
++        selected_background Solid("#d4d2c9")
++        selected_idle_background Solid("#d4d2c9")
++        selected_hover_background Solid("#c4c2b9")
++        hover_background Solid("#e3e1d8")
++    style check_button:
++        foreground None
++        padding (16, 10)
++        selected_background Solid("#d4d2c9")
++        selected_idle_background Solid("#d4d2c9")
++        selected_hover_background Solid("#c4c2b9")
++        hover_background Solid("#e3e1d8")
++    style radio_button_text:
++        selected_bold True
++    style check_button_text:
++        selected_bold True
++    style slider:
++        left_bar Solid("#646464")
++        right_bar Solid("#d0cec6")
++        thumb Solid("#242424", xsize=16, ysize=28)
++        hover_thumb Solid("#000000", xsize=16, ysize=28)
+     style choice_button:
+         background Frame("ui/ui_choice_idle.png", 24, 24)
+         hover_background Frame("ui/ui_choice_hover.png", 24, 24)
+--- tested/screens.rpy
++++ repo/screens.rpy
+@@ -372,8 +372,11 @@
+         vbox:
+             style "main_menu_vbox"
+ 
+-            text "[config.name!t]":
++            text "顔のない春":
+                 style "main_menu_title"
++
++            text "――きみの色が見えるまで。":
++                style "main_menu_subtitle"
+ 
+             text "[config.version]":
+                 style "main_menu_version"

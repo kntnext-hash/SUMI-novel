@@ -1,0 +1,56 @@
+[
+  {
+    "location": [
+      "story_ch01.rpy",
+      72
+    ],
+    "expected": "audio/school_chime_original.wav",
+    "actual": "audio/school_chime_original.wav",
+    "passed": true
+  },
+  {
+    "location": [
+      "story_ch02.rpy",
+      171
+    ],
+    "expected": "audio/notification_soft.wav",
+    "actual": "audio/notification_soft.wav",
+    "passed": true
+  },
+  {
+    "location": [
+      "story_ch02.rpy",
+      179
+    ],
+    "expected": "audio/notification_soft.wav",
+    "actual": "audio/notification_soft.wav",
+    "passed": true
+  },
+  {
+    "location": [
+      "story_ch03.rpy",
+      199
+    ],
+    "expected": "audio/school_chime_original.wav",
+    "actual": "audio/school_chime_original.wav",
+    "passed": true
+  },
+  {
+    "location": [
+      "story_ch04.rpy",
+      208
+    ],
+    "expected": "audio/notification_soft.wav",
+    "actual": "audio/notification_soft.wav",
+    "passed": true
+  },
+  {
+    "location": [
+      "story_ch11.rpy",
+      220
+    ],
+    "expected": "audio/school_chime_original.wav",
+    "actual": "audio/school_chime_original.wav",
+    "passed": true
+  }
+]

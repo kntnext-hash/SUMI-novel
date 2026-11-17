@@ -1,0 +1,13 @@
+{
+  "file": "kaononaiharu_op_bridge_review.webm",
+  "width": 1920,
+  "height": 1080,
+  "decoded_frames": 480,
+  "frames_with_non_neutral_pixels": 0,
+  "non_neutral_pixel_count_sum": 0,
+  "max_rgb_channel_spread": 0,
+  "first_frame_mean_rgb": 255.0,
+  "last_frame_mean_rgb": 255.0,
+  "all_frame_contact_sheets": [],
+  "note": "Pixel tests do not verify people, faces, motion or sound. Visual review is separate."
+}

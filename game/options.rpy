@@ -32,6 +32,11 @@ define config.version = "0.9-full-light"
 ## the triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
+文学的幻想百合ビジュアルノベル
+
+使用フォント：Noto Serif CJK JP
+Copyright 2017–2023 Adobe. SIL Open Font License 1.1.
+ライセンス全文は同梱の game/licenses/NotoSerifCJK-OFL.txt をご覧ください。
 """)
 
 

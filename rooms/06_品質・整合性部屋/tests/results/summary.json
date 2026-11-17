@@ -1,0 +1,14 @@
+[
+  {
+    "reread": false,
+    "nodes": 99,
+    "say_images": 2590,
+    "cues": 178
+  },
+  {
+    "reread": true,
+    "nodes": 99,
+    "say_images": 2590,
+    "cues": 178
+  }
+]

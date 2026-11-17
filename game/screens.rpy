@@ -304,6 +304,9 @@ screen navigation():
             if main_menu and persistent.unlocked_reread:
                 textbutton _("全彩再読") action Start("reread_start")
 
+            if renpy.loadable("movies/opening.webm"):
+                textbutton _("オープニング") action Replay("opening_replay", locked=False)
+
         else:
 
             textbutton _("履歴") action ShowMenu("history")
@@ -565,7 +568,7 @@ screen about():
         vbox:
 
             label "[config.name!t]"
-            text _("Version [config.version!t]\n")
+            text _("バージョン [config.version!t]\n")
 
             ## gui.about is usually set in options.rpy.
             if gui.about:
@@ -1017,103 +1020,105 @@ screen keyboard_help():
 
     hbox:
         label _("Enter")
-        text _("Advances dialogue and activates the interface.")
+        text _("文章を進める／項目を決定する。")
 
     hbox:
         label _("Space")
-        text _("Advances dialogue without selecting choices.")
+        text _("選択肢を決定せずに文章を進める。")
 
     hbox:
-        label _("Arrow Keys")
-        text _("Navigate the interface.")
+        label _("方向キー")
+        text _("項目を選択する。")
 
     hbox:
         label _("Escape")
-        text _("Accesses the game menu.")
+        text _("ゲームメニューを開く。")
 
     hbox:
         label _("Ctrl")
-        text _("Skips dialogue while held down.")
+        text _("押している間、文章をスキップする。")
 
     hbox:
         label _("Tab")
-        text _("Toggles dialogue skipping.")
+        text _("スキップの開始／停止。")
 
     hbox:
         label _("Page Up")
-        text _("Rolls back to earlier dialogue.")
+        text _("前の文章へ戻る。")
 
     hbox:
         label _("Page Down")
-        text _("Rolls forward to later dialogue.")
+        text _("戻った文章を先へ進める。")
 
     hbox:
         label "H"
-        text _("Hides the user interface.")
+        text _("文章や操作ボタンを隠す／再表示する。")
 
     hbox:
         label "S"
-        text _("Takes a screenshot.")
+        text _("スクリーンショットを保存する。")
 
     hbox:
         label "V"
-        text _("Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}.")
+        text _("補助機能の{a=https://www.renpy.org/l/voicing}読み上げ{/a}を切り替える。")
 
     hbox:
         label "Shift+A"
-        text _("Opens the accessibility menu.")
+        text _("アクセシビリティ設定を開く。")
 
 
 screen mouse_help():
 
-    hbox:
-        label _("Left Click")
-        text _("Advances dialogue and activates the interface.")
+    text _("本文の紙面上では、ホイールで長文を上下に読み返せます。オープニングはクリックでスキップできます。")
 
     hbox:
-        label _("Middle Click")
-        text _("Hides the user interface.")
+        label _("左クリック")
+        text _("文章を進める／項目を決定する。")
 
     hbox:
-        label _("Right Click")
-        text _("Accesses the game menu.")
+        label _("中央クリック")
+        text _("文章や操作ボタンを隠す／再表示する。")
 
     hbox:
-        label _("Mouse Wheel Up")
-        text _("Rolls back to earlier dialogue.")
+        label _("右クリック")
+        text _("ゲームメニューを開く。")
 
     hbox:
-        label _("Mouse Wheel Down")
-        text _("Rolls forward to later dialogue.")
+        label _("ホイール上")
+        text _("前の文章へ戻る。")
+
+    hbox:
+        label _("ホイール下")
+        text _("戻った文章を先へ進める。")
 
 
 screen gamepad_help():
 
     hbox:
-        label _("Right Trigger\nA/Bottom Button")
-        text _("Advances dialogue and activates the interface.")
+        label _("右トリガー／A")
+        text _("文章を進める／項目を決定する。")
 
     hbox:
-        label _("Left Trigger\nLeft Shoulder")
-        text _("Rolls back to earlier dialogue.")
+        label _("左トリガー／L")
+        text _("前の文章へ戻る。")
 
     hbox:
-        label _("Right Shoulder")
-        text _("Rolls forward to later dialogue.")
+        label _("R")
+        text _("戻った文章を先へ進める。")
 
     hbox:
-        label _("D-Pad, Sticks")
-        text _("Navigate the interface.")
+        label _("方向キー／スティック")
+        text _("項目を選択する。")
 
     hbox:
-        label _("Start, Guide, B/Right Button")
-        text _("Accesses the game menu.")
+        label _("Start／Guide／B")
+        text _("ゲームメニューを開く。")
 
     hbox:
-        label _("Y/Top Button")
-        text _("Hides the user interface.")
+        label _("Y")
+        text _("文章や操作ボタンを隠す／再表示する。")
 
-    textbutton _("Calibrate") action GamepadCalibrate()
+    textbutton _("調整") action GamepadCalibrate()
 
 
 style help_button is gui_button

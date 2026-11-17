@@ -15,3 +15,5 @@
 ハーネス開発時に修正した点：冒頭Dissolveの完了前に保存しないようsay開始を待つ。メインメニューからのみStartを使う。ロード時の巻き戻しでテスト用の可変入口を再評価しないよう固定ラベル化。
 
 再起動検証は、qa_save_restoreの合格を確認してそのプロセスを終了してから、同じsavedirで別プロセスを起動し、test qa_saved_restartを実行する。save_restore_results.jsonの8件を期待値として全件読み直し、save_restart_results.jsonの全件passedとエンジンのPASSEDを確認する。
+
+qa_audio_cues.rpyは6か所のチャイム・通知キューを本文進行から発火し、soundチャンネルの再生中ファイルを期待値と照合する。音色・主観的な音量バランスはこの検査の対象外。
