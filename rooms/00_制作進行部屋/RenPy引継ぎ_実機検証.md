@@ -19,3 +19,10 @@ game/ に0.9-full-light配布物の24本のrpyと素材を取り込んだ。ロ�
 
 ## 全ルート自動検証の開始
 06室の qa_story_all.rpy を専用コピー renpy_test_run/game に配置し、Ren’Py test qa_story_all --savedir isolated_saves で起動。2026-11-18時点の検証プロセスは137212。出力はワークスペース直下 renpy_test_run/run_stdout.txt と run_stderr.txt。8ルートの結果は qa_story_coverage.json に出る予定。プロセスの生存を確認済み、テスト合否はまだ未確定。次回はこのプロセスとログを確認して継続する。
+
+## 2026-11-18 保存復帰の追加検証
+- UIは墨色文字・和紙窓へ更新済み。タイトル、設定、本文、セーブ枠を実画面で確認。ロード・上書き等の確認文を日本語化（lint合格、更新文の実画面確認は継続）。
+- qa_save_restoreで初周／再読のC01S01・C06S05・C12S06・EDS01を保存し、別モードからロード。本文位置、履歴本文、reread、master画像名・属性が8件すべて一致。Ren’Py Status: PASSED。
+- 保存後のプロセスを終了し、同じ保存領域を使う新しいプロセスでqa_saved_restartを実行。8件すべて復帰一致、Status: PASSED。
+- 根拠はtests/resultsの結果JSON・実行ログ・対象ソースSHA256。地点別テストは固定入口を使うため、通読到達や選択肢操作の代わりにはしない。実画素・音の合否とも区別する。
+- 旧全ルートPID137212は、本文中の「わたしも」を選択肢と誤判定するハーネス不具合が判明したため終了。06室の修正版全ルート実行は継続中。

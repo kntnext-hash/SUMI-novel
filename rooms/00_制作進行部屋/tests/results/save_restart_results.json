@@ -1,0 +1,258 @@
+[
+  {
+    "checkpoint": "C01S01_0",
+    "expected": {
+      "mode": false,
+      "position": [
+        "story_ch01.rpy",
+        13
+      ],
+      "images": [
+        [
+          "bg_home_entry__0",
+          []
+        ]
+      ],
+      "text": "「澄、お弁当」"
+    },
+    "actual": {
+      "mode": false,
+      "position": [
+        "story_ch01.rpy",
+        13
+      ],
+      "images": [
+        [
+          "bg_home_entry__0",
+          []
+        ]
+      ],
+      "text": "「澄、お弁当」"
+    },
+    "passed": true
+  },
+  {
+    "checkpoint": "C06S05_0",
+    "expected": {
+      "mode": false,
+      "position": [
+        "story_ch06.rpy",
+        150
+      ],
+      "images": [
+        [
+          "bg_cafe_cleanup__2",
+          []
+        ]
+      ],
+      "text": "片付けの日、教室は午前中だけで授業がなかった。机を二人ずつで運んだら、どれが誰のなのかまたわからなくなった。四つ穴の机を窓際の後ろから二番目へ運ぶと、消しゴムの人が「うちの別荘、没収された」と言った。煙突なしで傾いた番号札が、一つだけ手元に残っていたので渡した。"
+    },
+    "actual": {
+      "mode": false,
+      "position": [
+        "story_ch06.rpy",
+        150
+      ],
+      "images": [
+        [
+          "bg_cafe_cleanup__2",
+          []
+        ]
+      ],
+      "text": "片付けの日、教室は午前中だけで授業がなかった。机を二人ずつで運んだら、どれが誰のなのかまたわからなくなった。四つ穴の机を窓際の後ろから二番目へ運ぶと、消しゴムの人が「うちの別荘、没収された」と言った。煙突なしで傾いた番号札が、一つだけ手元に残っていたので渡した。"
+    },
+    "passed": true
+  },
+  {
+    "checkpoint": "C12S06_0",
+    "expected": {
+      "mode": false,
+      "position": [
+        "story_ch12.rpy",
+        169
+      ],
+      "images": [
+        [
+          "bg_room_mar__5",
+          []
+        ]
+      ],
+      "text": "透花が持ってきた冊子は全部で何冊あったのか、午後に入るころには机の上に残りがなかった。最後は先生が持っていって、自分の実家の近所が写っているから母親に見せたいのだと言った。"
+    },
+    "actual": {
+      "mode": false,
+      "position": [
+        "story_ch12.rpy",
+        169
+      ],
+      "images": [
+        [
+          "bg_room_mar__5",
+          []
+        ]
+      ],
+      "text": "透花が持ってきた冊子は全部で何冊あったのか、午後に入るころには机の上に残りがなかった。最後は先生が持っていって、自分の実家の近所が写っているから母親に見せたいのだと言った。"
+    },
+    "passed": true
+  },
+  {
+    "checkpoint": "EDS01_0",
+    "expected": {
+      "mode": false,
+      "position": [
+        "story_end_d.rpy",
+        9
+      ],
+      "images": [
+        [
+          "bg_gate_mar__5",
+          []
+        ]
+      ],
+      "text": "「透花、もうひとつ聞いて」"
+    },
+    "actual": {
+      "mode": false,
+      "position": [
+        "story_end_d.rpy",
+        9
+      ],
+      "images": [
+        [
+          "bg_gate_mar__5",
+          []
+        ]
+      ],
+      "text": "「透花、もうひとつ聞いて」"
+    },
+    "passed": true
+  },
+  {
+    "checkpoint": "C01S01_1",
+    "expected": {
+      "mode": true,
+      "position": [
+        "story_ch01.rpy",
+        13
+      ],
+      "images": [
+        [
+          "bg_home_entry__full",
+          []
+        ]
+      ],
+      "text": "「澄、お弁当」"
+    },
+    "actual": {
+      "mode": true,
+      "position": [
+        "story_ch01.rpy",
+        13
+      ],
+      "images": [
+        [
+          "bg_home_entry__full",
+          []
+        ]
+      ],
+      "text": "「澄、お弁当」"
+    },
+    "passed": true
+  },
+  {
+    "checkpoint": "C06S05_1",
+    "expected": {
+      "mode": true,
+      "position": [
+        "story_ch06.rpy",
+        150
+      ],
+      "images": [
+        [
+          "bg_cafe_cleanup__full",
+          []
+        ]
+      ],
+      "text": "片付けの日、教室は午前中だけで授業がなかった。机を二人ずつで運んだら、どれが誰のなのかまたわからなくなった。四つ穴の机を窓際の後ろから二番目へ運ぶと、消しゴムの人が「うちの別荘、没収された」と言った。煙突なしで傾いた番号札が、一つだけ手元に残っていたので渡した。"
+    },
+    "actual": {
+      "mode": true,
+      "position": [
+        "story_ch06.rpy",
+        150
+      ],
+      "images": [
+        [
+          "bg_cafe_cleanup__full",
+          []
+        ]
+      ],
+      "text": "片付けの日、教室は午前中だけで授業がなかった。机を二人ずつで運んだら、どれが誰のなのかまたわからなくなった。四つ穴の机を窓際の後ろから二番目へ運ぶと、消しゴムの人が「うちの別荘、没収された」と言った。煙突なしで傾いた番号札が、一つだけ手元に残っていたので渡した。"
+    },
+    "passed": true
+  },
+  {
+    "checkpoint": "C12S06_1",
+    "expected": {
+      "mode": true,
+      "position": [
+        "story_ch12.rpy",
+        169
+      ],
+      "images": [
+        [
+          "bg_room_mar__full",
+          []
+        ]
+      ],
+      "text": "透花が持ってきた冊子は全部で何冊あったのか、午後に入るころには机の上に残りがなかった。最後は先生が持っていって、自分の実家の近所が写っているから母親に見せたいのだと言った。"
+    },
+    "actual": {
+      "mode": true,
+      "position": [
+        "story_ch12.rpy",
+        169
+      ],
+      "images": [
+        [
+          "bg_room_mar__full",
+          []
+        ]
+      ],
+      "text": "透花が持ってきた冊子は全部で何冊あったのか、午後に入るころには机の上に残りがなかった。最後は先生が持っていって、自分の実家の近所が写っているから母親に見せたいのだと言った。"
+    },
+    "passed": true
+  },
+  {
+    "checkpoint": "EDS01_1",
+    "expected": {
+      "mode": true,
+      "position": [
+        "story_end_d.rpy",
+        9
+      ],
+      "images": [
+        [
+          "bg_gate_mar__full",
+          []
+        ]
+      ],
+      "text": "「透花、もうひとつ聞いて」"
+    },
+    "actual": {
+      "mode": true,
+      "position": [
+        "story_end_d.rpy",
+        9
+      ],
+      "images": [
+        [
+          "bg_gate_mar__full",
+          []
+        ]
+      ],
+      "text": "「透花、もうひとつ聞いて」"
+    },
+    "passed": true
+  }
+]
