@@ -374,7 +374,7 @@ define gui.nvl_list_length = 6
 
 ## The height of an NVL-mode entry. Set this to None to have the entries
 ## dynamically adjust height.
-define gui.nvl_height = gui.scale(115)
+define gui.nvl_height = None
 
 ## The spacing between NVL-mode entries when gui.nvl_height is None, and
 ## between NVL-mode entries and an NVL-mode menu.
@@ -388,16 +388,16 @@ define gui.nvl_name_width = gui.scale(150)
 define gui.nvl_name_xalign = 1.0
 
 ## The position, width, and alignment of the dialogue text.
-define gui.nvl_text_xpos = gui.scale(450)
+define gui.nvl_text_xpos = 0
 define gui.nvl_text_ypos = gui.scale(8)
-define gui.nvl_text_width = gui.scale(590)
+define gui.nvl_text_width = 992
 define gui.nvl_text_xalign = 0.0
 
 ## The position, width, and alignment of nvl_thought text (the text said by
 ## the nvl_narrator character.)
-define gui.nvl_thought_xpos = gui.scale(240)
+define gui.nvl_thought_xpos = 0
 define gui.nvl_thought_ypos = gui.scale(0)
-define gui.nvl_thought_width = gui.scale(780)
+define gui.nvl_thought_width = 992
 define gui.nvl_thought_xalign = 0.0
 
 ## The position of nvl menu_buttons.

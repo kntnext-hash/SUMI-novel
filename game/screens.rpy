@@ -1312,20 +1312,12 @@ screen nvl(dialogue, items=None):
     window:
         style "nvl_window"
 
-        has vbox:
-            spacing gui.nvl_spacing
-
-        ## Displays dialogue in either a vpgrid or the vbox.
-        if gui.nvl_height:
-
-            vpgrid:
-                cols 1
-                yinitial 1.0
-
-                use nvl_dialogue(dialogue)
-
-        else:
-
+        viewport:
+            yinitial 1.0
+            mousewheel True
+            draggable True
+            has vbox:
+                spacing gui.nvl_spacing
             use nvl_dialogue(dialogue)
 
         ## Displays the menu, if given. The menu may be displayed incorrectly
@@ -1372,11 +1364,22 @@ style nvl_button is button
 style nvl_button_text is button_text
 
 style nvl_window:
-    xfill True
-    yfill True
+    xpos 400
+    ypos 100
+    xsize 1120
+    ysize 850
+    background Solid("#f3f1e9eb")
+    padding (64, 48)
 
-    background "gui/nvl.png"
-    padding gui.nvl_borders.padding
+style nvl_dialogue:
+    color "#242424"
+    size 36
+    line_spacing 10
+
+style nvl_thought:
+    color "#242424"
+    size 36
+    line_spacing 10
 
 style nvl_entry:
     xfill True
