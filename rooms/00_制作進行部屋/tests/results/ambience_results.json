@@ -1,0 +1,72 @@
+[
+  {
+    "test": "rain_loops",
+    "location": [
+      "story_ch03.rpy",
+      141
+    ],
+    "expected": "audio/rain_loop.wav",
+    "actual": "audio/rain_loop.wav",
+    "passed": true
+  },
+  {
+    "test": "notification_preserves_rain",
+    "location": [
+      "story_ch03.rpy",
+      141
+    ],
+    "expected": "audio/rain_loop.wav",
+    "actual": "audio/rain_loop.wav",
+    "passed": true
+  },
+  {
+    "test": "rain_stops_next_morning",
+    "location": [
+      "story_ch03.rpy",
+      150
+    ],
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "test": "fridge_begins",
+    "location": [
+      "story_ch11.rpy",
+      57
+    ],
+    "expected": "audio/fridge_loop.wav",
+    "actual": "audio/fridge_loop.wav",
+    "passed": true
+  },
+  {
+    "test": "fridge_stops_classroom",
+    "location": [
+      "story_ch11.rpy",
+      66
+    ],
+    "expected": null,
+    "actual": null,
+    "passed": true
+  },
+  {
+    "test": "save_load_restores_fridge",
+    "location": [
+      "story_ch11.rpy",
+      57
+    ],
+    "expected": "audio/fridge_loop.wav",
+    "actual": "audio/fridge_loop.wav",
+    "passed": true
+  },
+  {
+    "test": "main_menu_stops_fridge",
+    "location": [
+      "story_ch11.rpy",
+      57
+    ],
+    "expected": null,
+    "actual": null,
+    "passed": true
+  }
+]
