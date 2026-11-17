@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 ## Initialization
 ################################################################################
 
@@ -246,14 +246,14 @@ screen quick_menu():
             style_prefix "quick"
             style "quick_menu"
 
-            textbutton _("Back") action Rollback()
-            textbutton _("History") action ShowMenu('history')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Save") action ShowMenu('save')
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Prefs") action ShowMenu('preferences')
+            textbutton _("戻る") action Rollback()
+            textbutton _("履歴") action ShowMenu('history')
+            textbutton _("スキップ") action Skip() alternate Skip(fast=True, confirm=True)
+            textbutton _("自動送り") action Preference("auto-forward", "toggle")
+            textbutton _("セーブ") action ShowMenu('save')
+            textbutton _("クイックセーブ") action QuickSave()
+            textbutton _("クイックロード") action QuickLoad()
+            textbutton _("設定") action ShowMenu('preferences')
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -299,40 +299,40 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("Start") action Start()
+            textbutton _("はじめから") action Start()
 
             if main_menu and persistent.unlocked_reread:
                 textbutton _("全彩再読") action Start("reread_start")
 
         else:
 
-            textbutton _("History") action ShowMenu("history")
+            textbutton _("履歴") action ShowMenu("history")
 
-            textbutton _("Save") action ShowMenu("save")
+            textbutton _("セーブ") action ShowMenu("save")
 
-        textbutton _("Load") action ShowMenu("load")
+        textbutton _("ロード") action ShowMenu("load")
 
-        textbutton _("Preferences") action ShowMenu("preferences")
+        textbutton _("設定") action ShowMenu("preferences")
 
         if _in_replay:
 
-            textbutton _("End Replay") action EndReplay(confirm=True)
+            textbutton _("回想を終了") action EndReplay(confirm=True)
 
         elif not main_menu:
 
-            textbutton _("Main Menu") action MainMenu()
+            textbutton _("タイトルへ") action MainMenu()
 
-        textbutton _("About") action ShowMenu("about")
+        textbutton _("作品情報") action ShowMenu("about")
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
             ## Help isn't necessary or relevant to mobile devices.
-            textbutton _("Help") action ShowMenu("help")
+            textbutton _("操作方法") action ShowMenu("help")
 
         if renpy.variant("pc"):
 
             ## The quit button is banned on iOS and unnecessary on Android and Web.
-            textbutton _("Quit") action Quit(confirm=not main_menu)
+            textbutton _("終了") action Quit(confirm=not main_menu)
 
 
 style navigation_button is gui_button
@@ -477,7 +477,7 @@ screen game_menu(title, scroll=None, yinitial=0.0, spacing=0):
 
     use navigation
 
-    textbutton _("Return"):
+    textbutton _("戻る"):
         style "return_button"
 
         action Return()
@@ -555,7 +555,7 @@ screen about():
     ## This use statement includes the game_menu screen inside this one.
     ## The vbox child is then included inside the viewport inside the
     ## game_menu screen.
-    use game_menu(_("About"), scroll="viewport"):
+    use game_menu(_("作品情報"), scroll="viewport"):
 
         style_prefix "about"
 
@@ -592,19 +592,19 @@ screen save():
 
     tag menu
 
-    use file_slots(_("Save"))
+    use file_slots(_("セーブ"))
 
 
 screen load():
 
     tag menu
 
-    use file_slots(_("Load"))
+    use file_slots(_("ロード"))
 
 
 screen file_slots(title):
 
-    default page_name_value = FilePageNameInputValue(pattern=_("Page {}"), auto=_("Automatic saves"), quick=_("Quick saves"))
+    default page_name_value = FilePageNameInputValue(pattern=_("ページ {}"), auto=_("オートセーブ"), quick=_("クイックセーブ"))
 
     use game_menu(title):
 
@@ -646,7 +646,7 @@ screen file_slots(title):
 
                         add FileScreenshot(slot) xalign 0.5
 
-                        text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("empty slot")):
+                        text FileTime(slot, format=_("{#file_time}%Y/%m/%d %H:%M"), empty=_("空きスロット")):
                             style "slot_time_text"
 
                         text FileSaveName(slot):
@@ -684,11 +684,11 @@ screen file_slots(title):
 
                 if config.has_sync:
                     if CurrentScreenName() == "save":
-                        textbutton _("Upload Sync"):
+                        textbutton _("セーブをアップロード"):
                             action UploadSync()
                             xalign 0.5
                     else:
-                        textbutton _("Download Sync"):
+                        textbutton _("セーブをダウンロード"):
                             action DownloadSync()
                             xalign 0.5
 
@@ -737,7 +737,7 @@ screen preferences():
 
     tag menu
 
-    use game_menu(_("Preferences"), scroll="viewport"):
+    use game_menu(_("設定"), scroll="viewport"):
 
         vbox:
 
@@ -748,16 +748,16 @@ screen preferences():
 
                     vbox:
                         style_prefix "radio"
-                        label _("Display")
-                        textbutton _("Window") action Preference("display", "window")
-                        textbutton _("Fullscreen") action Preference("display", "fullscreen")
+                        label _("画面表示")
+                        textbutton _("ウィンドウ") action Preference("display", "window")
+                        textbutton _("全画面") action Preference("display", "fullscreen")
 
                 vbox:
                     style_prefix "check"
-                    label _("Skip")
-                    textbutton _("Unseen Text") action Preference("skip", "toggle")
-                    textbutton _("After Choices") action Preference("after choices", "toggle")
-                    textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
+                    label _("スキップ")
+                    textbutton _("未読部分") action Preference("skip", "toggle")
+                    textbutton _("選択肢の後も継続") action Preference("after choices", "toggle")
+                    textbutton _("画面切替演出") action InvertSelected(Preference("transitions", "toggle"))
 
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be added here, to
                 ## add additional creator-defined preferences.
@@ -770,46 +770,46 @@ screen preferences():
 
                 vbox:
 
-                    label _("Text Speed")
+                    label _("文字速度")
 
                     bar value Preference("text speed")
 
-                    label _("Auto-Forward Time")
+                    label _("自動送りの待ち時間")
 
                     bar value Preference("auto-forward time")
 
                 vbox:
 
                     if config.has_music:
-                        label _("Music Volume")
+                        label _("音楽の音量")
 
                         hbox:
                             bar value Preference("music volume")
 
                     if config.has_sound:
 
-                        label _("Sound Volume")
+                        label _("効果音の音量")
 
                         hbox:
                             bar value Preference("sound volume")
 
                             if config.sample_sound:
-                                textbutton _("Test") action Play("sound", config.sample_sound)
+                                textbutton _("試聴") action Play("sound", config.sample_sound)
 
 
                     if config.has_voice:
-                        label _("Voice Volume")
+                        label _("声の音量")
 
                         hbox:
                             bar value Preference("voice volume")
 
                             if config.sample_voice:
-                                textbutton _("Test") action Play("voice", config.sample_voice)
+                                textbutton _("試聴") action Play("voice", config.sample_voice)
 
                     if config.has_music or config.has_sound or config.has_voice:
                         null height gui.pref_spacing
 
-                        textbutton _("Mute All"):
+                        textbutton _("すべて消音"):
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
 
@@ -900,7 +900,7 @@ screen history():
     ## Avoid predicting this screen, as it can be very large.
     predict False
 
-    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0, spacing=gui.history_spacing):
+    use game_menu(_("履歴"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0, spacing=gui.history_spacing):
 
         style_prefix "history"
 
@@ -927,7 +927,7 @@ screen history():
                     substitute False
 
         if not _history_list:
-            label _("The dialogue history is empty.")
+            label _("履歴はまだありません。")
 
 
 ## This determines what tags are allowed to be displayed on the history
@@ -987,7 +987,7 @@ screen help():
 
     default device = "keyboard"
 
-    use game_menu(_("Help"), scroll="viewport"):
+    use game_menu(_("操作方法"), scroll="viewport"):
 
         style_prefix "help"
 
@@ -996,11 +996,11 @@ screen help():
 
             hbox:
 
-                textbutton _("Keyboard") action SetScreenVariable("device", "keyboard")
-                textbutton _("Mouse") action SetScreenVariable("device", "mouse")
+                textbutton _("キーボード") action SetScreenVariable("device", "keyboard")
+                textbutton _("マウス") action SetScreenVariable("device", "mouse")
 
                 if GamepadExists():
-                    textbutton _("Gamepad") action SetScreenVariable("device", "gamepad")
+                    textbutton _("ゲームパッド") action SetScreenVariable("device", "gamepad")
 
             if device == "keyboard":
                 use keyboard_help
@@ -1175,8 +1175,8 @@ screen confirm(message, yes_action, no_action):
                 xalign 0.5
                 spacing gui.scale(100)
 
-                textbutton _("Yes") action yes_action
-                textbutton _("No") action no_action
+                textbutton _("はい") action yes_action
+                textbutton _("いいえ") action no_action
 
     ## Right-click and escape answer "no".
     key "game_menu" action no_action
@@ -1222,7 +1222,7 @@ screen skip_indicator():
         hbox:
             spacing gui.scale(6)
 
-            text _("Skipping")
+            text _("スキップ中")
 
             text "▸" at delayed_blink(0.0, 1.0) style "skip_triangle"
             text "▸" at delayed_blink(0.2, 1.0) style "skip_triangle"
@@ -1533,9 +1533,9 @@ screen quick_menu():
             style "quick_menu"
             style_prefix "quick"
 
-            textbutton _("Back") action Rollback()
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
+            textbutton _("戻る") action Rollback()
+            textbutton _("スキップ") action Skip() alternate Skip(fast=True, confirm=True)
+            textbutton _("自動送り") action Preference("auto-forward", "toggle")
             textbutton _("Menu") action ShowMenu()
 
 

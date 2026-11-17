@@ -9,3 +9,7 @@
 /game/saves/
 /game/tl/
 *.rpyc
+
+/log.txt
+/traceback.txt
+/errors.txt

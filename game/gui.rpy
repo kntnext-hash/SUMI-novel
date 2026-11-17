@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 ## Initialization
 ################################################################################
 
@@ -73,7 +73,7 @@ define gui.text_size = gui.scale(22)
 define gui.name_text_size = gui.scale(30)
 
 ## The size of text in the game's user interface.
-define gui.interface_text_size = gui.scale(22)
+define gui.interface_text_size = gui.scale(30)
 
 ## The size of labels in the game's user interface.
 define gui.label_text_size = gui.scale(24)
@@ -88,7 +88,7 @@ define gui.title_text_size = gui.scale(50)
 ## Main and Game Menus #########################################################
 
 ## The images used for the main and game menus.
-define gui.main_menu_background = "gui/main_menu.png"
+define gui.main_menu_background = "images/BG_bridge_spring__0.webp"
 define gui.game_menu_background = "gui/game_menu.png"
 
 
@@ -190,7 +190,7 @@ define gui.confirm_button_text_xalign = 0.5
 define gui.page_button_borders = Borders(gui.scale(10), gui.scale(4), gui.scale(10), gui.scale(4))
 
 define gui.quick_button_borders = Borders(gui.scale(10), gui.scale(4), gui.scale(10), gui.scale(0))
-define gui.quick_button_text_size = gui.scale(14)
+define gui.quick_button_text_size = gui.scale(22)
 define gui.quick_button_text_idle_color = gui.idle_small_color
 define gui.quick_button_text_selected_color = gui.accent_color
 
@@ -227,7 +227,7 @@ define gui.choice_button_text_insensitive_color = "#444444"
 define gui.slot_button_width = gui.scale(276)
 define gui.slot_button_height = gui.scale(206)
 define gui.slot_button_borders = Borders(gui.scale(10), gui.scale(10), gui.scale(10), gui.scale(10))
-define gui.slot_button_text_size = gui.scale(14)
+define gui.slot_button_text_size = gui.scale(22)
 define gui.slot_button_text_xalign = 0.5
 define gui.slot_button_text_idle_color = gui.idle_small_color
 define gui.slot_button_text_selected_idle_color = gui.selected_color
