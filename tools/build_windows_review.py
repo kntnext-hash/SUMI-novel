@@ -5,6 +5,7 @@ import json
 import re
 import shutil
 from pathlib import Path
+from windows_icon import replace_icon
 
 
 def digest(path):
@@ -26,7 +27,7 @@ def build(runtime, project, output):
     required = [runtime / "kaononaiharu.exe", runtime / "kaononaiharu.py",
                 runtime / "lib", runtime / "renpy", game / "script.rpy",
                 game / "movies/opening.webm", game / "fonts/NotoSerifJP-Regular.otf",
-                game / "licenses/NotoSerifCJK-OFL.txt"]
+                game / "licenses/NotoSerifCJK-OFL.txt", game / "ui/app_icon.ico"]
     missing = [str(p) for p in required if not p.exists()]
     for name in re.findall(r'=\s*"(images/[^"\n]+)"', (game / "images.rpy").read_text(encoding="utf-8")):
         if not (game / name).is_file():
@@ -42,6 +43,7 @@ def build(runtime, project, output):
         shutil.copytree(runtime / directory, output / directory)
     for name in ("kaononaiharu.exe", "kaononaiharu.py"):
         shutil.copy2(runtime / name, output / name)
+    icon_result = replace_icon(output / "kaononaiharu.exe", game / "ui/app_icon.ico")
     ignored_dirs = {"saves", "cache", "tests", "__pycache__"}
     allowed_assets = {"audio", "fonts", "gui", "images", "licenses", "movies", "ui"}
     copied_sources = {}
@@ -82,7 +84,7 @@ def build(runtime, project, output):
         encoding="utf-8")
     files = [{"path": p.relative_to(output).as_posix(), "bytes": p.stat().st_size,
               "sha256": digest(p)} for p in sorted(output.rglob("*")) if p.is_file()]
-    manifest = {"status": "REVIEW", "game_sources": copied_sources, "files": files}
+    manifest = {"status": "REVIEW", "launcher_icon": icon_result, "game_sources": copied_sources, "files": files}
     (output / "build_manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps({"output": str(output), "files": len(files), "bytes": sum(f["bytes"] for f in files)}, ensure_ascii=True))
 

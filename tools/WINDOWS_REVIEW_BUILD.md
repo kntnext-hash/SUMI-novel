@@ -1,6 +1,6 @@
 # Windows確認版の組立て
 
-Python標準ライブラリだけを使用する。ゲームのローカル画像・GUI・フォントを復元した作業コピーと、既存Windows配布物のRen’Pyランタイムが必要。
+Windows上のPython標準ライブラリだけを使用する。ゲームのローカル画像・GUI・フォントを復元した作業コピーと、既存Windows配布物のRen’Pyランタイムが必要。
 game/images・game/gui・game/fontsはGit管理外。これらが欠けるクリーンチェックアウトだけでは配布版を作れない。
 
 ```powershell
@@ -10,6 +10,15 @@ python tools/build_windows_review.py --runtime C:/path/to/kaononaiharu-0.9-full-
 出力は既存ディレクトリを指定できない。runtime/sourceの内側や祖先も禁止する。必要な画像・フォント・OP・ライセンスとSDK依存GUI補助コードの不在を検査してからコピーする。
 ゲーム側の古いrpyc、saves、cache、qa_*を除外し、config.developer=Falseを配布物だけに追加する。
 build_manifest.jsonはコピー元gameファイルと全同梱ファイルのSHA256を記録する。
+
+`windows_icon.py`は新しい出力先exeのアイコンだけを更新する。Win32の[リソース更新API](https://learn.microsoft.com/en-us/windows/win32/menurc/adding-deleting-and-replacing-resources)を使用し、失敗時は未確定の変更を破棄する。更新後、実行せずにリソースを読み戻し、ICOの4画像と他リソース全件のバイト一致を検査する。元ランタイムのexeは変更しない。
+
+## 2026-11-18 r3更新
+
+- 電話通知・着信・停止の修正と作品アイコンを収録。4サイズのexeアイコン埋込み後に通常起動・OPからタイトルへの復帰・タイトルバー表示、lint exit 0を確認。
+- ZIP：240,591,966 bytes、1712 entries、CRC全件合格。SHA256は `e5d81ccfe0477f3d929976ffe1aeb651cb728db493824085766e50045d9c24d1`。
+- r3のgame/ui/APP_ICON.mdは組立て前の旧記述。本ソース側ではexeへの反映完了へ訂正済み。
+- 音響仕上げ・試聴と最終統合検査は引き続き未完了。r3もREVIEW。
 
 ```powershell
 python tools/package_windows_review.py C:/path/to/new-review-win C:/path/to/new-review-win.zip
