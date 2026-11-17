@@ -1,2 +1,11 @@
 # 非公開のカラー元絵は制作環境に保管
 /rooms/02_イベント画像部屋/private_sources/
+
+# 配布済み素材は納品ZIPから復元する。ゲームソースを版管理する。
+/game/images/
+/game/fonts/
+/game/gui/
+/game/cache/
+/game/saves/
+/game/tl/
+*.rpyc
