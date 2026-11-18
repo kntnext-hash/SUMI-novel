@@ -12,6 +12,8 @@ init 10 python:
         ("story_ch04.rpy", 208): ("audio/notification_soft.wav", 0.40),
         ("story_ch06.rpy", 229): ("audio/ringtone_original.wav", 0.35),
         ("story_ch07.rpy", 106): ("audio/camera_shutter.wav", 0.40),
+        ("story_ch07.rpy", 209): ("audio/book_drop.wav", 0.40),
+        ("story_ch11.rpy", 57): ("audio/pot_water.wav", 0.65),
         ("story_ch09.rpy", 142): ("audio/cinema_wood_paper.wav", 0.40),
         ("story_ch09.rpy", 143): ("audio/small_bell_single.wav", 0.40),
         ("story_ch09.rpy", 146): ("audio/cinema_paper_two_bells.wav", 0.40),

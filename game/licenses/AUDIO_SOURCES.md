@@ -1,5 +1,10 @@
 # 同梱の実録音源（REVIEW）
 
+## book_drop.wav / pot_water.wav
+
+- 本が一冊落ちる音は SpaceJoe「Book Drop - 6」、CC0 1.0。公開HQ MP3をPCM16へ変換し、全区間を一律減衰した。収録SHA256は 51ad65fac2c9cddf3e3c44c9dc863af37e755b0740c3bfc36006191a416099a0。https://freesound.org/people/SpaceJoe/sounds/484902/
+- 鍋からシンクへ湯を捨てる音は Angela102938「Pouring Water Into Sink」、CC0 1.0。公開HQ MP3由来PCM16の冒頭3秒を使用し、始端220サンプルと終端4410サンプルに線形フェードを適用した。収録SHA256は d0f4565de58c3bae4751c1fd404a1738263d3cbca55fbac25427f24fa59e03e8。https://freesound.org/people/Angela102938/sounds/787518/
+
 ## rain_loop.wav
 
 - 作者：YouMightLikeThis
