@@ -27,9 +27,15 @@ def build(runtime, project, output):
     required = [runtime / "kaononaiharu.exe", runtime / "kaononaiharu.py",
                 runtime / "lib", runtime / "renpy", game / "script.rpy",
                 game / "movies/opening.webm", game / "fonts/NotoSerifJP-Regular.otf",
-                game / "licenses/NotoSerifCJK-OFL.txt", game / "ui/app_icon.ico"]
+                game / "licenses/NotoSerifCJK-OFL.txt", game / "ui/app_icon.ico",
+                game / "audio/README.md", game / "licenses/AUDIO_SOURCES.md",
+                game / "licenses/CINEMA_SOUND_TIMELINE.json"]
     missing = [str(p) for p in required if not p.exists()]
     for name in re.findall(r'=\s*"(images/[^"\n]+)"', (game / "images.rpy").read_text(encoding="utf-8")):
+        if not (game / name).is_file():
+            missing.append(name)
+    cues = (game / "audio_cues.rpy").read_text(encoding="utf-8")
+    for name in sorted(set(re.findall(r'["\x27](audio/[^"\x27\n]+)["\x27]', cues))):
         if not (game / name).is_file():
             missing.append(name)
     if missing:
