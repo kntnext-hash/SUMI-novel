@@ -1,0 +1,167 @@
+[
+  {
+    "file": "rain_umbrella_close_full.wav",
+    "start": 0.0,
+    "end": 6.0,
+    "reason": "最初の波形活動付近から6秒。動作・混入音は未判定",
+    "loop": false,
+    "sha256": "4ff5e51bc70b89508e7bafaed94b1bca8e0266a096cb4983fb031380919117de",
+    "manuscript": "03_雨の日は聞こえない.md",
+    "line": 171,
+    "node": "C03S03"
+  },
+  {
+    "file": "rain_umbrella_close_loop_candidate.wav",
+    "start": 0.0,
+    "end": 6.0,
+    "reason": "最初の波形活動付近から6秒。動作・混入音は未判定",
+    "loop": true,
+    "sha256": "75428df4cfe6e73d359d9d46d89ba8a25fcbd4a8fee62ab95ae17b21ef4c69a4",
+    "manuscript": "03_雨の日は聞こえない.md",
+    "line": 171,
+    "node": "C03S03"
+  },
+  {
+    "file": "rain_concrete_full.wav",
+    "start": 0.0,
+    "end": 6.0,
+    "reason": "最初の波形活動付近から6秒。動作・混入音は未判定",
+    "loop": false,
+    "sha256": "2c298a03227aff2674e9d9b3fa17c84a2aa37cf3e1d0f9cdd5b19e87e31e3888",
+    "manuscript": "03_雨の日は聞こえない.md",
+    "line": 171,
+    "node": "C03S03"
+  },
+  {
+    "file": "rain_concrete_loop_candidate.wav",
+    "start": 0.0,
+    "end": 6.0,
+    "reason": "最初の波形活動付近から6秒。動作・混入音は未判定",
+    "loop": true,
+    "sha256": "8ebd3aa67c40b895e16d6cbf8cf194730b1ceeadaf14c3e8cb0744a5a0858a59",
+    "manuscript": "03_雨の日は聞こえない.md",
+    "line": 171,
+    "node": "C03S03"
+  },
+  {
+    "file": "wet_asphalt_steps_full.wav",
+    "start": 0.0,
+    "end": 6.0,
+    "reason": "最初の波形活動付近から6秒。動作・混入音は未判定",
+    "loop": false,
+    "sha256": "03268e34dc8b5cc4de610a8196de7147cd2d2ed6728859b25ddff74e8f834473",
+    "manuscript": "03_雨の日は聞こえない.md",
+    "line": 252,
+    "node": "C03S05"
+  },
+  {
+    "file": "paper_bag_handling_full.wav",
+    "start": 0.0,
+    "end": 6.0,
+    "reason": "最初の波形活動付近から6秒。動作・混入音は未判定",
+    "loop": false,
+    "sha256": "5e15f057c70104a06d56d51a713ea35ee15ba15647aa27380ee4b673d9efc3af",
+    "manuscript": "09_クリスマスの片方.md",
+    "line": 231,
+    "node": "C09S06"
+  },
+  {
+    "file": "paper_bag_first_cluster_candidate.wav",
+    "start": 0.0,
+    "end": 0.31,
+    "reason": "短い素材なので全長を確認",
+    "loop": false,
+    "sha256": "2d25c403510bcbffd18728654d12dc2514e2b06353c414f61aed3ad7b0213174",
+    "manuscript": "09_クリスマスの片方.md",
+    "line": 231,
+    "node": "C09S06"
+  },
+  {
+    "file": "paper_folding_full.wav",
+    "start": 0.0,
+    "end": 6.0,
+    "reason": "最初の波形活動付近から6秒。動作・混入音は未判定",
+    "loop": false,
+    "sha256": "41179241eecfcc4b9fb305b66caa9ffb03dbac83333264ad7e2463d2a75f22f5",
+    "manuscript": "06_裏門で待ってる.md",
+    "line": 38,
+    "node": "C06S01"
+  },
+  {
+    "file": "firework_single_5.wav",
+    "start": 0.0,
+    "end": 1.3945351473922902,
+    "reason": "短い素材なので全長を確認",
+    "loop": false,
+    "sha256": "b4045930dc15db3c9e70530ab7dded97db42890e1dff93d8c4ac5b107f43ccb0",
+    "manuscript": "05_花火の裏側.md",
+    "line": 232,
+    "node": "C05S05"
+  },
+  {
+    "file": "shoes_off_on_full.wav",
+    "start": 0.37,
+    "end": 6.37,
+    "reason": "最初の波形活動付近から6秒。動作・混入音は未判定",
+    "loop": false,
+    "sha256": "a1a7f20a6da4bb26a7d0113a30e271e6e80126bca0dc07bd4ba735f6326d0ce9",
+    "manuscript": "10_あなたの顔.md",
+    "line": 218,
+    "node": "C10S05"
+  },
+  {
+    "file": "door_close_medium.wav",
+    "start": 0.0,
+    "end": 1.2330158730158731,
+    "reason": "短い素材なので全長を確認",
+    "loop": false,
+    "sha256": "9b5b78cf1733e3298195b8003fb5529a10d6caf60bbc6a2eb6aa702f13128000",
+    "manuscript": "10_あなたの顔.md",
+    "line": 218,
+    "node": "C10S05"
+  },
+  {
+    "file": "can_into_trash_full.wav",
+    "start": 0.0,
+    "end": 6.0,
+    "reason": "最初の波形活動付近から6秒。動作・混入音は未判定",
+    "loop": false,
+    "sha256": "5011e9f1e2c7246badd14b29ce3758aed57da6909cd7cfa8154c84768be37b0d",
+    "manuscript": "08_返事のない一拍.md",
+    "line": 185,
+    "node": "C08S04"
+  },
+  {
+    "file": "can_into_trash_first_cluster_candidate.wav",
+    "start": 0.0,
+    "end": 1.41,
+    "reason": "短い素材なので全長を確認",
+    "loop": false,
+    "sha256": "8861dd475f0661c355d36f3f86f2c371afb472538fbd47b836f2388df2cc4fbc",
+    "manuscript": "08_返事のない一拍.md",
+    "line": 185,
+    "node": "C08S04"
+  },
+  {
+    "file": "foot_stomp_wood_full.wav",
+    "start": 0.0,
+    "end": 2.6130416666666667,
+    "reason": "短い素材なので全長を確認",
+    "loop": false,
+    "sha256": "b0dd4581507423979815c906db5465726a226f59c5eb479b94ba669a7ad823d4",
+    "manuscript": "05_花火の裏側.md",
+    "line": 58,
+    "node": "C05S02"
+  },
+  {
+    "file": "shop_door_bell_full.wav",
+    "start": 0.0,
+    "end": 8.0,
+    "reason": "短い素材なので全長を確認",
+    "loop": false,
+    "sha256": "1ce074a99243bd7096662aad66bde4f20ef24ad91bd25c660bf51fcce2252a14",
+    "manuscript": "EA_一個ずつ.md",
+    "line": 29,
+    "node": "EAS01"
+  }
+]

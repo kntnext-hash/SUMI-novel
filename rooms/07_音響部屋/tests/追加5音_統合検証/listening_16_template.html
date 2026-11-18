@@ -1,0 +1,19 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{{TITLE}}</title><style>
+:root{color-scheme:light;--ink:#262722;--paper:#f5f3ed;--rule:#c8c4b7;--accent:#405a51}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,sans-serif;line-height:1.7}main{max-width:800px;margin:0 auto;padding:clamp(1rem,4vw,3.5rem) 1.3rem}h1,h2,blockquote{font-family:"Yu Mincho",serif}h1{font-size:clamp(1.55rem,4.6vw,2.4rem);margin:.25em 0}h2{font-size:1.6rem;margin:1.3em 0 .2em}label{display:grid;font-size:.9rem;font-weight:bold;gap:.4em}nav{display:grid;grid-template-columns:1fr 2fr;gap:.75rem;border-block:1px solid var(--rule);padding:1.2rem 0;margin-top:1.2rem}select,button{font:inherit}select{max-width:100%;padding:.55em;background:#fff;color:var(--ink);border:1px solid var(--rule);border-radius:4px}audio{display:block;width:100%;margin:1rem 0}button{background:white;border:1px solid var(--rule);border-radius:4px;color:var(--ink);padding:.25em .65em;margin:0 .4em .4em 0;cursor:pointer}button[aria-current=true]{background:var(--accent);color:white}blockquote{margin:1rem 0;padding:1rem 1.3rem;background:white;border-left:3px solid var(--accent);min-height:5.6em}small{color:#55574d}details{border-top:1px solid var(--rule);padding-top:.9rem;margin-top:1.75rem}summary{cursor:pointer}pre{white-space:pre-wrap;font:inherit;font-size:.85rem;overflow-wrap:anywhere}a{color:var(--accent)}@media(max-width:540px){nav{grid-template-columns:1fr}}
+</style></head><body><main><h1>顔のない春｜製品版16音の試聴</h1><p>章と音を選ぶと、本編の音量・配置で再生できます。本文の送り時刻は試聴用に固定しています。</p>
+<nav><label>章<select id="chapter"></select></label><label>音・場面<select id="scene"></select></label></nav>
+<h2 id="heading"></h2><p id="question"></p><audio id="audio" controls preload="metadata"></audio><div id="cues" aria-label="判断箇所に移動"></div><blockquote id="body"></blockquote><small id="position"></small>
+<details><summary>16音の制作・出典</summary><p>通知、着信、学校のチャイムは本作用の独自合成です。ほかの音源の取得・編集・権利情報は製品に同梱した記録に従っています。</p><pre>{{CREDITS}}</pre></details>
+</main><script id="data" type="application/json">{{DATA}}</script><script>
+const scenes=JSON.parse(document.querySelector('#data').textContent);
+const el=id=>document.getElementById(id);
+const chapter=el('chapter'),pick=el('scene'),audio=el('audio');let scene,buttons=[],bufferUrl;
+for(const c of new Set(scenes.map(s=>s.ch)))chapter.add(new Option(c,c));
+function tick(){if(!scene)return;let i=0;while(i+1<scene.pages.length&&audio.currentTime>=scene.pages[i+1].t)i++;el('body').textContent=scene.pages[i].text;el('position').textContent=scene.pages[i].ref;buttons.forEach((b,j)=>b.setAttribute('aria-current',String(i===j)));}
+function selectScene(){audio.pause();if(bufferUrl)URL.revokeObjectURL(bufferUrl);scene=scenes[Number(pick.value)];el('heading').textContent=scene.title;el('question').textContent=scene.question;
+ const raw=atob(scene.wav),bytes=new Uint8Array(raw.length);for(let i=0;i<raw.length;i++)bytes[i]=raw.charCodeAt(i);
+ bufferUrl=URL.createObjectURL(new Blob([bytes],{type:'audio/wav'}));audio.src=bufferUrl;audio.load();
+ buttons=scene.pages.map(p=>{const b=document.createElement('button');b.type='button';const prefix=[...new Set(p.sounds)].join('・');b.textContent=p.t+'秒　'+(prefix||p.text.slice(0,10)+'…');b.title=p.text;b.onclick=()=>{audio.currentTime=p.t;tick();};return b;});el('cues').replaceChildren(...buttons);tick();}
+function selectChapter(){pick.replaceChildren();scenes.forEach((s,i)=>{if(s.ch===chapter.value)pick.add(new Option(s.title,i))});selectScene();}
+chapter.onchange=selectChapter;pick.onchange=selectScene;for(const e of ['timeupdate','seeked','loadedmetadata'])audio.addEventListener(e,tick);selectChapter();
+</script></body></html>

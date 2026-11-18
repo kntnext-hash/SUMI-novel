@@ -1,0 +1,77 @@
+[
+  {
+    "file": "rain_umbrella_close_full.wav",
+    "seconds": 21.426666666666666,
+    "passed": true
+  },
+  {
+    "file": "rain_concrete_full.wav",
+    "seconds": 14.163219954648525,
+    "passed": true
+  },
+  {
+    "file": "wet_asphalt_steps_full.wav",
+    "seconds": 106.378231292517,
+    "passed": true
+  },
+  {
+    "file": "paper_bag_handling_full.wav",
+    "seconds": 25.689333333333334,
+    "passed": true
+  },
+  {
+    "file": "paper_folding_full.wav",
+    "seconds": 17.091166666666666,
+    "passed": true
+  },
+  {
+    "file": "firework_single_5.wav",
+    "seconds": 1.3945351473922902,
+    "passed": true
+  },
+  {
+    "file": "shoes_off_on_full.wav",
+    "seconds": 61.16678004535147,
+    "passed": true
+  },
+  {
+    "file": "door_close_medium.wav",
+    "seconds": 1.2330158730158731,
+    "passed": true
+  },
+  {
+    "file": "can_into_trash_full.wav",
+    "seconds": 33.37501133786848,
+    "passed": true
+  },
+  {
+    "file": "foot_stomp_wood_full.wav",
+    "seconds": 2.6130416666666667,
+    "passed": true
+  },
+  {
+    "file": "shop_door_bell_full.wav",
+    "seconds": 8.0,
+    "passed": true
+  },
+  {
+    "file": "rain_umbrella_close_loop_candidate.wav",
+    "seconds": 21.076666666666668,
+    "passed": true
+  },
+  {
+    "file": "rain_concrete_loop_candidate.wav",
+    "seconds": 13.813242630385487,
+    "passed": true
+  },
+  {
+    "file": "paper_bag_first_cluster_candidate.wav",
+    "seconds": 0.31,
+    "passed": true
+  },
+  {
+    "file": "can_into_trash_first_cluster_candidate.wav",
+    "seconds": 1.41,
+    "passed": true
+  }
+]

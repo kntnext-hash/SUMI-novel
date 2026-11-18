@@ -1,0 +1,350 @@
+{
+  "game_audio_cues_sha256": "31aa04170d544d77a1ba1c838c1b1f5acd3ab64cb7479009bf972c5b9224f203",
+  "source_wavs": {
+    "bicycle_bell_single.wav": "9598e0dfebd3d4211a1ba9b612e68c084d9acf79fd78a310637d24ee87df7d12",
+    "bicycle_pass_full.wav": "6b121eec6c6517ab3f9224f03f2e321839881093c52d7f54cd68287a5e0ee308",
+    "book_drop.wav": "51ad65fac2c9cddf3e3c44c9dc863af37e755b0740c3bfc36006191a416099a0",
+    "camera_shutter.wav": "c19b4a8c261bbbc107894df7ea35df8bfdbac5e26daec80725f80aee9dd355ed",
+    "cinema_paper_two_bells.wav": "3c5cf5fe0669ea65c4fb731bb8766e332224c217f15a23ca3f76ad60ff99fd3a",
+    "cinema_wood_paper.wav": "dc219c98b4d7206c8263cc36e061867bf25f5813b7a15b09f8100f139b8cb8f7",
+    "fridge_loop.wav": "f4f3274fda838ccbbbd560131fc3cdffe2785f0e7feef75989d00e05fa9ff407",
+    "kitchen_sink_loop.wav": "973465f10a0831f006e42beec98825a5f5bbbb727ea2e9e89fd5d24fd178aaa8",
+    "notification_soft.wav": "b5f52ab46d8ef30bcd45d42da6c4f48f74c17b1c9e203a0c5a5c2cf27f7182de",
+    "park_wind_loop.wav": "4deaaf513ce46f7213b66553f1ae8b21563c1a56362bdb188c456617e68440bc",
+    "pot_water.wav": "d0f4565de58c3bae4751c1fd404a1738263d3cbca55fbac25427f24fa59e03e8",
+    "rain_loop.wav": "62da3bd2b6197dbbf1855cd6c07862dc18226ee292ebe37d4f0ebf6ab3384d9d",
+    "ringtone_original.wav": "4672b758cb3bfa92be081961ae2bb86f53198c92c9881d1c1d555844fa270f36",
+    "school_chime_original.wav": "06ba7254a9a6f44f55c5fdad0e190a9912d75b322dc24a29534cb0aa086f6099",
+    "small_bell_single.wav": "7100d94fa8e3eef86387845b26769a67b0301231c937fc5406ae7c5f27a2e597",
+    "thermos_set_down.wav": "25f938ab7f048528fd126069beea7d36e77489a7ec4823380ccd179a82da331c"
+  },
+  "scenes": [
+    {
+      "scene": "自転車2台の通過",
+      "duration": 7.4,
+      "events": [
+        {
+          "files": "<from 2.15 to 7.3>audio/bicycle_pass_full.wav",
+          "channel": "story_bicycle_near",
+          "at": 0,
+          "loop": false,
+          "gain": 0.38,
+          "fade": 0.09,
+          "stop": 5.8,
+          "release": 0.08
+        },
+        {
+          "files": "<from 1.55 to 6.8>audio/bicycle_pass_full.wav",
+          "channel": "story_bicycle_far",
+          "at": 0,
+          "loop": false,
+          "gain": 0.25,
+          "fade": 0.09,
+          "stop": 5.8,
+          "release": 0.08
+        }
+      ],
+      "wav_sha256": "c86a3719a61f8f09a070189d4a2e78a5d52f8588e54bb3171ea661e54fa61a3e"
+    },
+    {
+      "scene": "学校のチャイム",
+      "duration": 6,
+      "events": [
+        {
+          "files": "audio/school_chime_original.wav",
+          "channel": "sound",
+          "at": 0,
+          "loop": false,
+          "gain": 0.35,
+          "fade": 0
+        }
+      ],
+      "wav_sha256": "ef335e7ddfb5888c8b4e03429f4928147d5de5574d314c4b9e56c92503852d0f"
+    },
+    {
+      "scene": "ベルと通り過ぎる自転車",
+      "duration": 9.4,
+      "events": [
+        {
+          "files": [
+            "<silence 0.45>",
+            "<from 3.2 to 7.7>audio/bicycle_pass_full.wav"
+          ],
+          "channel": "story_bicycle_near",
+          "at": 2,
+          "loop": false,
+          "gain": 0.3,
+          "fade": 0
+        },
+        {
+          "files": "audio/bicycle_bell_single.wav",
+          "channel": "sound",
+          "at": 2,
+          "loop": false,
+          "gain": 0.31,
+          "fade": 0
+        }
+      ],
+      "wav_sha256": "2889ef8b97958c6780b574ecfe2c5f2c975de88e76751f5eae52e594ce4a4dbb"
+    },
+    {
+      "scene": "橋の風",
+      "duration": 20,
+      "events": [
+        {
+          "files": "audio/park_wind_loop.wav",
+          "channel": "story_ambience",
+          "at": 2,
+          "loop": true,
+          "gain": 0.22,
+          "fade": 0.25,
+          "stop": 18,
+          "release": 0
+        }
+      ],
+      "wav_sha256": "320dcb04df31da32e8531b9633c5103b8695e245a9bb11143ff90304288157c7"
+    },
+    {
+      "scene": "他の生徒の通知・小音量",
+      "duration": 3,
+      "events": [
+        {
+          "files": "audio/notification_soft.wav",
+          "channel": "sound",
+          "at": 0,
+          "loop": false,
+          "gain": 0.22,
+          "fade": 0
+        }
+      ],
+      "wav_sha256": "9a2efd1ee43c06a1f983c72d79b9cb13ea6d6e7f4e1f5ce2888ab007b9b7b736"
+    },
+    {
+      "scene": "他の生徒の通知・近く",
+      "duration": 3,
+      "events": [
+        {
+          "files": "audio/notification_soft.wav",
+          "channel": "sound",
+          "at": 0,
+          "loop": false,
+          "gain": 0.4,
+          "fade": 0
+        }
+      ],
+      "wav_sha256": "979bb6c6a0a14c60d1f8fadc0982ec044c4c1e9dcdc85086bd226b0ab6729ffd"
+    },
+    {
+      "scene": "傘に当たる雨",
+      "duration": 16,
+      "events": [
+        {
+          "files": "audio/rain_loop.wav",
+          "channel": "story_ambience",
+          "at": 0,
+          "loop": true,
+          "gain": 0.3,
+          "fade": 0.2
+        }
+      ],
+      "wav_sha256": "e270e84ea1f2c368332aa99801cd148500d5a07e8eb83937688008a7e39ddc17"
+    },
+    {
+      "scene": "六時のチャイム",
+      "duration": 7,
+      "events": [
+        {
+          "files": "audio/school_chime_original.wav",
+          "channel": "sound",
+          "at": 0,
+          "loop": false,
+          "gain": 0.3,
+          "fade": 0
+        }
+      ],
+      "wav_sha256": "d16f828ee06eccd4ab37b317042e92e5625e684feef5fe6c2e57ecbc97238df2"
+    },
+    {
+      "scene": "携帯の通知・一度目",
+      "duration": 3,
+      "events": [
+        {
+          "files": "audio/notification_soft.wav",
+          "channel": "sound",
+          "at": 0,
+          "loop": false,
+          "gain": 0.4,
+          "fade": 0
+        }
+      ],
+      "wav_sha256": "979bb6c6a0a14c60d1f8fadc0982ec044c4c1e9dcdc85086bd226b0ab6729ffd"
+    },
+    {
+      "scene": "携帯の通知・二度目",
+      "duration": 3,
+      "events": [
+        {
+          "files": "audio/notification_soft.wav",
+          "channel": "sound",
+          "at": 0,
+          "loop": false,
+          "gain": 0.4,
+          "fade": 0
+        }
+      ],
+      "wav_sha256": "979bb6c6a0a14c60d1f8fadc0982ec044c4c1e9dcdc85086bd226b0ab6729ffd"
+    },
+    {
+      "scene": "水筒を向かいの机へ",
+      "duration": 9,
+      "events": [
+        {
+          "files": "audio/thermos_set_down.wav",
+          "channel": "sound",
+          "at": 4,
+          "loop": false,
+          "gain": 0.42,
+          "fade": 0
+        }
+      ],
+      "wav_sha256": "87f19742b2f79ff01c127c346a939512734043f563dba02ebc5684fe0905042b"
+    },
+    {
+      "scene": "電話の着信と停止",
+      "duration": 5,
+      "events": [
+        {
+          "files": "audio/ringtone_original.wav",
+          "channel": "sound",
+          "at": 0,
+          "loop": false,
+          "gain": 0.35,
+          "fade": 0,
+          "stop": 2.5,
+          "release": 0.08
+        }
+      ],
+      "wav_sha256": "9d903142986234a6e867bcf86f3838bb7911aa27e746046813755fddd19a2c5c"
+    },
+    {
+      "scene": "シャッター",
+      "duration": 3,
+      "events": [
+        {
+          "files": "audio/camera_shutter.wav",
+          "channel": "sound",
+          "at": 0,
+          "loop": false,
+          "gain": 0.4,
+          "fade": 0
+        }
+      ],
+      "wav_sha256": "8ab5bd7ee343e8fc9e86cc28a09dbe138813c0f15c2b513a323efaaf921e4feb"
+    },
+    {
+      "scene": "本が一冊落ちる音",
+      "duration": 4,
+      "events": [
+        {
+          "files": "audio/book_drop.wav",
+          "channel": "sound",
+          "at": 0,
+          "loop": false,
+          "gain": 0.4,
+          "fade": 0
+        }
+      ],
+      "wav_sha256": "e685809b4555593410f8c7b7979a5415f6bac98e82ffb98e5dadf05db7c551ec"
+    },
+    {
+      "scene": "映画館の木片・紙・鈴",
+      "duration": 15,
+      "events": [
+        {
+          "files": "audio/cinema_wood_paper.wav",
+          "channel": "sound",
+          "at": 0,
+          "loop": false,
+          "gain": 0.4,
+          "fade": 0,
+          "stop": 4,
+          "release": 0
+        },
+        {
+          "files": "audio/small_bell_single.wav",
+          "channel": "sound",
+          "at": 4,
+          "loop": false,
+          "gain": 0.4,
+          "fade": 0,
+          "stop": 6.5,
+          "release": 0.08
+        },
+        {
+          "files": "audio/cinema_paper_two_bells.wav",
+          "channel": "sound",
+          "at": 11,
+          "loop": false,
+          "gain": 0.4,
+          "fade": 0
+        }
+      ],
+      "wav_sha256": "87b626a5c8e1d2f5a06a8c6f4258bd8066f8dfa328bd1558d52da6623cfef59b"
+    },
+    {
+      "scene": "冷蔵庫と湯を捨てる音",
+      "duration": 16,
+      "events": [
+        {
+          "files": "audio/fridge_loop.wav",
+          "channel": "story_ambience",
+          "at": 0,
+          "loop": true,
+          "gain": 0.4,
+          "fade": 0.2
+        },
+        {
+          "files": "audio/pot_water.wav",
+          "channel": "sound",
+          "at": 0,
+          "loop": false,
+          "gain": 0.65,
+          "fade": 0
+        }
+      ],
+      "wav_sha256": "220ae11c75ad1fccd85277b40f1f89d5f7bc0685147aaf1792e21ae1b98690e8"
+    },
+    {
+      "scene": "学校のチャイム",
+      "duration": 6,
+      "events": [
+        {
+          "files": "audio/school_chime_original.wav",
+          "channel": "sound",
+          "at": 0,
+          "loop": false,
+          "gain": 0.35,
+          "fade": 0
+        }
+      ],
+      "wav_sha256": "ef335e7ddfb5888c8b4e03429f4928147d5de5574d314c4b9e56c92503852d0f"
+    },
+    {
+      "scene": "裏門で遠くに聞こえる流水",
+      "duration": 18,
+      "events": [
+        {
+          "files": "audio/kitchen_sink_loop.wav",
+          "channel": "story_ambience",
+          "at": 2,
+          "loop": true,
+          "gain": 0.13,
+          "fade": 0.25,
+          "stop": 16,
+          "release": 0
+        }
+      ],
+      "wav_sha256": "57e93f8e7e66f89239db4e20483ec94e36ee56694171c8bc7311cbba068bd360"
+    }
+  ]
+}
