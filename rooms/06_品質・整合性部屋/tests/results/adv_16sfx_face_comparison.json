@@ -1,0 +1,52 @@
+{
+  "renderer": "RenPy 8.5.3 Windows, qa_face_comparison",
+  "zip_sha256": {
+    "11": "779c79d5774cc87a63640fd92dd55c29d5dbb8022ba3950091fcc85a76762bda",
+    "16": "b7bab9ada4a148c20562dc34c3ceb770082badae8e7156f89d4066e166f889c1"
+  },
+  "archive_game_files_verified": {
+    "11": 344,
+    "16": 349
+  },
+  "archived_reference_px": [
+    1736,
+    976
+  ],
+  "same_viewport_px": [
+    1738,
+    977
+  ],
+  "comparison": "11 and 16 tested at same viewport; archived 11 also compared after Lanczos resize, MAE on 0..255 RGB",
+  "frames": {
+    "pause_first": {
+      "rgb_sha256": "0c22d60a31908a617454fb4948c02867c70babb964cbae71d2225b6fcfbd0ec6",
+      "different_pixels": 0,
+      "archived_reference_mae": 1.079
+    },
+    "pause_reread": {
+      "rgb_sha256": "6dba38b610ff2808594af68dd6dc5fb863c7ba6973c4070db3dbe6b3583ace08",
+      "different_pixels": 0,
+      "archived_reference_mae": 1.102
+    },
+    "reply_first": {
+      "rgb_sha256": "3a212f24ab13f99f6448a132041bb4353aa1f3d0b77d623d25f5c9ef0211f21f",
+      "different_pixels": 0,
+      "archived_reference_mae": 1.009
+    },
+    "reply_reread": {
+      "rgb_sha256": "9cb2b7b4d89f3dda79c70e6ab5357497404a603b011fd9b5e144298e2ada0388",
+      "different_pixels": 0,
+      "archived_reference_mae": 1.031
+    },
+    "reveal_first": {
+      "rgb_sha256": "c3f3dc0be052a5eeaeab96fd07898a2e92298ec0a21536a51da361325f9aa893",
+      "different_pixels": 0,
+      "archived_reference_mae": 1.602
+    },
+    "reveal_reread": {
+      "rgb_sha256": "176aa63131a09dda2592b2b57f62a5c652facf6e886b24a9b13445e591d3bef9",
+      "different_pixels": 0,
+      "archived_reference_mae": 1.616
+    }
+  }
+}
