@@ -791,6 +791,7 @@ init -20 python:
         (655, 'story_end_c.rpy', 192, 2),
         (660, 'story_end_d.rpy', 68, 3),
         (666, 'story_end_d.rpy', 183, 2),
+        (806, 'story_ch06.rpy', 79, 2),
     ):
         for part in range(count):
             adv_passage_locations[first + part] = (source, original, part, count)
@@ -800,3 +801,8 @@ init -20 python:
         if name == 'adv_passages.rpy' and line in adv_passage_locations:
             return adv_passage_locations[line]
         return name, line, 0, 1
+
+label adv_split_thermos_desk:
+    "売り物の見本で、日なたに半分出ていたボトルを受け取った。持った指が汗で滑りそうになった。透花はわたしの机の隅に置くとき、底の縁をちょっとだけ机につけてから、手の中でゆっくり起こした。ほとんど音がしなかった。"
+    "向かいの机に置いたときは、普通にかたんと鳴った。"
+    return

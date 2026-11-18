@@ -1,0 +1,139 @@
+{
+  "qa_integrated_bed_restart": [
+    "[rpytest] Assertions :     1 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |",
+    "[rpytest] Time: 25.847 s",
+    "[rpytest] Status: PASSED"
+  ],
+  "qa_integrated_bed_save": [
+    "[rpytest] Assertions :     0 |     0 passed |     0 xfailed |     0 failed |     0 xpassed |",
+    "[rpytest] Time: 26.311 s",
+    "[rpytest] Status: PASSED"
+  ],
+  "qa_integrated_foley": [
+    "[rpytest] Assertions :     5 |     5 passed |     0 xfailed |     0 failed |     0 xpassed |",
+    "[rpytest] Time: 20.319 s",
+    "[rpytest] Status: PASSED"
+  ],
+  "qa_thermos_restart": [
+    "[rpytest] Assertions :     6 |     6 passed |     0 xfailed |     0 failed |     0 xpassed |",
+    "[rpytest] Time: 24.045 s",
+    "[rpytest] Status: PASSED"
+  ],
+  "qa_thermos_save": [
+    "[rpytest] Assertions :     3 |     3 passed |     0 xfailed |     0 failed |     0 xpassed |",
+    "[rpytest] Time: 23.600 s",
+    "[rpytest] Status: PASSED"
+  ],
+  "baseline": [
+    "[rpytest] Assertions :     0 |     0 passed |     0 xfailed |     0 failed |     0 xpassed |",
+    "[rpytest] Time: 104.590 s [01:44]",
+    "[rpytest] Status: PASSED"
+  ],
+  "baseline_cues": [
+    {
+      "location": [
+        "story_ch01.rpy",
+        72,
+        0
+      ],
+      "expected": "audio/school_chime_original.wav",
+      "actual": "audio/school_chime_original.wav",
+      "passed": true
+    },
+    {
+      "location": [
+        "story_ch02.rpy",
+        171,
+        0
+      ],
+      "expected": "audio/notification_soft.wav",
+      "actual": "audio/notification_soft.wav",
+      "passed": true
+    },
+    {
+      "location": [
+        "story_ch02.rpy",
+        179,
+        0
+      ],
+      "expected": "audio/notification_soft.wav",
+      "actual": "audio/notification_soft.wav",
+      "passed": true
+    },
+    {
+      "location": [
+        "story_ch03.rpy",
+        199,
+        0
+      ],
+      "expected": "audio/school_chime_original.wav",
+      "actual": "audio/school_chime_original.wav",
+      "passed": true
+    },
+    {
+      "location": [
+        "story_ch04.rpy",
+        208,
+        0
+      ],
+      "expected": "audio/notification_soft.wav",
+      "actual": "audio/notification_soft.wav",
+      "passed": true
+    },
+    {
+      "location": [
+        "story_ch11.rpy",
+        220,
+        0
+      ],
+      "expected": "audio/school_chime_original.wav",
+      "actual": "audio/school_chime_original.wav",
+      "passed": true
+    },
+    {
+      "location": [
+        "story_ch04.rpy",
+        93,
+        0
+      ],
+      "expected": "audio/notification_soft.wav",
+      "actual": "audio/notification_soft.wav",
+      "passed": true
+    },
+    {
+      "location": [
+        "story_ch06.rpy",
+        229,
+        0
+      ],
+      "expected": "audio/ringtone_original.wav",
+      "actual": "audio/ringtone_original.wav",
+      "passed": true
+    },
+    {
+      "location": [
+        "story_ch06.rpy",
+        230,
+        0
+      ],
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "location": [
+        "story_ch07.rpy",
+        106,
+        0
+      ],
+      "expected": "audio/camera_shutter.wav",
+      "actual": "audio/camera_shutter.wav",
+      "passed": true
+    }
+  ],
+  "tested_rpy_sha256": {
+    "audio_cues.rpy": "31aa04170d544d77a1ba1c838c1b1f5acd3ab64cb7479009bf972c5b9224f203",
+    "adv_passages.rpy": "2150c3e18023cb9444d8934348658f9132db6221cd50a52dfdc4e38b71252870",
+    "story_ch06.rpy": "c749d5c28c085507680216d43b3dc61ca1ab08f8267cee6d0162f6830ef8f08f"
+  }
+}

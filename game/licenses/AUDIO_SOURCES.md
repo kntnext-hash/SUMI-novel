@@ -41,3 +41,17 @@
 - small_bell_single.wavは同じ鈴の単発素材。実際の聞こえ方・打数の聴覚確認は未完了。
 
 録音の出典は品質や本作品への推奨を意味しない。音色・音量・ループ境界の聴覚検査は未完了。
+
+## 自転車・風・流水・水筒
+
+以下5音はCC0 1.0。ベル、通過音、水筒は公開HQ MP3プレビューからPCM16へ変換した。風と流水は配布WAVの2–14秒から、末尾と先頭に300msのクロスフェードを施した11.7秒ループ。
+
+| 同梱ファイル | 作者・録音 | 編集と劇中の使用 |
+|---|---|---|
+| bicycle_bell_single.wav | [13gkopeckak / Freesound 378911](https://freesound.org/people/13gkopeckak/sounds/378911/) | 原音0.809104秒から1.4秒。橋で一度鳴るベル。 |
+| bicycle_pass_full.wav | [beskhu / Freesound 276001](https://freesound.org/people/beskhu/sounds/276001/) | 1台の自転車通過。劇中では再生区間と時差を調整。 |
+| park_wind_loop.wav | [Thimras / Park Ambiences](https://opengameart.org/content/park-ambiences) | 橋の風。 |
+| kitchen_sink_loop.wav | [bretbernhoft / General Household Sound Effects](https://opengameart.org/content/general-household-sound-effects) | 裏門で遠くに聞こえる流水。 |
+| thermos_set_down.wav | [qubodup / Put down item, Freesound 792930](https://freesound.org/people/qubodup/sounds/792930/) | 半分ほどお茶が入った保温瓶を木机へ置いた録音。全長を一律減衰。 |
+
+[CC0 1.0の利用条件](https://creativecommons.org/publicdomain/zero/1.0/)
