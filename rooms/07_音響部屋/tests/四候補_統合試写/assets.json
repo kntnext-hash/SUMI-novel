@@ -1,0 +1,22 @@
+[
+  {
+    "file": "bicycle_bell_single.wav",
+    "seconds": 1.4,
+    "sha256": "9598e0dfebd3d4211a1ba9b612e68c084d9acf79fd78a310637d24ee87df7d12"
+  },
+  {
+    "file": "bicycle_pass_full.wav",
+    "seconds": 10.224172335600906,
+    "sha256": "6b121eec6c6517ab3f9224f03f2e321839881093c52d7f54cd68287a5e0ee308"
+  },
+  {
+    "file": "park_wind_loop.wav",
+    "seconds": 11.7,
+    "sha256": "4deaaf513ce46f7213b66553f1ae8b21563c1a56362bdb188c456617e68440bc"
+  },
+  {
+    "file": "kitchen_sink_loop.wav",
+    "seconds": 11.7,
+    "sha256": "973465f10a0831f006e42beec98825a5f5bbbb727ea2e9e89fd5d24fd178aaa8"
+  }
+]

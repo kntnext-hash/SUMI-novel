@@ -1,0 +1,89 @@
+[
+  {
+    "scene": "橋で並ぶ自転車",
+    "seconds": 7.4,
+    "events": [
+      {
+        "files": "<from 2.15 to 7.3>audio/bicycle_pass_full.wav",
+        "channel": "four_bike_near",
+        "at": 0,
+        "loop": false,
+        "gain": 0.38,
+        "fade": 0.09,
+        "stop": 5.8,
+        "release": 0.08
+      },
+      {
+        "files": "<from 1.55 to 6.8>audio/bicycle_pass_full.wav",
+        "channel": "four_bike_far",
+        "at": 0,
+        "loop": false,
+        "gain": 0.25,
+        "fade": 0.09,
+        "stop": 5.8,
+        "release": 0.08
+      }
+    ],
+    "sha256": "c86a3719a61f8f09a070189d4a2e78a5d52f8588e54bb3171ea661e54fa61a3e"
+  },
+  {
+    "scene": "青を見つけた後のベル",
+    "seconds": 9.4,
+    "events": [
+      {
+        "files": "audio/bicycle_bell_single.wav",
+        "channel": "sound",
+        "at": 2,
+        "loop": false,
+        "gain": 0.31,
+        "fade": 0
+      },
+      {
+        "files": [
+          "<silence 0.45>",
+          "<from 3.2 to 7.7>audio/bicycle_pass_full.wav"
+        ],
+        "channel": "four_bike_near",
+        "at": 2,
+        "loop": false,
+        "gain": 0.3,
+        "fade": 0
+      }
+    ],
+    "sha256": "2889ef8b97958c6780b574ecfe2c5f2c975de88e76751f5eae52e594ce4a4dbb"
+  },
+  {
+    "scene": "橋の風から翌朝へ",
+    "seconds": 20,
+    "events": [
+      {
+        "files": "audio/park_wind_loop.wav",
+        "channel": "four_outdoors",
+        "at": 2,
+        "loop": true,
+        "gain": 0.22,
+        "fade": 0.25,
+        "stop": 18,
+        "release": 0.0
+      }
+    ],
+    "sha256": "320dcb04df31da32e8531b9633c5103b8695e245a9bb11143ff90304288157c7"
+  },
+  {
+    "scene": "裏門の会話と遠い流水",
+    "seconds": 18,
+    "events": [
+      {
+        "files": "audio/kitchen_sink_loop.wav",
+        "channel": "four_outdoors",
+        "at": 2,
+        "loop": true,
+        "gain": 0.13,
+        "fade": 0.25,
+        "stop": 16,
+        "release": 0.0
+      }
+    ],
+    "sha256": "57e93f8e7e66f89239db4e20483ec94e36ee56694171c8bc7311cbba068bd360"
+  }
+]
