@@ -74,7 +74,7 @@ def build(runtime, project, output):
         "kaononaiharu.exe を起動してください。Ren’Py SDKの導入は不要です。\n\n"
         "クリック：文章を進める／OPをスキップ\n"
         "右クリック・Esc：ゲームメニュー\n"
-        "本文上のホイール：長い文章を上下に読む\n"
+        "履歴：画面下の「履歴」から前の文章を読み返す\n"
         "セーブ・ロード：ゲームメニューまたは画面下のボタン\n"
         "いずれかのエンディング後、タイトルに「全彩再読」が現れます。\n\n"
         "保存先：%APPDATA%\\RenPy\\kaononaiharu-long-1\n"
