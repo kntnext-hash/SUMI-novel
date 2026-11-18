@@ -1,8 +1,6 @@
 # Source line cues keep the generated story text and branching unchanged.
 # See rooms/07_音響部屋/audio/README.md for manuscript references.
 init 10 python:
-    import os as audio_cue_os
-
     story_sound_cues = {
         ("story_ch01.rpy", 72): ("audio/school_chime_original.wav", 0.35),
         ("story_ch03.rpy", 199): ("audio/school_chime_original.wav", 0.30),
@@ -44,7 +42,10 @@ init 10 python:
         if event != "begin" or not interact:
             return
         filename, line = renpy.get_filename_line()
-        key = (audio_cue_os.path.basename(filename), line)
+        source, original, part, count = adv_original_location(filename, line)
+        key = (source, original)
+        if part:
+            return
         if key in story_sound_stops:
             renpy.music.stop(channel="sound", fadeout=0.08)
         # Loop state must also be established when loading/rolling back to
