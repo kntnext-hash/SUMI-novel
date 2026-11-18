@@ -1,0 +1,68 @@
+--- a/game/story_ch06.rpy
++++ b/game/story_ch06.rpy
+@@ -76,7 +76,7 @@
+     "「今、はいお茶って言ったのかと」"
+     "「それもあげる。冷たいほうと、あんまり冷たくないほう、どっち」"
+     "「唇がびっくりしないほう」"
+-    "売り物の見本で、日なたに半分出ていたボトルを受け取った。持った指が汗で滑りそうになった。透花はわたしの机の隅に置くとき、底の縁をちょっとだけ机につけてから、手の中でゆっくり起こした。ほとんど音がしなかった。向かいの机に置いたときは、普通にかたんと鳴った。"
++    call adv_split_thermos_desk from adv_return_thermos_desk
+     "同じことを、前にも見た覚えがあった。五月の河原で、わたしの膝の弁当箱のそばに水筒を置いたとき。水筒は底が硬くて、ぶつかれば両方響くような音がするのに、あの日わたしが覚えていたのは、自分のほうへ動いてくる水筒の影だった。"
+     "印刷室は天井が低く、窓の外からは廊下よりも人の声が遠かった。折り終えた分を持って教室へ戻ると、使い切った糊の蓋をつけ合わせて駒を作り、机の端で回している二人がいた。なんでそれをしなきゃいけないの、と聞くほどでもなかった。やってみたらえらくよく回った。"
+     "「澄はそういうの絶対やんない人かと思ってた」"
+--- a/game/adv_passages.rpy
++++ b/game/adv_passages.rpy
+@@ -800,3 +800,12 @@
+         if name == 'adv_passages.rpy' and line in adv_passage_locations:
+             return adv_passage_locations[line]
+         return name, line, 0, 1
++
++label adv_split_thermos_desk:
++    "売り物の見本で、日なたに半分出ていたボトルを受け取った。持った指が汗で滑りそうになった。透花はわたしの机の隅に置くとき、底の縁をちょっとだけ机につけてから、手の中でゆっくり起こした。ほとんど音がしなかった。"
++    "向かいの机に置いたときは、普通にかたんと鳴った。"
++    return
++
++init 1 python:
++    for thermos_part in range(2):
++        adv_passage_locations[805 + thermos_part] = ('story_ch06.rpy', 79, thermos_part, 2)
+--- a/game/audio_cues.rpy
++++ b/game/audio_cues.rpy
+@@ -17,6 +17,9 @@
+         ("story_ch09.rpy", 142): ("audio/cinema_wood_paper.wav", 0.40),
+         ("story_ch09.rpy", 143): ("audio/small_bell_single.wav", 0.40),
+         ("story_ch09.rpy", 146): ("audio/cinema_paper_two_bells.wav", 0.40),
++    }
++    story_subpage_sound_cues = {
++        ("story_ch06.rpy", 79, 1): ("audio/thermos_set_down.wav", 0.42),
+     }
+     story_sound_stops = {
+         ("story_ch06.rpy", 230),
+@@ -46,19 +49,18 @@
+         filename, line = renpy.get_filename_line()
+         source, original, part, count = adv_original_location(filename, line)
+         key = (source, original)
+-        if part:
+-            return
+-        if key in story_sound_stops:
+-            renpy.music.stop(channel="sound", fadeout=0.08)
+-        # Loop state must also be established when loading/rolling back to
+-        # this paragraph; one-shot sounds below should not be replayed then.
+-        ambience = story_ambience_cues.get(key)
+-        if ambience and not renpy.is_skipping():
+-            renpy.music.play(ambience[0], channel="story_ambience", loop=True,
+-                             fadein=0.20, relative_volume=ambience[1])
++        if not part:
++            if key in story_sound_stops:
++                renpy.music.stop(channel="sound", fadeout=0.08)
++            # Loop state must also be established when loading/rolling back to
++            # this paragraph; one-shot sounds below should not be replayed then.
++            ambience = story_ambience_cues.get(key)
++            if ambience and not renpy.is_skipping():
++                renpy.music.play(ambience[0], channel="story_ambience", loop=True,
++                                 fadein=0.20, relative_volume=ambience[1])
+         if renpy.is_skipping() or renpy.in_rollback():
+             return
+-        cue = story_sound_cues.get(key)
++        cue = story_subpage_sound_cues.get((source, original, part)) if part else story_sound_cues.get(key)
+         if cue:
+             renpy.music.play(cue[0], channel="sound", loop=False, relative_volume=cue[1])
+ 
