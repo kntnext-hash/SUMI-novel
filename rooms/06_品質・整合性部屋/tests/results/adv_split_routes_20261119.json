@@ -1,0 +1,147 @@
+{
+  "verified_at": "2026-11-19T01:18:41+09:00",
+  "mode_summary": [
+    {
+      "reread": false,
+      "original_paragraphs": 2590,
+      "nodes": 99,
+      "image_cues": 178
+    },
+    {
+      "reread": true,
+      "original_paragraphs": 2590,
+      "nodes": 99,
+      "image_cues": 178
+    }
+  ],
+  "routes": [
+    {
+      "route": "A",
+      "reread": false,
+      "displayed_pages": 2279,
+      "original_paragraphs": 2106,
+      "nodes": 81,
+      "image_cues": 139,
+      "text_sha256": "f50a34b7b55f46cc99542981f1389a08e212d0f98c598fdcae30ca8957538657",
+      "missing_images": [],
+      "missing_labels": [],
+      "missing_lines": []
+    },
+    {
+      "route": "B",
+      "reread": false,
+      "displayed_pages": 2323,
+      "original_paragraphs": 2152,
+      "nodes": 83,
+      "image_cues": 147,
+      "text_sha256": "bf97be57fcdc062f7cba7cce58018e6437631aa7f80637c12b338e69941b1a7c",
+      "missing_images": [],
+      "missing_labels": [],
+      "missing_lines": []
+    },
+    {
+      "route": "C",
+      "reread": false,
+      "displayed_pages": 2417,
+      "original_paragraphs": 2248,
+      "nodes": 85,
+      "image_cues": 146,
+      "text_sha256": "a220411beec75c4d50ab1aabc1bd5f7456f9d16072106c9a0315b60bf8924c11",
+      "missing_images": [],
+      "missing_labels": [],
+      "missing_lines": []
+    },
+    {
+      "route": "D",
+      "reread": false,
+      "displayed_pages": 2422,
+      "original_paragraphs": 2254,
+      "nodes": 85,
+      "image_cues": 147,
+      "text_sha256": "baa2149a95d078f389e276b1c366edab0c2d8f08fb60768e79e8029d33641458",
+      "missing_images": [],
+      "missing_labels": [],
+      "missing_lines": []
+    },
+    {
+      "route": "A",
+      "reread": true,
+      "displayed_pages": 2279,
+      "original_paragraphs": 2106,
+      "nodes": 81,
+      "image_cues": 139,
+      "text_sha256": "f50a34b7b55f46cc99542981f1389a08e212d0f98c598fdcae30ca8957538657",
+      "missing_images": [],
+      "missing_labels": [],
+      "missing_lines": []
+    },
+    {
+      "route": "B",
+      "reread": true,
+      "displayed_pages": 2323,
+      "original_paragraphs": 2152,
+      "nodes": 83,
+      "image_cues": 147,
+      "text_sha256": "bf97be57fcdc062f7cba7cce58018e6437631aa7f80637c12b338e69941b1a7c",
+      "missing_images": [],
+      "missing_labels": [],
+      "missing_lines": []
+    },
+    {
+      "route": "C",
+      "reread": true,
+      "displayed_pages": 2417,
+      "original_paragraphs": 2248,
+      "nodes": 85,
+      "image_cues": 146,
+      "text_sha256": "a220411beec75c4d50ab1aabc1bd5f7456f9d16072106c9a0315b60bf8924c11",
+      "missing_images": [],
+      "missing_labels": [],
+      "missing_lines": []
+    },
+    {
+      "route": "D",
+      "reread": true,
+      "displayed_pages": 2422,
+      "original_paragraphs": 2254,
+      "nodes": 85,
+      "image_cues": 147,
+      "text_sha256": "baa2149a95d078f389e276b1c366edab0c2d8f08fb60768e79e8029d33641458",
+      "missing_images": [],
+      "missing_labels": [],
+      "missing_lines": []
+    }
+  ],
+  "game_rpy_sha256": {
+    "adv_passages.rpy": "ba0071e15a59331e88b8e147e407ca39cf57b807b6032f52a924b1f8a769b1d2",
+    "audio_cues.rpy": "3ff90abf78afdd913818c47c88001f1fed04278384b3736979a55882e251334a",
+    "gui.rpy": "73cf36c60f092d8224a2ff88b95a88e6c23b2743dc86fdf6c25b540d72118f15",
+    "guisupport.rpy": "d717b3f8e377b05c1768154cc4b206808321956de9c1fe541cae2d401f16a6b0",
+    "images.rpy": "a2de7044fe4f0d0f5317b987d23dd5e624cd4814f6e76d57f781454cd52e64c7",
+    "interface_translations.rpy": "8ace69e32cdc8c11fb51dc07c9f30e39224eac29ba65d2bbc7ef325a3fd4e144",
+    "opening.rpy": "f47bb842eca0cea4b5d84b7171b8abd3d406fa9cf319d03710ecfea9625b9f74",
+    "options.rpy": "e145cd979f472b1370a01224ce11704251e6ad45ba3ac1cf96e38f9491bb5387",
+    "paper_ui.rpy": "9a51740676d733a34a93d6d1c08333b8ea37e15321cbe2dbedaf0e46e8a066c0",
+    "screens.rpy": "ee4b6165e39d3a8da09f8f7eece6612fedc165d1f1c89ce504aa808f85583016",
+    "script.rpy": "39ce0b659b8d8a00484d03d9f8bce47d0991013a255fbdc28a1a4809795d1830",
+    "story_ch01.rpy": "ce0c9fb421519810a4c075c7fdfce17d4df5cd762ca16e7cb7a8d312e9b40f91",
+    "story_ch02.rpy": "d9e3e06d74155c675b818f126fe523638faa0f6bfa1f1906c588cc50465c0014",
+    "story_ch03.rpy": "397cdf6f6e0002164a76cf8c80307e0e0caa1cddb2d8d6e6d9ac3ff60a34f696",
+    "story_ch04.rpy": "8b99296bc758d47a92ee4b4622d674171e07805fe02a28599d1abb1a61887b25",
+    "story_ch05.rpy": "46cff2e614e12cd85e8b434a3a23ea9ec5e1dbdc3b7d2495bec82e78ea984daf",
+    "story_ch06.rpy": "2bedbedab694ab2adbe374158d9fca215d6b23ba2f7aa8f9534043fdcbe5fd76",
+    "story_ch07.rpy": "133536ffcf34359586f3d929357ed75a54e93dffa2abe2276098c0aa833eefac",
+    "story_ch08.rpy": "a8de8d9ffca177271c088947b1c3c5b6d1dbf80eb583297a4445627a45f7b13d",
+    "story_ch09.rpy": "36ffc4e6391c09ed79f9e4bbf5b8580f165b7b490b7055a7e5fae1675ea64492",
+    "story_ch10.rpy": "cc0aeb9497f1a222b9468d6aedb75eca3a8b8e04e2a3eb987943ec4f9dd78252",
+    "story_ch11.rpy": "b60e0b14f73a3f8b0cf642a761bcf2b0040971c8f2edd8c83abc113be6cb4f12",
+    "story_ch12.rpy": "d11154ab0f8dfff2771f5134ed977715b214d3202769fcd4b8ee28721cdd6fdd",
+    "story_end_a.rpy": "a2f4dc89d4a1f2918e671b5dbfd2353ac1de0fb4c5691744975e2f2d4f3bf6fd",
+    "story_end_b.rpy": "88c0d559063d83981b805d559440adccb4084e8f800e333e2ce2300501aa2179",
+    "story_end_c.rpy": "7f7aa270ac310792a184ed0d09070fbf927cde221529af00ca310b7889672adc",
+    "story_end_d.rpy": "bf2d569fc91e086c87fd51d3d8cbaf94c032534178ec9bef9751da1b99f84a3e",
+    "story_end_r.rpy": "050abfb86f88eea0c57f16dacc540c0c64975df0c3a768ee6a0d3a535981409d",
+    "story_end_s.rpy": "beeb5a290711629435bbbf4a880b5d5d32e64553829e5ba540d61e155a995c61"
+  },
+  "engine": "[rpytest] [log] Running 2 test(s) marked with 'only' flag.\n[rpytest] [log] - global::qa_story_all\n[rpytest] [log] - global::qa_story_all\n\n[rpytest] Starting test run\n[rpytest] Platform:      Windows-11-10.0.26200-SP0\n[rpytest] Python:        3.12.7\n[rpytest] Ren'Py:        Ren'Py 8.5.3.26051504\n[rpytest] Game Version:  0.9-full-light\n\n[rpytest] [exc] + global\n[rpytest] [exc]   - qa_story_all\n[rpytest] [exc]   - qa_story_all (493.198 s [08:13])\n\n[rpytest] Test outcomes (Summary)\n[rpytest] Test suites:     1 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run\n[rpytest] Test cases :     1 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run\n[rpytest] Test hooks :     0 |     0 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run\n[rpytest] Assertions :     0 |     0 passed |     0 xfailed |     0 failed |     0 xpassed | \n\n[rpytest] Time: 494.560 s [08:14]\n[rpytest] Status: PASSED \n\n"
+}

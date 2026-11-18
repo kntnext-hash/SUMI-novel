@@ -1,0 +1,87 @@
+[rpytest] [log] Running 2 test(s) marked with 'only' flag.
+[rpytest] [log] - global::qa_story_all
+[rpytest] [log] - global::qa_story_all
+
+[rpytest] Starting test run
+[rpytest] Platform:      Windows-11-10.0.26200-SP0
+[rpytest] Python:        3.12.7
+[rpytest] Ren'Py:        Ren'Py 8.5.3.26051504
+[rpytest] Game Version:  0.9-full-light
+
+[rpytest] [exc] + global
+[rpytest] [exc]   - qa_story_all
+
+Full traceback:
+  File "renpy/bootstrap.py", line 401, in bootstrap
+    renpy.main.main()
+    ~~~~~~~~~~~~~~~^^
+  File "renpy/main.py", line 596, in main
+    run(restart)
+    ~~~^^^^^^^^^
+  File "renpy/main.py", line 137, in run
+    renpy.execution.run_context(True)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "renpy/execution.py", line 1050, in run_context
+    context.run()
+    ~~~~~~~~~~~^^
+  File "renpy/common/00start.rpy", line 259, in script call
+    call _splashscreen from _call_splashscreen_1
+  File "game/opening.rpy", line 4, in script
+    $ renpy.movie_cutscene("movies/opening.webm")
+  File "renpy/ast.py", line 1193, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/python.py", line 1276, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "game/opening.rpy", line 4, in <module>
+    $ renpy.movie_cutscene("movies/opening.webm")
+      ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/exports/mediaexports.py", line 72, in movie_cutscene
+    rv = renpy.ui.interact(suppress_overlay=True, roll_forward=roll_forward)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/ui.py", line 306, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/display/core.py", line 2163, in interact
+    repeat, rv = self.interact_core(
+                 ~~~~~~~~~~~~~~~~~~^
+        preloads=preloads,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "renpy/display/core.py", line 2899, in interact_core
+    renpy.test.testexecution.execute()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 85, in execute
+    phase_controller.update()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 549, in update
+    node_executor.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 471, in execute
+    self.node_state = self.node.execute(self.node_state, elapsed)
+                      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/test/testast.py", line 1000, in execute
+    renpy.display.behavior.run(action)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "renpy/display/behavior.py", line 411, in run
+    return action(*args, **kwargs)
+           ~~~~~~^^^^^^^^^^^^^^^^^
+  File "renpy/common/00action_menu.rpy", line 199, in __call__
+    renpy.jump_out_of_context(self.label)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "renpy/exports/contextexports.py", line 63, in jump_out_of_context
+    raise renpy.game.JumpOutException(label)
+renpy.game.JumpOutException: start
+
+While running game code:
+  File "game/opening.rpy", line 4, in script
+    $ renpy.movie_cutscene("movies/opening.webm")
+  File "game/opening.rpy", line 4, in <module>
+    $ renpy.movie_cutscene("movies/opening.webm")
+      ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+renpy.game.JumpOutException: start

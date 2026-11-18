@@ -1,0 +1,17 @@
+素材ID	ノードと本文行	確認した初周段階	顔と表情の判定	顔最下端Y_概算	口最下端Y_概算	紙面に重なる演技と小道具	優先度	意図的非表示との区別	場面根拠	確認ファイル
+CG_hair_wind	C07S04:29;C07S04:33	2/3	主顔は遮蔽なし・スマホ内顎が境界近接	主顔430;スマホ内652	主顔340;スマホ内623	安全ピンと手元 y630-900。スマホ内の口は紙上端より上、顎は紙面内	高	初周2/3の主顔とスマホ内顔は素材側で意図的に余白	耳にかからない一房と安全ピン。第3段階の髪の変化点は上方に見える	game/images/CG_hair_wind__FULL.webp|game/images/CG_hair_wind__2.webp|game/images/CG_hair_wind__3.webp
+CG_screen_portrait	C07S04:44	3	顔の遮蔽なし	455	400	写真内の安全ピン、持つ手 y630-900。表情・風にほどける前髪は上方で読める	低	初周3の画面内顔は素材側で意図的に余白	澄のスマホの撮影結果。再読では当日の表情を表示	game/images/CG_screen_portrait__FULL.webp|game/images/CG_screen_portrait__3.webp
+CG_bath_print	C08S01:1	3	顔なし	NA	NA	本の下半分と支える指 y630-1010、棚から垂れるシャツ下部 y630-780。逆向き格子と紙枠は上方で読める	中	人物顔なし	古写真の格子桟と本の見開き。導入でシャツのはみ出しにも言及	game/images/CG_bath_print__FULL.webp|game/images/CG_bath_print__3.webp
+CG_lattice	C08S03:27	3	顔なし	NA	NA	鉢皿・風車 y780-995。主対象の逆向き桟は y90-580で紙面外	低	人物顔なし	居宅の外の格子。一本だけ逆向きの桟	game/images/CG_lattice__FULL.webp|game/images/CG_lattice__3.webp
+CG_can_pause	C08S06:13	3	顔の遮蔽なし	透花405;澄375	透花365;澄335	飴の紙袋 y655-840 と持つ手 y820-890が隠れる。目・口のためらいは上方	中	初周3の二人の顔は素材側で意図的に余白	泣きそうなのを堪え、明るい声をまだ作れない透花	game/images/CG_can_pause__FULL.webp|game/images/CG_can_pause__3.webp
+CG_can_reply	C08S06:17	3	顔の遮蔽なし	透花405;澄375	透花365;澄335	飴の紙袋 y655-840 と持つ手 y820-890が隠れる。目・口の変化は上方	中	初周3の二人の顔は素材側で意図的に余白	何でもないよ。元カットと同座標の表情差分	game/images/CG_can_reply__FULL.webp|game/images/CG_can_reply__3.webp
+CG_garden_plan	C08S07:1	3	顔なし	NA	NA	見取り図の押し車・軍手 y650-860、バケツ底、下から指す手 y750-1010が隠れる	高	人物顔なし	軍手、蛇口、押し車など記憶の差を二つの見取り図で示す	game/images/CG_garden_plan__FULL.webp|game/images/CG_garden_plan__3.webp
+CG_gift	C09S06:1	3	顔は画外	NA	NA	うさぎの箸置き y575-705の胴、掌 y600-800、包装 y760-1010が隠れる。耳と袋の持ち手だけが上に残る	高	人物顔は画角外	駅ビルで贈り物を開ける。掌サイズの陶器のうさぎ	game/images/CG_gift__FULL.webp|game/images/CG_gift__3.webp
+CG_glove	C09S07:11	3	顔の遮蔽なし	澄495;透花565	澄430;透花500	両手で裸の手を包む接点 y650-920がほぼ隠れる。上側の手袋先端のみy610付近で残る	高	初周3の二人の顔は素材側で意図的に余白	透花は手袋をしたまま澄の裸の右手を両手で包む	game/images/CG_glove__FULL.webp|game/images/CG_glove__3.webp
+CG_bento_jan	C10S03:1	3	顔は画外	NA	NA	昆布巻き y745-855 は全て紙面内。楊枝 y615-775の先だけが上に残る	高	人物顔は画角外	弁当には昆布を巻いて楊枝で留めたのが一つ	game/images/CG_bento_jan__FULL.webp|game/images/CG_bento_jan__3.webp
+CG_bridge_ask	C10S07:5	3	顔の遮蔽なし	透花275;澄後ろ姿	透花245	脚と足元がy630以降で隠れる。顔、向き合う姿、ポケットのティッシュは紙面より上	低	初周3の透花の顔は素材側で意図的に余白。澄は背面	冬の橋、澄を待つ透花。次の顔解放カットと連続	game/images/CG_bridge_ask__FULL.webp|game/images/CG_bridge_ask__3.webp
+CG_first_face	C10S07:29	4	口元が境界近接・顎と頬下部は遮蔽	758	634	目は完全に上。口輪郭はy603-634で透明な縁に接し、y639以降の下頬・顎・涙の終端が隠れる	高	初周4は透花の顔解放。UIより下の肌色領域も元画像では表示されている	片方の眉が少し高かった。顔を初めて見る接写	game/images/CG_first_face__FULL.webp|game/images/CG_first_face__4.webp
+CG_choco	C11S04:1	4	顔は画外	NA	NA	チョコ袋 y670-820、制服の膝の粉 y780-890、鞄を引く指先 y630-740が隠れる	高	人物顔は画角外	机の横から鞄を引くと薄い紙が擦れる。膝の細かな粉	game/images/CG_choco__FULL.webp|game/images/CG_choco__4.webp
+CG_solo	C11S06:1;C11S06:13	4/5	顔の遮蔽なし	570	550	にんじん y705-755、箸と手元 y670-795、弁当・蓋 y745-930、ゴム留め y925-1000が隠れる	高	初周4の澄の顔は素材側で意図的に余白。5で全彩	花の形をしたにんじんが橙色だった。4→5の主対象がUI下	game/images/CG_solo__FULL.webp|game/images/CG_solo__4.webp|game/images/CG_solo__5.webp
+CG_lunch_last	C12S05:16	5	顔の遮蔽なし	透花265;クラスメイト最大315	透花235;クラスメイト最大280	手前の澄の包み弁当 y650-1010がほぼ隠れる。持つ手 y350-610とクラスの輪は見える	中	5/FULLは顔あり。手前澄の顔は画角外	澄が弁当を持ち、輪に座る透花へ一緒に食べようと呼ぶ	game/images/CG_lunch_last__FULL.webp|game/images/CG_lunch_last__5.webp
+CG_book_march	C12S06:10	5	顔は画外	NA	NA	3つの栗色綴じ糸のうち最下段 y725-750、飴瓶写真の下部 y630-700、冊子と持つ手の下部 y630-1010が隠れる	高	人物顔は画角外	差し出された一冊の糸は栗色。冊子の格子・飴瓶写真	game/images/CG_book_march__FULL.webp|game/images/CG_book_march__5.webp

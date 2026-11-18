@@ -1,11 +1,11 @@
 # 長編Ren’Py到達テスト
 
-状態はREVIEW。00室が配布版の複製環境で実行するためのテスト。エンジンへの組込み・実行は未実施。
+状態はREVIEW。配布版の複製環境で実行する。
 
 qa_story_all.rpy と qa_image_expectations.json をテスト用配布版の game にコピーし、配布版ディレクトリで実行する。
 
 ```powershell
-.\kaononaiharu.exe test qa_story_all
+.\kaononaiharu.exe test qa_story_all --savedir "$PWD\qa_saves"
 ```
 
 同梱 renpy/test/testexecution.py の test コマンド、testparser.py の testcase・advance until・click・run・Python文を使用。画面を描画できるWindows環境が必要。全8回の通読なので実行時間は長い。各選択肢／END待ちの上限は1800秒。
@@ -24,4 +24,4 @@ statement_callbacks の現在ファイル・行と label_callbacks を記録し�
 
 この検査は表示画像名と属性の一致を扱う。画像ファイル内容の正しさや遷移途中の画素は画像QAと実機確認で扱う。期待値JSONは現在の配布版と同じ行配置のrenpy_test_run/gameから本文をscenario.jsonと照合して生成し、178キューすべての画像名が配布版に定義されていることを確認した。実行中プロセスへの変更は行っていない。
 
-ソース読解・静的照合・追加Pythonの構文検査まで実施。追加した画像照合のエンジン実行は00室待ち。
+ADV分割では adv_original_location で各ページを元の段落と断片順に対応付ける。断片順と各ページの表示画像を検査し、実際の表示本文を元の段落に再結合する。ルートごとの全文SHA-256は分割前の本文から計算した固定値に照合する。

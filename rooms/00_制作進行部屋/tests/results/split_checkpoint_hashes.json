@@ -1,0 +1,18 @@
+[
+  {
+    "file": "adv_passages.rpy",
+    "sha256": "ba0071e15a59331e88b8e147e407ca39cf57b807b6032f52a924b1f8a769b1d2"
+  },
+  {
+    "file": "audio_cues.rpy",
+    "sha256": "3ff90abf78afdd913818c47c88001f1fed04278384b3736979a55882e251334a"
+  },
+  {
+    "file": "story_ch03.rpy",
+    "sha256": "397cdf6f6e0002164a76cf8c80307e0e0caa1cddb2d8d6e6d9ac3ff60a34f696"
+  },
+  {
+    "file": "qa_adv_checkpoint.rpy",
+    "sha256": "cca2bbb00b1753bcbe0ec3ed1882822fa08f78ce104efe416b87a93feb1294ec"
+  }
+]
