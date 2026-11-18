@@ -95,10 +95,44 @@ style frame:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
+init python:
+    # On these drawings the clue reaches the bottom of the original frame.
+    adv_full_art = frozenset((
+        "cg_hair_wind", "cg_garden_plan", "cg_gift", "cg_glove",
+        "cg_bento_jan", "cg_choco", "cg_solo", "cg_book_march",
+        "cg_book_stamp", "cg_child_drawing", "cg_hedge_book", "cg_scissors",
+        "cg_binding", "cg_embrace", "cg_book_ground", "cg_touka_night",
+        "cg_lovers", "cg_first_face", "cg_cheek",
+    ))
+
+    def adv_framed_art():
+        for tag in renpy.get_showing_tags(layer="master"):
+            if tag.partition("__")[0] in adv_full_art:
+                return tag
+        return None
+
+    def adv_paper_height(what):
+        # The 1704px line holds 47 full-width 36px glyphs. Leave room for
+        # Japanese line-breaking rules and the font's ascent and descent.
+        rows = sum(max(1, (len(line) + 42) // 43) for line in what.split("\n"))
+        return min(380, max(120, 48 + rows * 62))
+
 screen say(who, what):
+
+    $ framed_art = adv_framed_art()
+    if framed_art:
+        $ paper_height = adv_paper_height(what)
+        $ art_height = 1010 - paper_height
+        add Solid("#eeeae2")
+        add framed_art:
+            xalign 0.5
+            yalign 0.0
+            xysize (1920, art_height)
+            fit "contain"
 
     window:
         id "window"
+        properties ({"ypos": art_height, "ysize": paper_height} if framed_art else {})
 
         if who is not None:
 
