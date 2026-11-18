@@ -1,0 +1,78 @@
+[
+  {
+    "file": "frying_pan_loop.wav",
+    "source": "https://opengameart.org/content/general-household-sound-effects",
+    "download": "https://opengameart.org/sites/default/files/fryingpan01.wav",
+    "author": "bretbernhoft",
+    "license": "CC0-1.0",
+    "date": "2026-11-18",
+    "source_sha256": "cf725a48f22ef7bc58458dbe6c9f4b174ec1c5a5c92f152549ff2da21de8ab88",
+    "crop": [
+      2.0,
+      14.0
+    ],
+    "loop": true,
+    "edit": "300ms crossfade if loop; DC removal; peak .25; 10ms fades; PCM16",
+    "seconds": 11.7,
+    "clipped": 0,
+    "sha256": "2a173cde60e9dbbdc21bab8aed667dcad139a5a91fb41950dc27bd5decc81c24",
+    "listening": "PENDING"
+  },
+  {
+    "file": "kitchen_sink_loop.wav",
+    "source": "https://opengameart.org/content/general-household-sound-effects",
+    "download": "https://opengameart.org/sites/default/files/kitchensink01.wav",
+    "author": "bretbernhoft",
+    "license": "CC0-1.0",
+    "date": "2026-11-18",
+    "source_sha256": "430cc057dee80315da844dc74beca88205d1ca30fa89902077db41cc23c63854",
+    "crop": [
+      2.0,
+      14.0
+    ],
+    "loop": true,
+    "edit": "300ms crossfade if loop; DC removal; peak .25; 10ms fades; PCM16",
+    "seconds": 11.7,
+    "clipped": 0,
+    "sha256": "973465f10a0831f006e42beec98825a5f5bbbb727ea2e9e89fd5d24fd178aaa8",
+    "listening": "PENDING"
+  },
+  {
+    "file": "bird_excerpt.wav",
+    "source": "https://opengameart.org/content/ambient-bird-sounds",
+    "download": "https://opengameart.org/sites/default/files/birds-isaiah658.ogg",
+    "author": "isaiah658",
+    "license": "CC0-1.0",
+    "date": "2026-11-18",
+    "source_sha256": "359e4e3f9da9d75aac64cede511c7e3ef8b461f9d9f8c230f8f80e44c4b3e35f",
+    "crop": [
+      2.0,
+      3.0
+    ],
+    "loop": false,
+    "edit": "300ms crossfade if loop; DC removal; peak .25; 10ms fades; PCM16",
+    "seconds": 1.0,
+    "clipped": 0,
+    "sha256": "6034ee7255b33f235b32ce0ef5f4a82faa90d4384f2889689a4edeb0b886e488",
+    "listening": "PENDING"
+  },
+  {
+    "file": "park_wind_loop.wav",
+    "source": "https://opengameart.org/content/park-ambiences",
+    "download": "https://opengameart.org/sites/default/files/park_ambience_wind.wav",
+    "author": "Thimras",
+    "license": "CC0-1.0",
+    "date": "2026-11-18",
+    "source_sha256": "5c381856745b4706e7eba55eb9271a61a530e90c05df8126adb2db89ecfa6c5a",
+    "crop": [
+      2.0,
+      14.0
+    ],
+    "loop": true,
+    "edit": "300ms crossfade if loop; DC removal; peak .25; 10ms fades; PCM16",
+    "seconds": 11.7,
+    "clipped": 0,
+    "sha256": "4deaaf513ce46f7213b66553f1ae8b21563c1a56362bdb188c456617e68440bc",
+    "listening": "PENDING"
+  }
+]
