@@ -104,6 +104,7 @@ init python:
         "cg_book_stamp", "cg_child_drawing", "cg_hedge_book", "cg_hedge_reveal", "cg_scissors",
         "cg_binding", "cg_embrace", "cg_book_ground", "cg_touka_night",
         "cg_lovers", "cg_first_face", "cg_cheek", "cg_hands",
+        "cg_child_name", "cg_seat_intro", "cg_table_drink", "cg_rabbit", "cg_stone_pot",
     ))
 
     def adv_framed_art():
