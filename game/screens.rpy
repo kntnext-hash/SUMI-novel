@@ -98,6 +98,7 @@ style frame:
 init python:
     # On these drawings the clue reaches the bottom of the original frame.
     adv_full_art = frozenset((
+        "cg_bridge_hello", "cg_erase_tag", "cg_screen_portrait",
         "cg_hair_wind", "cg_garden_plan", "cg_gift", "cg_glove",
         "cg_bento_jan", "cg_choco", "cg_solo", "cg_book_march",
         "cg_book_stamp", "cg_child_drawing", "cg_hedge_book", "cg_scissors",
@@ -118,6 +119,14 @@ init python:
         return min(380, max(120, 48 + rows * 62))
 
 screen say(who, what):
+
+    $ portrait_source, portrait_line = adv_original_location(*renpy.get_filename_line())[:2]
+    if portrait_source == "story_ch01.rpy" and 54 <= portrait_line <= 57:
+        add ("images/touka_classroom_full.png" if reread else "images/touka_classroom_first.png"):
+            xalign 0.84
+            yalign 1.0
+            xysize (760, 990)
+            fit "contain"
 
     $ framed_art = adv_framed_art()
     if framed_art:
@@ -338,6 +347,8 @@ screen navigation():
             if main_menu and persistent.unlocked_reread:
                 textbutton _("全彩再読") action Start("reread_start")
 
+            textbutton _("CGギャラリー") action ShowMenu("cg_album")
+
             if renpy.loadable("movies/opening.webm"):
                 textbutton _("オープニング") action Replay("opening_replay", locked=False)
 
@@ -346,6 +357,8 @@ screen navigation():
             textbutton _("履歴") action ShowMenu("history")
 
             textbutton _("セーブ") action ShowMenu("save")
+
+        use ending_navigation
 
         textbutton _("ロード") action ShowMenu("load")
 
@@ -394,7 +407,7 @@ screen main_menu():
     ## This ensures that any other menu screen is replaced.
     tag menu
 
-    add gui.main_menu_background
+    add ("images/BG_bridge_spring__FULL.webp" if persistent.unlocked_reread else gui.main_menu_background)
 
     ## This empty frame darkens the main menu.
     frame:
@@ -415,8 +428,6 @@ screen main_menu():
             text "――きみの色が見えるまで。":
                 style "main_menu_subtitle"
 
-            text "[config.version]":
-                style "main_menu_version"
 
 
 style main_menu_frame is empty
