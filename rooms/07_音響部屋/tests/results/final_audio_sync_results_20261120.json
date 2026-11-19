@@ -1,0 +1,642 @@
+[
+  {
+    "key": [
+      "story_ch01.rpy",
+      29,
+      0
+    ],
+    "text": "向こうから自転車が二台、並んで来た。前を歩くおじさんが端へ寄る。わたしも寄った。車輪が通り過ぎるのを待っていたら、すぐ横で女の子が言った。",
+    "expected": null,
+    "events": [
+      [
+        "play",
+        "story_bicycle_near",
+        "<from 2.15 to 7.3>audio/bicycle_pass_full.wav"
+      ],
+      [
+        "play",
+        "story_bicycle_far",
+        "<from 1.55 to 6.8>audio/bicycle_pass_full.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch01.rpy",
+      34,
+      0
+    ],
+    "text": "「おはよう」",
+    "expected": null,
+    "events": [
+      [
+        "stop",
+        "story_bicycle_near",
+        null
+      ],
+      [
+        "stop",
+        "story_bicycle_far",
+        null
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch01.rpy",
+      72,
+      0
+    ],
+    "text": "そんなところでもう終わる話があるのか。続きが聞こえそうなところでチャイムが鳴った。二人とも話をやめてしまった。",
+    "expected": "audio/school_chime_original.wav",
+    "events": [
+      [
+        "play",
+        "sound",
+        "audio/school_chime_original.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch01.rpy",
+      227,
+      0
+    ],
+    "text": "足を止めると、後ろから来た自転車がちりんと鳴った。道をあけた。自転車は遠くへ行った。わたしは橋の欄干に手を置いて、さっき見たあたりをもう一度捜した。見つかった。手をかざしたら、小指一本ですっぽり隠れた。手を下ろすとそこにあった。",
+    "expected": "audio/bicycle_bell_single.wav",
+    "events": [
+      [
+        "play",
+        "story_bicycle_near",
+        [
+          "<silence 0.45>",
+          "<from 3.2 to 7.7>audio/bicycle_pass_full.wav"
+        ]
+      ],
+      [
+        "play",
+        "sound",
+        "audio/bicycle_bell_single.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch01.rpy",
+      229,
+      0
+    ],
+    "text": "しばらく見ていたら、風に吹かれた前髪が額に貼りついてむずがゆかった。掻いているわたしの前を、買い物袋を二つ持った人と、ランドセルを背負った子が通った。同じ空の下でどちらもべつに立ち止まらなかった。それがありがたかった。",
+    "expected": null,
+    "events": [
+      [
+        "stop",
+        "story_bicycle_near",
+        null
+      ],
+      [
+        "stop",
+        "story_bicycle_far",
+        null
+      ],
+      [
+        "play",
+        "story_ambience",
+        "audio/park_wind_loop.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch01.rpy",
+      237,
+      0
+    ],
+    "text": "次の日は雨で、窓は朝から閉まっていた。右の席に鞄が置かれた。",
+    "expected": null,
+    "events": [
+      [
+        "stop",
+        "story_ambience",
+        null
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch02.rpy",
+      171,
+      0
+    ],
+    "text": "後ろのほうで誰かが写真を回せと言って、透花さんはいっぺんに十枚ほど送った。人のスマホが一斉に鳴る。わたしのは鳴らなかった。班のグループに入ったとき、にぎやかになりそうだから通知を切ったのを忘れていた。",
+    "expected": "audio/notification_soft.wav",
+    "events": [
+      [
+        "play",
+        "sound",
+        "audio/notification_soft.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch02.rpy",
+      179,
+      0
+    ],
+    "text": "班のグループに入っている名前の一覧から、わたしは透花さんを見つけた。個人の画面を開くとまっさらだった。写真を押して、送信を押す。隣から音がした。わたしの体に触れそうな距離で、自分の送ったものが鳴るのは変な気持ちだった。",
+    "expected": "audio/notification_soft.wav",
+    "events": [
+      [
+        "play",
+        "sound",
+        "audio/notification_soft.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch03.rpy",
+      141,
+      0
+    ],
+    "text": "わたしは傘を差した。肩にかかった水を手の甲で払って、透花さんと別の方向へ歩いた。ひたすら音の多い雨だった。手元の骨からも、縁からも、地面からも鳴っていて、そこにあるはずの靴音が全部消えていた。",
+    "expected": null,
+    "events": [
+      [
+        "play",
+        "story_ambience",
+        "audio/rain_loop.wav"
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch03.rpy",
+      199,
+      0
+    ],
+    "text": "廊下で「数学、ちょっとだけいい？」と言われて、この人はわたしとは違う「ちょっと」の単位を使っているんだろうなと思いながら、わたしはひとりで図書室へ下りた。",
+    "expected": "audio/school_chime_original.wav",
+    "events": [
+      [
+        "play",
+        "sound",
+        "audio/school_chime_original.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch04.rpy",
+      93,
+      0
+    ],
+    "text": "電話はそれからもう一回だけ鳴った。",
+    "expected": "audio/notification_soft.wav",
+    "events": [
+      [
+        "play",
+        "sound",
+        "audio/notification_soft.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch04.rpy",
+      208,
+      0
+    ],
+    "text": "写真を撮った。正面、横、斜め後ろ。三枚目はくちばしなんか写らなくて、お腹を支えているわたしの親指ばかり大きくなった。三枚とも送った。すぐ横で透花のスマホが鳴った。",
+    "expected": "audio/notification_soft.wav",
+    "events": [
+      [
+        "play",
+        "sound",
+        "audio/notification_soft.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch05.rpy",
+      178,
+      0
+    ],
+    "text": "透花は見上げた。わたしも見た。暗いところから光の先が白く走って、開いて、その内側にもっと細かいものがいっぱいに満ちた。身体の下のほうに音が来たのはあとだった。立っている地面が息を吐くみたいに、わたしの下駄の爪先が少し浮いた。",
+    "expected": "audio/firework_single_5.wav",
+    "events": [
+      [
+        "play",
+        "sound",
+        "audio/firework_single_5.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch05.rpy",
+      226,
+      0
+    ],
+    "text": "川のほうで最後の花火が上がった。振り返ると手の甲を動かしてしまう。音だけが来て、建物の壁にとても大きな花が空から落ちてきたような明かりが映った。わたしの隣で、透花もその壁を見ていた。",
+    "expected": "audio/firework_single_5.wav",
+    "events": [
+      [
+        "play",
+        "sound",
+        "audio/firework_single_5.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch06.rpy",
+      79,
+      0
+    ],
+    "text": "売り物の見本で、日なたに半分出ていたボトルを受け取った。持った指が汗で滑りそうになった。透花はわたしの机の隅に置くとき、底の縁をちょっとだけ机につけてから、手の中でゆっくり起こした。ほとんど音がしなかった。",
+    "expected": null,
+    "events": [],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch06.rpy",
+      79,
+      1
+    ],
+    "text": "向かいの机に置いたときは、普通にかたんと鳴った。",
+    "expected": "audio/thermos_set_down.wav",
+    "events": [
+      [
+        "play",
+        "sound",
+        "audio/thermos_set_down.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch06.rpy",
+      229,
+      0
+    ],
+    "text": "下駄箱の上の古新聞は、うちで揚げ物をした日は減るのが早い。今日は野球の結果をまとめた紙しか残っていなかった。見てもちっともわからない成績を丸めて、足のいちばん奥まで押し込んだ。電話は、玄関で鳴った。",
+    "expected": "audio/ringtone_original.wav",
+    "events": [
+      [
+        "play",
+        "sound",
+        "audio/ringtone_original.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch06.rpy",
+      230,
+      0
+    ],
+    "text": "「帰った？」",
+    "expected": null,
+    "events": [
+      [
+        "stop",
+        "sound",
+        null
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch07.rpy",
+      106,
+      0
+    ],
+    "text": "拾って戻ってくるのを、この子なら大丈夫だと、自分に言い聞かせるまでもなかった。二人で最後の三メートルを歩くような速さで走った。ゴールでタオルを丸めてボールを包んだら、誰かのシャッター音がした。順位を聞きそびれたけれど、時間係が記録を付けていたので、世の中の大事な記録が一つ永遠に失われるということもなかった。",
+    "expected": "audio/camera_shutter.wav",
+    "events": [
+      [
+        "play",
+        "sound",
+        "audio/camera_shutter.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch07.rpy",
+      209,
+      0
+    ],
+    "text": "わたしの返した本が一冊、音をさせて向こう側へ落ちた。",
+    "expected": "audio/book_drop.wav",
+    "events": [
+      [
+        "play",
+        "sound",
+        "audio/book_drop.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch09.rpy",
+      142,
+      0
+    ],
+    "text": "次の映画は列車が坂を上っていくところから始まった。タイヤの下に木のブロックが並んで現れ、客席でかたかた鳴った。駅で待っている人の足元に紙の形が出た。みんな一斉に紙を握り、新聞を読んでいる人の絵が急にたくさんの音を持った。わたしが少し遅れたら、別の列の小さい人が、わたしよりもっと遅れて紙を開いた。一人だけ次の駅の新聞を開いているみたいで、奥のほうから笑い声がした。",
+    "expected": "audio/cinema_wood_paper.wav",
+    "events": [
+      [
+        "play",
+        "sound",
+        "audio/cinema_wood_paper.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch09.rpy",
+      143,
+      0
+    ],
+    "text": "鈴の出番は駅員さんがドアを閉めるところだった。透花は教えたとおり、振らずに軽く腕をひねった。きちんとひとつだけ、耳の片側で鳴った。ほかの鈴の陰に入らない、すぐそばの音だった。",
+    "expected": "audio/small_bell_single.wav",
+    "events": [
+      [
+        "play",
+        "sound",
+        "audio/small_bell_single.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch09.rpy",
+      144,
+      0
+    ],
+    "text": "列車が去り、幕がいったん暗くなった。掌にためてあった温度と、スクリーンのそこだけが明るい温度とは違った。わたしは指で紙に折り目を作って、角を一つだけ起こした。これを元の袋に戻すと、次のひとはわたしのつけた折り目で音を鳴らすのだろう。透花は暗いあいだに、肘掛けの向こうから指一本を伸ばし、わたしの袖に鈴を押し当てた。鳴らない鈴のふくらみが、手首の骨を一つぶん増やした。",
+    "expected": null,
+    "events": [
+      [
+        "stop",
+        "sound",
+        null
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch09.rpy",
+      145,
+      0
+    ],
+    "text": "腕を少し返して、今度はわたしがその鈴を鳴らさないまま掌に受けた。お客さんがみんな前を向いているところで、隣のひとから小さいものをひとつだけ受け取る。鈴はぬるくなっていた。明かりがつく前に返さなくてはいけないことまで含めて、いま欲しいのはこれだと思った。",
+    "expected": null,
+    "events": [
+      [
+        "stop",
+        "sound",
+        null
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch09.rpy",
+      146,
+      0
+    ],
+    "text": "幕の中でまた列車が動いた。鈴を受け渡した途端ふたりの列に続けて合図が来て、紙がぐしゃ、隣でりん、りん、と二回鳴った。わたしは失敗が誰にも聞き分けられていないのが惜しかった。わたしたち二人だけのさっきの続きだった。",
+    "expected": "audio/cinema_paper_two_bells.wav",
+    "events": [
+      [
+        "play",
+        "sound",
+        "audio/cinema_paper_two_bells.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch11.rpy",
+      57,
+      0
+    ],
+    "text": "大げさに「あらまあ」と喜ぶ人のはずなのに、板チョコの空袋はきっちり洗濯ばさみに留められた。閉めてあった冷蔵庫の音と、鍋のお湯をざぶっと捨てる音が、窓を曇らせた台所の中で二人を少し離した。",
+    "expected": "audio/pot_water.wav",
+    "events": [
+      [
+        "play",
+        "story_ambience",
+        "audio/fridge_loop.wav"
+      ],
+      [
+        "play",
+        "sound",
+        "audio/pot_water.wav"
+      ],
+      [
+        "stop",
+        "music",
+        null
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_ch11.rpy",
+      220,
+      0
+    ],
+    "text": "昼休みのチャイムが鳴ると、透花が窓際に来て、自分の机から抱えて運んできた椅子をわたしの前に置いた。写真部に持っていくらしい鞄を、足もとに立てかけた。わたしは肩を詰めて、水筒を置く場所を空けた。",
+    "expected": "audio/school_chime_original.wav",
+    "events": [
+      [
+        "play",
+        "sound",
+        "audio/school_chime_original.wav"
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_end_r.rpy",
+      33,
+      0
+    ],
+    "text": "「二等？」",
+    "expected": null,
+    "events": [
+      [
+        "play",
+        "story_ambience",
+        "audio/kitchen_sink_loop.wav"
+      ]
+    ],
+    "passed": true
+  },
+  {
+    "key": [
+      "story_end_r.rpy",
+      37,
+      0
+    ],
+    "text": "遠くで水道の栓がひとつ閉まった。流れていた水の音がすとんと止まった。わたしはようやく口を閉じた。",
+    "expected": null,
+    "events": [
+      [
+        "stop",
+        "story_ambience",
+        null
+      ]
+    ],
+    "passed": true
+  }
+]

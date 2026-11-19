@@ -1,0 +1,67 @@
+[
+  {
+    "file": "ending_revisit.rpy",
+    "sha256": "e14f8863bf46bcd93c67d1c1da5a79545e2aabb1155bdcbe929aef83d3fc87e3",
+    "qa_matches": true
+  },
+  {
+    "file": "screens.rpy",
+    "sha256": "4a78ee7a9b4b3fae8d759a620142d2ff2b63684e249d139bc0f5616777904992",
+    "qa_matches": true
+  },
+  {
+    "file": "story_ch12.rpy",
+    "sha256": "d11154ab0f8dfff2771f5134ed977715b214d3202769fcd4b8ee28721cdd6fdd",
+    "qa_matches": true
+  },
+  {
+    "file": "story_end_a.rpy",
+    "sha256": "a2f4dc89d4a1f2918e671b5dbfd2353ac1de0fb4c5691744975e2f2d4f3bf6fd",
+    "qa_matches": true
+  },
+  {
+    "file": "story_end_b.rpy",
+    "sha256": "4de2e8e0a72d4a365dc1bd0521c2579a53a55643be7fc8140579b0012199e7a0",
+    "qa_matches": true
+  },
+  {
+    "file": "story_end_c.rpy",
+    "sha256": "7f7aa270ac310792a184ed0d09070fbf927cde221529af00ca310b7889672adc",
+    "qa_matches": true
+  },
+  {
+    "file": "story_end_d.rpy",
+    "sha256": "bf2d569fc91e086c87fd51d3d8cbaf94c032534178ec9bef9751da1b99f84a3e",
+    "qa_matches": true
+  },
+  {
+    "file": "story_end_r.rpy",
+    "sha256": "050abfb86f88eea0c57f16dacc540c0c64975df0c3a768ee6a0d3a535981409d",
+    "qa_matches": true
+  },
+  {
+    "file": "story_end_s.rpy",
+    "sha256": "beeb5a290711629435bbbf4a880b5d5d32e64553829e5ba540d61e155a995c61",
+    "qa_matches": true
+  },
+  {
+    "file": "theme_music.rpy",
+    "sha256": "37e9e775ade15d0894219590aa300fb8d71e62cf5da273285f9ba55b78b4e141",
+    "qa_matches": true
+  },
+  {
+    "file": "adv_passages.rpy",
+    "sha256": "beb6e509fdf0261122a5f4cca68903a9701b37c3ca819f905ca9fbdba49ce792",
+    "qa_matches": true
+  },
+  {
+    "file": "images/touka_classroom_first.png",
+    "sha256": "144d1c31fb65f6db0b90aff5f997ce917fab13e7a280a6856f4c5bcbb950f8d2",
+    "qa_matches": true
+  },
+  {
+    "file": "images/touka_classroom_full.png",
+    "sha256": "8fcb3d99c9d6c619dfd0cc32af3b9376f7f40cc2698377ab74a31768c99c5179",
+    "qa_matches": true
+  }
+]

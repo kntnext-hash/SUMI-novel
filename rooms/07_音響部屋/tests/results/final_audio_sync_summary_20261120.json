@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "locations": 29,
+  "single_sound_cues": 18,
+  "stop_cues": 3,
+  "extra_locations": 8,
+  "displayed_text_matches_manifest": true,
+  "source_or_audio_changed_during_test": [],
+  "hearing_review": "NOT_PERFORMED",
+  "audio_regenerated": false
+}
