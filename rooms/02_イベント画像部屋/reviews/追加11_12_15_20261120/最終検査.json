@@ -1,0 +1,81 @@
+{
+  "status": "REVIEW",
+  "runtime_images": [
+    {
+      "file": "game/images/CG_hedge_book__FULL.webp",
+      "sha256": "0c634ed4838f363bb9226c172b1b781af52239517831589a58b99188b008e930",
+      "size": [
+        1920,
+        1080
+      ],
+      "non_neutral_pixels": 2065327
+    },
+    {
+      "file": "game/images/CG_hedge_book__5.webp",
+      "sha256": "0c634ed4838f363bb9226c172b1b781af52239517831589a58b99188b008e930",
+      "size": [
+        1920,
+        1080
+      ],
+      "non_neutral_pixels": 2065327
+    },
+    {
+      "file": "game/images/CG_hedge_reveal__FULL.webp",
+      "sha256": "70184fabc60bf28922b199c5948b24f70eda487c3c6d3f31eb28f3a7d8b88fa4",
+      "size": [
+        1920,
+        1080
+      ],
+      "non_neutral_pixels": 2069390
+    },
+    {
+      "file": "game/images/CG_hedge_reveal__5.webp",
+      "sha256": "70184fabc60bf28922b199c5948b24f70eda487c3c6d3f31eb28f3a7d8b88fa4",
+      "size": [
+        1920,
+        1080
+      ],
+      "non_neutral_pixels": 2069390
+    },
+    {
+      "file": "game/images/CG_again__FULL.webp",
+      "sha256": "bc8261b6888ace98525ebfa192cc684f39f30c5d88ebc22a894d39f3d580c52f",
+      "size": [
+        1920,
+        1080
+      ],
+      "non_neutral_pixels": 2068349
+    },
+    {
+      "file": "game/images/CG_again__5.webp",
+      "sha256": "bc8261b6888ace98525ebfa192cc684f39f30c5d88ebc22a894d39f3d580c52f",
+      "size": [
+        1920,
+        1080
+      ],
+      "non_neutral_pixels": 2068349
+    },
+    {
+      "file": "game/images/CG_market_flyer__FULL.webp",
+      "sha256": "f45a69cfec1d4b0bad0ac3fda9e35cb7cbe81b183064855d5c976414172c0225",
+      "size": [
+        1920,
+        1080
+      ],
+      "non_neutral_pixels": 2038864
+    },
+    {
+      "file": "game/images/CG_market_flyer__1B.webp",
+      "sha256": "1b4e0fdd668b8b7812afe6935219633d6e66844e3ab2087769051ae101458080",
+      "size": [
+        1920,
+        1080
+      ],
+      "non_neutral_pixels": 0
+    }
+  ],
+  "stage5_full_identical": true,
+  "market_neutral": true,
+  "reveal_trigger_registered": true,
+  "runtime_visual_test": "not performed"
+}

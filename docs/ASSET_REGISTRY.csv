@@ -21,3 +21,5 @@ OP_cut07,op,1,OPカット07 水たまりの空（映る空の端に薄い青）,
 OP_cut08,op,1,OPカット08 空に青が滲む,rooms/02_イベント画像部屋/assets/op/op_cut08.png,PENDING,OPキーフレーム。青は空だけ（約1/4まで）
 OP_cut09,op,1,OPカット09 桜の木（墨の桜・空に薄い青）,rooms/02_イベント画像部屋/assets/op/op_cut09.png,PENDING,OPキーフレーム。桜は色付けしない
 OP_cut10,op,1,OPカット10 タイトル背景,rooms/02_イベント画像部屋/assets/op/op_cut10.png,PENDING,OPキーフレーム。上半分はタイトル用の余白
+CG_hedge_reveal,event_cg,5,ERS02いつから知っていたの専用CG,game/images/CG_hedge_reveal__5.webp,REVIEW,元3枚参照の原画から5とFULLを同画素で導出
+CG_garden_joined,event_cg,3,C08S07で澄と透花の庭の絵が並ぶ,game/images/CG_garden_joined__3.webp,REVIEW,初周3と再読FULLを登録

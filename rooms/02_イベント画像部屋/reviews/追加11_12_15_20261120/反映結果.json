@@ -1,0 +1,124 @@
+{
+  "time": "2026-11-20T00:51:48.012917",
+  "status": "REVIEW",
+  "cg_count": 4,
+  "game_images": 8,
+  "files": [
+    {
+      "file": "rooms/02_イベント画像部屋/private_sources/long/CG_hedge_book__FULL.png",
+      "sha256": "239e6425280480f5038dde637ac7be615feb338d21e5fcfd1227c2443ec0247c"
+    },
+    {
+      "file": "rooms/02_イベント画像部屋/private_sources/本採用_FULL/CG_hedge_book__FULL.png",
+      "sha256": "239e6425280480f5038dde637ac7be615feb338d21e5fcfd1227c2443ec0247c"
+    },
+    {
+      "file": "game/images/CG_hedge_book__FULL.webp",
+      "sha256": "0c634ed4838f363bb9226c172b1b781af52239517831589a58b99188b008e930"
+    },
+    {
+      "file": "rooms/04_水墨・色彩演出部屋/初周PNG/CG_hedge_book__5.png",
+      "sha256": "239e6425280480f5038dde637ac7be615feb338d21e5fcfd1227c2443ec0247c"
+    },
+    {
+      "file": "rooms/04_水墨・色彩演出部屋/初周白筆PNG/CG_hedge_book__5.png",
+      "sha256": "239e6425280480f5038dde637ac7be615feb338d21e5fcfd1227c2443ec0247c"
+    },
+    {
+      "file": "game/images/CG_hedge_book__5.webp",
+      "sha256": "0c634ed4838f363bb9226c172b1b781af52239517831589a58b99188b008e930"
+    },
+    {
+      "file": "rooms/02_イベント画像部屋/private_sources/long/CG_hedge_reveal__FULL.png",
+      "sha256": "4956655e26d702d05d46af1325f873b08f84626b2e96408c2722e1e6ba66ae95"
+    },
+    {
+      "file": "rooms/02_イベント画像部屋/private_sources/本採用_FULL/CG_hedge_reveal__FULL.png",
+      "sha256": "4956655e26d702d05d46af1325f873b08f84626b2e96408c2722e1e6ba66ae95"
+    },
+    {
+      "file": "game/images/CG_hedge_reveal__FULL.webp",
+      "sha256": "70184fabc60bf28922b199c5948b24f70eda487c3c6d3f31eb28f3a7d8b88fa4"
+    },
+    {
+      "file": "rooms/04_水墨・色彩演出部屋/初周PNG/CG_hedge_reveal__5.png",
+      "sha256": "4956655e26d702d05d46af1325f873b08f84626b2e96408c2722e1e6ba66ae95"
+    },
+    {
+      "file": "rooms/04_水墨・色彩演出部屋/初周白筆PNG/CG_hedge_reveal__5.png",
+      "sha256": "4956655e26d702d05d46af1325f873b08f84626b2e96408c2722e1e6ba66ae95"
+    },
+    {
+      "file": "game/images/CG_hedge_reveal__5.webp",
+      "sha256": "70184fabc60bf28922b199c5948b24f70eda487c3c6d3f31eb28f3a7d8b88fa4"
+    },
+    {
+      "file": "rooms/02_イベント画像部屋/private_sources/long/CG_again__FULL.png",
+      "sha256": "4101c9eaf68592dd4c25025c84c6d3d68974e3886ff572c5ca8939459ea6673c"
+    },
+    {
+      "file": "rooms/02_イベント画像部屋/private_sources/本採用_FULL/CG_again__FULL.png",
+      "sha256": "4101c9eaf68592dd4c25025c84c6d3d68974e3886ff572c5ca8939459ea6673c"
+    },
+    {
+      "file": "game/images/CG_again__FULL.webp",
+      "sha256": "bc8261b6888ace98525ebfa192cc684f39f30c5d88ebc22a894d39f3d580c52f"
+    },
+    {
+      "file": "rooms/04_水墨・色彩演出部屋/初周PNG/CG_again__5.png",
+      "sha256": "4101c9eaf68592dd4c25025c84c6d3d68974e3886ff572c5ca8939459ea6673c"
+    },
+    {
+      "file": "rooms/04_水墨・色彩演出部屋/初周白筆PNG/CG_again__5.png",
+      "sha256": "4101c9eaf68592dd4c25025c84c6d3d68974e3886ff572c5ca8939459ea6673c"
+    },
+    {
+      "file": "game/images/CG_again__5.webp",
+      "sha256": "bc8261b6888ace98525ebfa192cc684f39f30c5d88ebc22a894d39f3d580c52f"
+    },
+    {
+      "file": "rooms/02_イベント画像部屋/private_sources/long/CG_market_flyer__FULL.png",
+      "sha256": "ffb066455e9bd788ec0c6520079dff8c5ac67e406d720198ed43d75b25a921f2"
+    },
+    {
+      "file": "rooms/02_イベント画像部屋/private_sources/本採用_FULL/CG_market_flyer__FULL.png",
+      "sha256": "ffb066455e9bd788ec0c6520079dff8c5ac67e406d720198ed43d75b25a921f2"
+    },
+    {
+      "file": "game/images/CG_market_flyer__FULL.webp",
+      "sha256": "f45a69cfec1d4b0bad0ac3fda9e35cb7cbe81b183064855d5c976414172c0225"
+    },
+    {
+      "file": "rooms/04_水墨・色彩演出部屋/初周PNG/CG_market_flyer__1B.png",
+      "sha256": "c5cad4e8eb9c4846443b9c30d56801c020f4a5b04a7b5b758928c490d9746dad"
+    },
+    {
+      "file": "rooms/04_水墨・色彩演出部屋/初周白筆PNG/CG_market_flyer__1B.png",
+      "sha256": "c5cad4e8eb9c4846443b9c30d56801c020f4a5b04a7b5b758928c490d9746dad"
+    },
+    {
+      "file": "game/images/CG_market_flyer__1B.webp",
+      "sha256": "1b4e0fdd668b8b7812afe6935219633d6e66844e3ab2087769051ae101458080"
+    }
+  ],
+  "hashes": {
+    "CG_hedge_book": {
+      "full": "239e6425280480f5038dde637ac7be615feb338d21e5fcfd1227c2443ec0247c",
+      "stage": "239e6425280480f5038dde637ac7be615feb338d21e5fcfd1227c2443ec0247c"
+    },
+    "CG_hedge_reveal": {
+      "full": "4956655e26d702d05d46af1325f873b08f84626b2e96408c2722e1e6ba66ae95",
+      "stage": "4956655e26d702d05d46af1325f873b08f84626b2e96408c2722e1e6ba66ae95"
+    },
+    "CG_again": {
+      "full": "4101c9eaf68592dd4c25025c84c6d3d68974e3886ff572c5ca8939459ea6673c",
+      "stage": "4101c9eaf68592dd4c25025c84c6d3d68974e3886ff572c5ca8939459ea6673c"
+    },
+    "CG_market_flyer": {
+      "full": "ffb066455e9bd788ec0c6520079dff8c5ac67e406d720198ed43d75b25a921f2",
+      "stage": "c5cad4e8eb9c4846443b9c30d56801c020f4a5b04a7b5b758928c490d9746dad"
+    }
+  },
+  "runtime": "not run in this task; script registration verified",
+  "backup": "C:\\Users\\che22\\Documents\\ChatGPT\\SUMI\\SUMI-novel\\rooms\\02_イベント画像部屋\\private_sources\\追加修正_20261120\\before_install"
+}
