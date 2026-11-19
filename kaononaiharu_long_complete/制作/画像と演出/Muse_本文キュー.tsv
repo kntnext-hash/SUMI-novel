@@ -58,8 +58,8 @@ C05S02	1	一時間前、お母さんは正座して、スマホで浴衣の	CG_o
 C05S03	1	川沿いへ下りる石段の手前で、人の列が羊羹みた	BG_stairs	1C	BG_stairs__1C.png	BG_stairs__FULL.png	場面開始
 C05S04	1	人の流れが変わったのは、透花が立ってすぐのこ	CG_lost	1C	CG_lost__1C.png	CG_lost__FULL.png	場面開始
 C05S05	1	保育園の面する細い通りのほうへいったん上がる	BG_nursery	1C	BG_nursery__1C.png	BG_nursery__FULL.png	場面開始
-C05S06	1	「痛くなかった？」	CG_hands	1C	CG_hands__1C.png	CG_hands__FULL.png	場面開始
-C05S06	22	透花の指に色があった	CG_hands	2	CG_hands__2.png	CG_hands__FULL.png	親指の根元から、触れ合うところだけ。
+C05S06	21	指を入れた。両方の手がくっついて、もう一度ぎゅっ	CG_hands	1C	CG_hands__1C.png	CG_hands__FULL.png	「指を入れた」の直前。素材保持。
+C05S06	22	透花の指に色があった。親指の根元の少し奥、熱の残	CG_hands	2	CG_hands__2.png	CG_hands__FULL.png	親指の根元から、触れ合うところだけ。
 C05S07	1	駅で手を離した。二人とも切符を持っていないの	BG_station	2	BG_station__2.png	BG_station__FULL.png	場面開始
 C06S01	1	文化祭の準備を始めると、教室でいちばん値打ち	BG_cafe_prep	2	BG_cafe_prep__2.png	BG_cafe_prep__FULL.png	場面開始
 C06S02	1	夏の終わりの教室は朝には案外涼しいのに、放課	BG_cafe_prep	2	BG_cafe_prep__2.png	BG_cafe_prep__FULL.png	場面開始
@@ -93,8 +93,9 @@ C08S06	1	夕方、川へ抜ける路地で飴の袋を開けた。すぐ食	BG_l
 C08S06	13	「向こうはもう覚えてないと思う」	CG_can_pause	3	CG_can_pause__3.png	CG_can_pause__FULL.png	再読では澄の言葉を受けた顔。缶の音にかぶせて台詞を足さない。
 C08S06	17	「何でもないよ」	CG_can_reply	3	CG_can_reply__3.png	CG_can_reply__FULL.png	直前の原画から目元・口の芝居だけの差分を制作。初周は直前と同一カット。
 C08S06	21	帰って湯を張った洗面器に	BG_home_sink	3	BG_home_sink__3.png	BG_home_sink__FULL.png	
-C08S07	1	次の朝、写真が一枚来ていた。透花が昨夜描いた	CG_garden_plan	3	CG_garden_plan__3.png	CG_garden_plan__FULL.png	場面開始
-C08S07	15	月曜には二人分の庭を	BG_room_jun	3	BG_room_jun__3.png	BG_room_jun__FULL.png	
+C08S07	1	次の朝、写真が一枚来ていた。透花が昨夜描いた、あ	CG_garden_plan	3	CG_garden_plan__3.png	CG_garden_plan__FULL.png	場面開始
+C08S07	7	『いいよ。庭の右側はわたし。左は透花』	CG_garden_joined	3	CG_garden_joined__3.png	CG_garden_joined__FULL.png	澄が庭の右側を引き受ける返答の直前。
+C08S07	15	月曜には二人分の庭を持って学校に行った。机の右隣	BG_room_jun	3	BG_room_jun__3.png	BG_room_jun__FULL.png	既存の場面終端背景を保持。
 C09S01	1	先生が残りの日数を黒板に書いてから、みんなが	BG_room_dec	3	BG_room_dec__3.png	BG_room_dec__FULL.png	場面開始
 C09S02	1	家で「二十四日は遅くなる」と言ったら、お母さ	BG_home_kitchen	3	BG_home_kitchen__3.png	BG_home_kitchen__FULL.png	場面開始
 C09S03	1	お昼すぎ、早めに駅へ行くことにした。去年のコ	BG_station	3	BG_station__3.png	BG_station__FULL.png	場面開始
@@ -142,8 +143,9 @@ EAS04	12	今日は、私の名前を呼んで	BG_touka_entry	5	BG_touka_entry__5
 ERS01	1	「あのお店の話、続きがあるの」	BG_gate_mar	5	BG_gate_mar__5.png	BG_gate_mar__FULL.png	場面開始
 ERS01	19	「二等、何だったか覚えてる？」	CG_hedge_book	5	CG_hedge_book__5.png	CG_hedge_book__FULL.png	
 ERS01	27	水、入れて鳴らすんだよ	CG_whistle	5	CG_whistle__5.png	CG_whistle__FULL.png	現物がその場に出てくる演出にはしない。回想の手と水笛の挿絵。
-ERS02	1	ポケットの底で鍵の頭に指が当たった。うちに入	CG_hedge_book	5	CG_hedge_book__5.png	CG_hedge_book__FULL.png	場面開始
-ERS02	14	冊子のページを押さえたまま	CG_hedge_book	5	CG_hedge_book__5.png	CG_hedge_book__FULL.png	
+ERS02	1	ポケットの底で鍵の頭に指が当たった。うちに入る鍵	CG_hedge_book	5	CG_hedge_book__5.png	CG_hedge_book__FULL.png	場面開始
+ERS02	6	「ちがう。いつから、わたしだって知ってたの」	CG_hedge_reveal	5	CG_hedge_reveal__5.png	CG_hedge_reveal__FULL.png	いつから知っていたのかを尋ねる専用CG。
+ERS02	14	冊子のページを押さえたままのわたしの指に、透花の	CG_hedge_book	5	CG_hedge_book__5.png	CG_hedge_book__FULL.png	小指の接触で冊子の構図へ戻る。
 EBS01	1	「今日はここまでにしていい？」	CG_hedge_book	5	CG_hedge_book__5.png	CG_hedge_book__FULL.png	場面開始
 EBS02	1	家に帰ると、お母さんが一人前のうどんを茹でて	BG_home_kitchen	5	BG_home_kitchen__5.png	BG_home_kitchen__FULL.png	場面開始
 EBS02	1	家に帰ると	BG_home_kitchen	5	BG_home_kitchen__5.png	BG_home_kitchen__FULL.png	

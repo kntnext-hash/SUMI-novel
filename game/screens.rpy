@@ -99,9 +99,9 @@ init python:
     # On these drawings the clue reaches the bottom of the original frame.
     adv_full_art = frozenset((
         "cg_bridge_hello", "cg_erase_tag", "cg_screen_portrait",
-        "cg_hair_wind", "cg_garden_plan", "cg_gift", "cg_glove",
+        "cg_hair_wind", "cg_garden_plan", "cg_garden_joined", "cg_gift", "cg_glove",
         "cg_bento_jan", "cg_choco", "cg_solo", "cg_book_march",
-        "cg_book_stamp", "cg_child_drawing", "cg_hedge_book", "cg_scissors",
+        "cg_book_stamp", "cg_child_drawing", "cg_hedge_book", "cg_hedge_reveal", "cg_scissors",
         "cg_binding", "cg_embrace", "cg_book_ground", "cg_touka_night",
         "cg_lovers", "cg_first_face", "cg_cheek",
     ))

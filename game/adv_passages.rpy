@@ -715,7 +715,7 @@ init -20 python:
         (235, 'story_ch05.rpy', 126, 2),
         (240, 'story_ch05.rpy', 130, 3),
         (246, 'story_ch05.rpy', 182, 3),
-        (252, 'story_ch05.rpy', 208, 3),
+        (252, 'story_ch05.rpy', 204, 3),
         (258, 'story_ch05.rpy', 246, 2),
         (263, 'story_ch06.rpy', 33, 2),
         (268, 'story_ch06.rpy', 34, 2),

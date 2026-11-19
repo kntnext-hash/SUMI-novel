@@ -188,10 +188,6 @@ label node_C05S05:
 
 label node_C05S06:
     nvl clear
-    if reread:
-        scene cg_hands__full with dissolve
-    else:
-        scene cg_hands__1c with dissolve
     "「痛くなかった？」"
     "「手？」"
     "「ううん。足」"
@@ -212,6 +208,10 @@ label node_C05S06:
     "わたしは自分の右手を見えるところへ出した。透花は立ち止まって、わたしと手の間にある、声ひとつぶんのあいだを空けた。"
     "「うん。こっち」"
     "透花が手のひらを上に向けた。掴まえられたのとは全然違って、わたしのほうが入るところへ親指が自然に来るように、そっとそこで待っていた。"
+    if reread:
+        scene cg_hands__full with dissolve
+    else:
+        scene cg_hands__1c with dissolve
     "指を入れた。両方の手がくっついて、もう一度ぎゅっとしたのは、どちらかわからなかった。わたしは歩きだすまで思ったより長くそこにいた。歩きだすときの小さい動きで、指の根元の、昼に日を受けたところと風車の棒の陰だったところのあいだへ、行灯の明かりが入った。"
     if reread:
         scene cg_hands__full with Dissolve(1.8)
