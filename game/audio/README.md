@@ -13,3 +13,5 @@ notification_soft.wav と school_chime_original.wav は、本作向けに正弦�
 シャッター音 camera_shutter.wav を第7章C07S03のゴール直後（rpy106）へ追加。スマホ撮影場面への流用は未実施。音源出典・加工記録はgame/licenses/AUDIO_SOURCES.md。聴覚評価は未完了。
 
 第9章C09S04：rpy142で木片→紙、143で鈴一打、144〜145は鈴を鳴らさないためsoundを停止、146で紙→鈴二打。各node進入時にも単発効果音を停止し、映画館の音を帰り道へ持ち越さない。組合せ音の配置時刻・入力ハッシュはgame/licenses/CINEMA_SOUND_TIMELINE.json。試聴未実施のREVIEW。
+
+- firework_single_5.wav — Rudmer_Rotteveel, Firework Single 5, Freesound 336010, CC0 1.0. https://freesound.org/people/Rudmer_Rotteveel/sounds/336010/ 。取得・減衰の記録は07室 batch2_20261119_rights_qc.json。

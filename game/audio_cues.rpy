@@ -3,6 +3,8 @@
 init 10 python:
     # Audio locations use the original paragraph and zero-based ADV page.
     story_sound_cues = {
+        ("story_ch05.rpy", 178, 0): ("audio/firework_single_5.wav", 0.26),
+        ("story_ch05.rpy", 226, 0): ("audio/firework_single_5.wav", 0.18),
         ("story_ch01.rpy", 227, 0): ("audio/bicycle_bell_single.wav", 0.31),
         ("story_ch06.rpy", 79, 1): ("audio/thermos_set_down.wav", 0.42),
         ("story_ch01.rpy", 72, 0): ("audio/school_chime_original.wav", 0.35),
