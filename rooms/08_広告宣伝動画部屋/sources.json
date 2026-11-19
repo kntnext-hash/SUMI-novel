@@ -1,0 +1,32 @@
+[
+  {
+    "file": "BG_bridge_spring__0.webp",
+    "source": "C:\\Users\\che22\\Documents\\ChatGPT\\SUMI\\builds\\kaononaiharu-adv-sound-review-win\\game\\images\\BG_bridge_spring__0.webp",
+    "sha256": "977ff1c922773414a858d2b2d68eb629d6c6a46a67ea07b4acaa535755353742"
+  },
+  {
+    "file": "BG_bridge_spring__FULL.webp",
+    "source": "C:\\Users\\che22\\Documents\\ChatGPT\\SUMI\\builds\\kaononaiharu-adv-sound-review-win\\game\\images\\BG_bridge_spring__FULL.webp",
+    "sha256": "ce278819648c729d3ee11019735f4ed5bd256a7a2e8f9005e69a0327d2b52466"
+  },
+  {
+    "file": "CG_bridge_hello__0.webp",
+    "source": "C:\\Users\\che22\\Documents\\ChatGPT\\SUMI\\builds\\kaononaiharu-adv-sound-review-win\\game\\images\\CG_bridge_hello__0.webp",
+    "sha256": "04a03d6d9a24dc06109333bd4b121aa5712b3d8cae056c5a8f9c49c255f28e3e"
+  },
+  {
+    "file": "NotoSerifJP-Regular.otf",
+    "source": "C:\\Users\\che22\\Documents\\ChatGPT\\SUMI\\builds\\kaononaiharu-adv-sound-review-win\\game\\fonts\\NotoSerifJP-Regular.otf",
+    "sha256": "f6df0e5720ccd5bbab212245150db6c515d2de15d44304fd4101efb764293064"
+  },
+  {
+    "file": "park_wind_loop.wav",
+    "source": "C:\\Users\\che22\\Documents\\ChatGPT\\SUMI\\builds\\kaononaiharu-adv-sound-review-win\\game\\audio\\park_wind_loop.wav",
+    "sha256": "4deaaf513ce46f7213b66553f1ae8b21563c1a56362bdb188c456617e68440bc"
+  },
+  {
+    "file": "bicycle_bell_single.wav",
+    "source": "C:\\Users\\che22\\Documents\\ChatGPT\\SUMI\\builds\\kaononaiharu-adv-sound-review-win\\game\\audio\\bicycle_bell_single.wav",
+    "sha256": "9598e0dfebd3d4211a1ba9b612e68c084d9acf79fd78a310637d24ee87df7d12"
+  }
+]

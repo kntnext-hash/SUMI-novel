@@ -1,0 +1,9 @@
+python_lib/
+capture-game/
+project/node_modules/
+project/.remotion/
+project/build/
+qa/*.rgb
+qa/*.f32
+masters/
+qa/vertical_??_*.jpg
