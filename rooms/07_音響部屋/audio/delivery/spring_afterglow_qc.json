@@ -1,0 +1,29 @@
+{
+  "title": "春の余白",
+  "status": "REVIEW",
+  "composer": "Codex, original symbolic score and additive synthesis",
+  "third_party_audio": false,
+  "ai_assisted": true,
+  "hearing_review": "NOT_PERFORMED",
+  "tempo_bpm": 64,
+  "meter": "3/4",
+  "bars": 32,
+  "duration_seconds": 98.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "peak_dbfs": -8.873567110859247,
+  "rms_dbfs": -22.427828434842905,
+  "clipped_samples": 0,
+  "first_sample": [
+    0.0,
+    0.0
+  ],
+  "last_sample": [
+    0.0,
+    0.0
+  ],
+  "files": {
+    "rooms\\07_音響部屋\\audio\\delivery\\spring_afterglow_original.wav": "5be9572652978555fd6d77350dfbc6c1ca1b6c17ba477b672e146a7b69e44076",
+    "game\\audio\\spring_afterglow_original.wav": "5be9572652978555fd6d77350dfbc6c1ca1b6c17ba477b672e146a7b69e44076"
+  }
+}

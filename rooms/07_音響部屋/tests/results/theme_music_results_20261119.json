@@ -1,0 +1,52 @@
+[
+  {
+    "test": "title_music",
+    "passed": true,
+    "playing": "audio/spring_afterglow_original.wav"
+  },
+  {
+    "test": "music_slider_visible",
+    "passed": true,
+    "playing": "audio/spring_afterglow_original.wav"
+  },
+  {
+    "test": "music_volume_adjustable",
+    "passed": true,
+    "playing": "audio/spring_afterglow_original.wav"
+  },
+  {
+    "test": "music_mute",
+    "passed": true,
+    "playing": "audio/spring_afterglow_original.wav"
+  },
+  {
+    "test": "story_stops_title",
+    "passed": true,
+    "playing": null
+  },
+  {
+    "test": "end_a_theme",
+    "passed": true,
+    "playing": "audio/spring_afterglow_original.wav"
+  },
+  {
+    "test": "end_b_theme",
+    "passed": true,
+    "playing": "audio/spring_afterglow_original.wav"
+  },
+  {
+    "test": "end_c_theme",
+    "passed": true,
+    "playing": "audio/spring_afterglow_original.wav"
+  },
+  {
+    "test": "end_d_theme",
+    "passed": true,
+    "playing": "audio/spring_afterglow_original.wav"
+  },
+  {
+    "test": "reread_stops_theme",
+    "passed": true,
+    "playing": null
+  }
+]

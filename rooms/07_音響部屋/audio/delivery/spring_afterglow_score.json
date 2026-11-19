@@ -1,0 +1,1458 @@
+[
+  {
+    "beat": 0,
+    "midi": 50,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 1,
+    "midi": 69,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 2,
+    "midi": 64,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 0.025,
+    "midi": 66,
+    "beats": 1,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 1.525,
+    "midi": 69,
+    "beats": 1,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 3,
+    "midi": 50,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 4,
+    "midi": 69,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 5,
+    "midi": 64,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 3.025,
+    "midi": 64,
+    "beats": 2,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 6,
+    "midi": 47,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 7,
+    "midi": 66,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 8,
+    "midi": 62,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 6.025,
+    "midi": 62,
+    "beats": 1,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 8.025,
+    "midi": 64,
+    "beats": 1,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 9,
+    "midi": 47,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 10,
+    "midi": 66,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 11,
+    "midi": 62,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 9.025,
+    "midi": 61,
+    "beats": 2,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 12,
+    "midi": 43,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 13,
+    "midi": 62,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 14,
+    "midi": 59,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 12.025,
+    "midi": 66,
+    "beats": 1,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 13.025,
+    "midi": 64,
+    "beats": 1,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 14.025,
+    "midi": 62,
+    "beats": 1,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 15,
+    "midi": 43,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 16,
+    "midi": 62,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 17,
+    "midi": 59,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 15.025,
+    "midi": 59,
+    "beats": 2,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 18,
+    "midi": 45,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 19,
+    "midi": 64,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 20,
+    "midi": 62,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 19.025,
+    "midi": 62,
+    "beats": 1,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 20.025,
+    "midi": 64,
+    "beats": 1,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 21,
+    "midi": 45,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 22,
+    "midi": 64,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 23,
+    "midi": 62,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 21.025,
+    "midi": 61,
+    "beats": 2,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 24,
+    "midi": 50,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 25,
+    "midi": 69,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 26,
+    "midi": 66,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 24,
+    "midi": 50,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 24,
+    "midi": 57,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 24,
+    "midi": 66,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 24.025,
+    "midi": 66,
+    "beats": 1,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 25.525,
+    "midi": 69,
+    "beats": 1,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 27,
+    "midi": 50,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 28,
+    "midi": 69,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 29,
+    "midi": 66,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 27.025,
+    "midi": 71,
+    "beats": 2,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 30,
+    "midi": 47,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 31,
+    "midi": 66,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 32,
+    "midi": 62,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 30,
+    "midi": 47,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 30,
+    "midi": 54,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 30,
+    "midi": 62,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 30.025,
+    "midi": 69,
+    "beats": 1,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 32.025,
+    "midi": 66,
+    "beats": 1,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 33,
+    "midi": 47,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 34,
+    "midi": 66,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 35,
+    "midi": 62,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 33.025,
+    "midi": 64,
+    "beats": 2,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 36,
+    "midi": 43,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 37,
+    "midi": 62,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 38,
+    "midi": 61,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 36,
+    "midi": 43,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 36,
+    "midi": 50,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 36,
+    "midi": 61,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 36.025,
+    "midi": 62,
+    "beats": 1,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 37.525,
+    "midi": 64,
+    "beats": 1,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 39,
+    "midi": 43,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 40,
+    "midi": 62,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 41,
+    "midi": 61,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 39.025,
+    "midi": 66,
+    "beats": 2,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 42,
+    "midi": 45,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 43,
+    "midi": 64,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 44,
+    "midi": 64,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 42,
+    "midi": 45,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 42,
+    "midi": 52,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 42,
+    "midi": 64,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 42.025,
+    "midi": 64,
+    "beats": 1,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 43.525,
+    "midi": 61,
+    "beats": 1,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 45,
+    "midi": 45,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 46,
+    "midi": 64,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 47,
+    "midi": 64,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 45.025,
+    "midi": 62,
+    "beats": 2.5,
+    "velocity": 0.24,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 48,
+    "midi": 50,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 49,
+    "midi": 69,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 50,
+    "midi": 64,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 48,
+    "midi": 50,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 48,
+    "midi": 57,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 48,
+    "midi": 64,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 48.025,
+    "midi": 66,
+    "beats": 1,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 49.525,
+    "midi": 69,
+    "beats": 1,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 51,
+    "midi": 50,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 52,
+    "midi": 69,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 53,
+    "midi": 64,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 51.025,
+    "midi": 64,
+    "beats": 2,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 54,
+    "midi": 47,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 55,
+    "midi": 66,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 56,
+    "midi": 62,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 54,
+    "midi": 47,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 54,
+    "midi": 54,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 54,
+    "midi": 62,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 54.025,
+    "midi": 62,
+    "beats": 1,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 56.025,
+    "midi": 64,
+    "beats": 1,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 57,
+    "midi": 47,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 58,
+    "midi": 66,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 59,
+    "midi": 62,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 57.025,
+    "midi": 61,
+    "beats": 2,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 60,
+    "midi": 43,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 61,
+    "midi": 62,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 62,
+    "midi": 59,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 60,
+    "midi": 43,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 60,
+    "midi": 50,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 60,
+    "midi": 59,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 60.025,
+    "midi": 66,
+    "beats": 1,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 61.025,
+    "midi": 64,
+    "beats": 1,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 62.025,
+    "midi": 62,
+    "beats": 1,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 63,
+    "midi": 43,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 64,
+    "midi": 62,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 65,
+    "midi": 59,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 63.025,
+    "midi": 59,
+    "beats": 2,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 66,
+    "midi": 45,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 67,
+    "midi": 64,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 68,
+    "midi": 62,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 66,
+    "midi": 45,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 66,
+    "midi": 52,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 66,
+    "midi": 62,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 67.025,
+    "midi": 62,
+    "beats": 1,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 68.025,
+    "midi": 64,
+    "beats": 1,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 69,
+    "midi": 45,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 70,
+    "midi": 64,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 71,
+    "midi": 62,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 69.025,
+    "midi": 61,
+    "beats": 2,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 72,
+    "midi": 50,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 73,
+    "midi": 69,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 74,
+    "midi": 66,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 72,
+    "midi": 50,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 72,
+    "midi": 57,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 72,
+    "midi": 66,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 72.025,
+    "midi": 66,
+    "beats": 1,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 73.525,
+    "midi": 69,
+    "beats": 1,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 75,
+    "midi": 50,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 76,
+    "midi": 69,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 77,
+    "midi": 66,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 75.025,
+    "midi": 71,
+    "beats": 2,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 78,
+    "midi": 47,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 79,
+    "midi": 66,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 80,
+    "midi": 62,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 78,
+    "midi": 47,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 78,
+    "midi": 54,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 78,
+    "midi": 62,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 78.025,
+    "midi": 69,
+    "beats": 1,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 80.025,
+    "midi": 66,
+    "beats": 1,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 81,
+    "midi": 47,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 82,
+    "midi": 66,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 83,
+    "midi": 62,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 81.025,
+    "midi": 64,
+    "beats": 2,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 84,
+    "midi": 43,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 85,
+    "midi": 62,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 86,
+    "midi": 61,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 84,
+    "midi": 43,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 84,
+    "midi": 50,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 84,
+    "midi": 61,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 84.025,
+    "midi": 62,
+    "beats": 1,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 85.525,
+    "midi": 64,
+    "beats": 1,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 87,
+    "midi": 43,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 88,
+    "midi": 62,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 89,
+    "midi": 61,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 87.025,
+    "midi": 66,
+    "beats": 2,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 90,
+    "midi": 50,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 91,
+    "midi": 69,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 92,
+    "midi": 64,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 90,
+    "midi": 50,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 90,
+    "midi": 57,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 90,
+    "midi": 64,
+    "beats": 5.5,
+    "velocity": 0.055,
+    "pan": 0.1,
+    "instrument": "warm_pad"
+  },
+  {
+    "beat": 90.025,
+    "midi": 64,
+    "beats": 1,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 91.525,
+    "midi": 61,
+    "beats": 1,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 93,
+    "midi": 50,
+    "beats": 2.3,
+    "velocity": 0.23,
+    "pan": -0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 94,
+    "midi": 69,
+    "beats": 1.2,
+    "velocity": 0.105,
+    "pan": -0.38,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 95,
+    "midi": 64,
+    "beats": 1.1,
+    "velocity": 0.095,
+    "pan": 0.25,
+    "instrument": "soft_keys"
+  },
+  {
+    "beat": 93.025,
+    "midi": 62,
+    "beats": 2.5,
+    "velocity": 0.215,
+    "pan": 0.18,
+    "instrument": "soft_keys"
+  }
+]
