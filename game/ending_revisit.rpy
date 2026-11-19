@@ -70,25 +70,25 @@ screen ending_revisit():
     tag menu
     use game_menu(_("最後の選択から"), scroll="viewport", spacing=32):
         if persistent.unlocked_reread:
-            text _("第12章の最後の選択に戻ります。")
-            text _("セーブデータは上書きされません。") size 28
+            text _("第12章の最後の選択に戻ります。") color "#383838"
+            text _("セーブデータは上書きされません。") size 28 color "#383838"
             textbutton _("初周の色彩で読む") action Start("ending_revisit_first")
             textbutton _("全彩再読で読む") action Start("ending_revisit_full")
         else:
-            text _("物語を一度読み終えると利用できます。")
+            text _("物語を一度読み終えると利用できます。") color "#383838"
 
 screen ending_records():
     tag menu
     use game_menu(_("エンディング一覧"), scroll="viewport", spacing=30):
         $ completed = set(persistent.completed_endings or ())
         $ completed_count = len(completed)
-        text _("読了した結末　[completed_count] / 4")
+        text _("読了した結末　[completed_count] / 4") color "#383838"
         for code, title in ending_titles:
             if code in completed:
-                text "[code]　[title]　— 読了"
+                text "[code]　[title]　— 読了" color "#383838"
             else:
                 text "[code]　未読" color "#777777"
         if persistent.unlocked_reread and not completed:
-            text _("旧版のクリア記録を引き継いでいます。\n各エンディングの読了記録は、次に読み終えたときに追加されます。") size 26
+            text _("旧版のクリア記録を引き継いでいます。\n各エンディングの読了記録は、次に読み終えたときに追加されます。") size 26 color "#383838"
         if persistent.unlocked_reread:
             textbutton _("最後の選択から") action ShowMenu("ending_revisit")
