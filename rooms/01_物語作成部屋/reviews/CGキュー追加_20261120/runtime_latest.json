@@ -1,0 +1,23 @@
+[
+  {
+    "case": "qa_hedge_first",
+    "status": "PASSED",
+    "log": "qa_hedge_first.log",
+    "process_id": 44444,
+    "exited": true
+  },
+  {
+    "case": "qa_hedge_full",
+    "status": "PASSED",
+    "log": "qa_hedge_full.log",
+    "process_id": 85468,
+    "exited": true
+  },
+  {
+    "case": "qa_album",
+    "status": "PASSED",
+    "log": "qa_album.log",
+    "process_id": 64544,
+    "exited": true
+  }
+]
