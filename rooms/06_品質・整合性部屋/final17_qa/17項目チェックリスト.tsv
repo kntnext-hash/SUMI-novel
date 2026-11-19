@@ -1,0 +1,18 @@
+﻿番号	検収条件	関連画像	状態
+1	first_face 4/FULL 涙なし。片眉を寄せ、赤い鼻、結んだ唇に紙の繊維。	first_face	PENDING_FINAL_DELIVERY
+2	lattice 3/FULL と bath_print の同位置に右上一本だけ逆向きの桟、古い釘穴と新しい針金。	lattice,bath_print	PENDING_FINAL_DELIVERY
+3	table_drink FULLを透明な水と結露に。2を保持。	table_drink	PENDING_FINAL_DELIVERY
+4	rabbit、stone_pot 両版で澄の制服をブレザーへ。	rabbit,stone_pot	PENDING_FINAL_DELIVERY
+5	screen_portrait 3、スマホ内の一房にhair_wind 3の栗色。外は白黒。	screen_portrait	PENDING_FINAL_DELIVERY
+6	train_shoulder 両版で刈り跡。1Cは窓外の川面だけ青。	train_shoulder	PENDING_FINAL_DELIVERY
+7	can_reply FULLは傷を隠す笑顔、3は手元か姿勢でcan_pauseとの差を出す。	can_reply,can_pause	PENDING_FINAL_DELIVERY
+8	bridge_ask、can_pause、can_reply、gift の3とfirst_face 4でglove 3の栗色一房を継続。	bridge_ask,can_pause,can_reply,gift,first_face,glove	PENDING_FINAL_DELIVERY
+9	child_name 0は花だけ、FULLは透花。手か影で初周の透を隠し、文字は手合成。	child_name	PENDING_FINAL_DELIVERY
+10	erase_tag 両版に手書きの「とうかです」を合成。	erase_tag	PENDING_FINAL_DELIVERY
+11	hedge_book 二人が植え込みの縁に並んで座る。ERS02「いつから、わたしだって知ってたの」に専用CGを追加。	hedge_book,hedge_reveal	PENDING_FINAL_DELIVERY
+12	againを三月の水仙・芽吹きに。紫陽花を消す。	again	PENDING_FINAL_DELIVERY
+13	book_march と book_ground を同じ表紙、栗色の綴じ糸に。	book_march,book_ground	PENDING_FINAL_DELIVERY
+14	garden_plan 右＝澄（バケツ、柚子、タオルの矢印2本、指2本）、左＝透花（押し車、軍手1つ、蛇口2つ、うち1つはひねる所なし）。	garden_plan,garden_joined	PENDING_FINAL_DELIVERY
+15	market_flyer 中年の数学教師が丸めた掲示物を持つ。端から下駄の写真と上を向く鳥。	market_flyer	PENDING_FINAL_DELIVERY
+16	hands 1C 素材保持。scenario.jsonで「指を入れた」の直前に表示。	hands	PENDING_FINAL_DELIVERY
+17	scissors 房を消し片角丸・片角尖り。lovers うさぎにんじんは澄だけ。river_view 1Bの青は遠くの水がひらく所へ。	scissors,lovers,river_view	PENDING_FINAL_DELIVERY
